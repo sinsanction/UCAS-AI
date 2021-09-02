@@ -1,0 +1,2403 @@
+@base <http://xlore.org/term/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix property: <http://xlore.org/property#> .
+
+property:definition rdf:type rdf:Property .
+property:definition rdf:type owl:DatatypeProperty .
+property:definition rdfs:label "supplement" .
+property:definition rdfs:domain owl:Individual .
+property:definition rdfs:range  xmls:string .
+
+<t1> rdf:type owl:Individual .
+<t1> rdfs:label "横大一字跳"@term .
+<t1> property:definition "跳起后手臂和腿向体侧伸展。从 前面看，双腿分开最小90°。双板平行（板尾与板尖等距离分开）且垂直于躯体。上体正直向上，腰部无任何明显前倾。"@term .
+<t2> rdf:type owl:Individual .
+<t2> rdfs:label "助理计时员"@term .
+<t2> property:definition "两名助理计时员按照规定操作秒表，一名助理计时员保持所有运动员成绩的完整记录。"@term .
+<t3> rdf:type owl:Individual .
+<t3> rdfs:label "后卫"@term .
+<t3> property:definition "后卫分为右后卫（RD）和左后卫（LD）；后卫不仅是需要进行防守的位置，同时也是发动进攻的位置；后卫须具备身体阻截能力、与前锋的配合能力以及正确地判断能力。 来源 网页链接"@term .
+<t4> rdf:type owl:Individual .
+<t4> rdfs:label "抓球手套"@term .
+<t4> property:definition "抓球手套外形的最大尺寸：1.手腕袖口的任何部分的长度为20.32公分，宽（高）为l0.16公分。2.从根部顺着网窝到“T”型圈的顶部的距离不能超过46公分。抓球手套的周长不能超过114.3公分。"@term .
+<t5> rdf:type owl:Individual .
+<t5> rdfs:label "花样式单板"@term .
+<t5> property:definition "通常指在U型场地中进行滑行的单板滑雪种 类，但是也可以用来描述任何包括技巧和动作的单板滑雪类型。"@term .
+<t6> rdf:type owl:Individual .
+<t6> rdfs:label "雪板板刃角度"@term .
+<t6> property:definition "雪板板刃角度的大小。用于竞速和卡宾滑行的雪板要比用于U型 场地的雪板有更锋利的板刃。"@term .
+<t7> rdf:type owl:Individual .
+<t7> rdfs:label "板尖置空中"@term .
+<t7> property:definition "板尖置空中，仅以板尾在雪面上滑行。"@term .
+<t8> rdf:type owl:Individual .
+<t8> rdfs:label "平地"@term .
+<t8> property:definition "在平坦的坡面上没有障碍地做动作（如nose slide、blunt slide、tail wheelie 等）"@term .
+<t9> rdf:type owl:Individual .
+<t9> rdfs:label "守门员"@term .
+<t9> property:definition "守门员是最后的防守线，在比赛中占据举足轻重的位置，直接影响比赛的胜负。 来源 网页链接"@term .
+<t10> rdf:type owl:Individual .
+<t10> rdfs:label "蓝线"@term .
+<t10> property:definition "两条球门线之间的冰面被两条30公分宽的蓝色的线划分成相等的三个区域。这两条蓝色线被称为蓝线。蓝线应延长至防踢板及界墙上。"@term .
+<t11> rdf:type owl:Individual .
+<t11> rdfs:label "前侧"@term .
+<t11> property:definition "雪板的外转是脚趾侧板刃；选手的前侧是他胸部面对的一侧。"@term .
+<t12> rdf:type owl:Individual .
+<t12> rdfs:label "场外裁判员"@term .
+<t12> property:definition "场外裁判员:两名监门员，一名记录员(可加到二名助理)，一名记时员，一名宣告员，二名记罚员，一名录相监门员(在国际冰联锦标赛中可能要求有)"@term .
+<t13> rdf:type owl:Individual .
+<t13> rdfs:label "弓身旋转"@term .
+<t13> property:definition "弓身旋转与单足直立旋转一样，也是用左前外－－右后内“3”字步开始旋转，待旋转稳定后采用弓身姿势。弓身姿势一般有两种，一种是向后弓身姿势，一种是向侧弓身姿势 来源 网页链接"@term .
+<t14> rdf:type owl:Individual .
+<t14> rdfs:label "转发器"@term .
+<t14> property:definition "平行赛事团体赛中每个队的第1位运动员在其前腿膝盖以下脚踩以上 部位佩戴一个转发器。每个队的第1位运动员在起点站成一排并且所 有的出发门按照传统的单板追逐赛的出发节奏同时打开。"@term .
+<t15> rdf:type owl:Individual .
+<t15> rdfs:label "加油"@term .
+<t15> property:definition "一种要求队员努力擦冰的命令 来源 网页链接"@term .
+<t16> rdf:type owl:Individual .
+<t16> rdfs:label "男子团体大跳台"@term .
+<t16> property:definition "冬季奥林匹克运动会比赛项目之一 来源 网页链接"@term .
+<t17> rdf:type owl:Individual .
+<t17> rdfs:label "直体后空翻720°"@term .
+<t17> property:definition "运动员开始起跳时所进行的主旋转是沿横轴向上、向后的翻转动作，另外的附加旋转是起始于上体沿纵轴的转体动作，上体和下肢呈直体状态，上下肢在沿各自旋转轴翻转的过程中保持完全伸直，整个身体向后同时在水平轴上翻转360°和纵轴上翻转720°，最后运动员要伸展身体准备着陆。"@term .
+<t18> rdf:type owl:Individual .
+<t18> rdfs:label "U 型场地主管"@term .
+<t18> property:definition "在比赛之前及比赛过程中负责按照国际雪联U型场地标准进行U型场 地/障碍赛场地的建造和准备，要熟悉当地的雪质情况，并且最好来自 比赛的承办雪场。除此之外，U型场地/障碍赛场地主管应该符合以下 条件。 一应是组委会成员之一。 一在仲裁委员会或国际雪联竞赛指导的指导下工作。 一必须确保U型场地/障碍赛场地在训练和比赛的所有时间都符合国 际雪联对于场地的推荐数据和规格 一监督裁判房的建造和建设。 一为裁判房提供充足的设备（如桌子、椅子、隔墙、供暖等）。 一在技术代表或评分裁判长未能出席的情况下监督U型场地/障碍赛 训练的情况。 一必须参加所有领队会议。 一按裁判长要求为裁判员提供充足的食品和饮料 一对于U型场地/障碍赛场地的建造和维护要有丰富的经验。国际雪联有权力指派场地专家进行场地的准备和维护方面的指导。"@term .
+<t19> rdf:type owl:Individual .
+<t19> rdfs:label "投壶端"@term .
+<t19> property:definition "投出冰壶的冰场的一端 来源 网页链接"@term .
+<t20> rdf:type owl:Individual .
+<t20> rdfs:label "出发计时器"@term .
+<t20> property:definition "在个人赛、短距离赛和追逐赛的赛事中，在起点区须设置一块出发计时器，以便能从起滑线上就能看清时间。在个人赛、短距离赛和团体赛的比赛中，计时器的时间显示和声音信号须是同步的。 来源 网页链接"@term .
+<t21> rdf:type owl:Individual .
+<t21> rdfs:label "端区防护网"@term .
+<t21> property:definition "在端区界墙和防护玻璃上必须悬挂防护网。"@term .
+<t22> rdf:type owl:Individual .
+<t22> rdfs:label "单板自由滑"@term .
+<t22> property:definition "在各种地势上以娱乐为主的单板滑雪，没有比赛，没有U 型场地，没有旗门，没有规则等。"@term .
+<t23> rdf:type owl:Individual .
+<t23> rdfs:label "种子组/种子队"@term .
+<t23> property:definition "种子队，这一词汇被大多用于体育运动领域，指出线率及小组第一的几率非常大的运动队。 来源 百度百科"@term .
+<t24> rdf:type owl:Individual .
+<t24> rdfs:label "雪板固定器"@term .
+<t24> property:definition "固定器必须与板的长轴线成对角线固定其上，雪鞋不可并在一起。"@term .
+<t25> rdf:type owl:Individual .
+<t25> rdfs:label "靶位"@term .
+<t25> property:definition "靶位设在射击场的后部，是参赛选手卧势或站立射击的地方。 来源 网页链接"@term .
+<t26> rdf:type owl:Individual .
+<t26> rdfs:label "国际裁判系统"@term .
+<t26> property:definition "2004年，国际滑联对2002年盐湖城冬季奥运会的裁判争议作出反应，废除6.0系统，改用国际裁判系统（International Judging System，缩写为IJS） 来源 网页链接"@term .
+<t27> rdf:type owl:Individual .
+<t27> rdfs:label "团体赛"@term .
+<t27> property:definition "在团体赛方面，每队都有四位运动员，而每位运动员都需要跳两次，一队一共跳八次。将八位运动员的“距离分”和“姿势分”相加，得分最高的一队为优胜队伍。其“距离分”和“姿势分”的计算方法与个人赛的几人方式相同。"@term .
+<t28> rdf:type owl:Individual .
+<t28> rdfs:label "北欧滑雪世界锦标赛"@term .
+<t28> property:definition "北欧滑雪世界锦标赛（FIS Nordic World Ski Championships）是由国际滑雪联合会（FIS）主办的世界级滑雪盛事。 来源 百度百科"@term .
+<t29> rdf:type owl:Individual .
+<t29> rdfs:label "打蜡房"@term .
+<t29> property:definition "在场地区中或其附近，应设有足够的小屋、固定的建筑物或高质量的临时房屋(包括帐篷)，用于参赛队储存器材、打蜡。 来源 网页链接"@term .
+<t30> rdf:type owl:Individual .
+<t30> rdfs:label "追逐赛的出发"@term .
+<t30> property:definition "参赛选手须在竞赛仲裁委员会指定的时间到达出发区，以便为进入出发滑道而定位。然后，选手们以他们的出发顺序排列在道次上，在道次之间交替。他们须在各自的道次上进行同步出发。位于每条道次间隔端头的起滑线工作人员控制着每位参赛选手的出发。他们将手臂在道次起点平行举起，阻挡参赛选手越过起滑线，并在出发时刻将手迅速放下，让所在道次的选手出发。当工作人员的手臂放下，紧靠在起滑线的选手就出发。 来源 网页链接"@term .
+<t31> rdf:type owl:Individual .
+<t31> rdfs:label "跳跃裁判员"@term .
+<t31> property:definition "列入国际雪联日程表的所有比赛都要任命国际雪联跳跃裁判员"@term .
+<t32> rdf:type owl:Individual .
+<t32> rdfs:label "纵大一字跳"@term .
+<t32> property:definition "起跳后一条腿向前上方摆动，同时另一条腿向后上方摆动。前板与后板平行，形成180° 纵向分腿姿势。"@term .
+<t33> rdf:type owl:Individual .
+<t33> rdfs:label "队长"@term .
+<t33> property:definition "每队要确定一名队长和最多两名副队长。队长必须佩带“C”字母，副队长必须佩“A”字母。字母高8公分，与运动服颜色有鲜明的对比，佩带在比赛服前面显著的位置。在场上，只有受到指派的这些队员，如果他们没有受到判罚的话，才有特权就比赛中可能出现的有关规则解释的问题去和裁判员进行讨论。对处罚的抱怨不属于规则解释方面的事情，应判小罚"@term .
+<t34> rdf:type owl:Individual .
+<t34> rdfs:label "出发口"@term .
+<t34> property:definition "跳台滑雪出发点。出发口设置应保证各出发口的最大垂直距离0.04m。 另外，各出发口应标以序号，最低出发口的序号为1。 来源 国家体育总局冬季运动管理中心"@term .
+<t35> rdf:type owl:Individual .
+<t35> rdfs:label "冬季运动项目"@term .
+<t35> property:definition "在天然或人工冰雪场地借助各种装具进行的体育运动。 来源 网页链接"@term .
+<t36> rdf:type owl:Individual .
+<t36> rdfs:label "副旋转轴"@term .
+<t36> property:definition "身体旋转所绕的一个附加轴。"@term .
+<t37> rdf:type owl:Individual .
+<t37> rdfs:label "螺旋线"@term .
+<t37> property:definition "螺旋线是男伴做后外规尺动作，两人用一只手相握，女伴身体接近冰面，用单足绕男伴滑行的动作。螺旋线包括准备、进入、滑行、滑出4个环节 来源 网页链接"@term .
+<t38> rdf:type owl:Individual .
+<t38> rdfs:label "技术专家"@term .
+<t38> property:definition "每个技术动作首先要由一位技术专家来评判，技术专家可以使用即时录像回放来分辨不同技术动作要素，如跳跃中起跳和落冰时脚的精确位置。技术专家的决定将确定该动作的基础分 来源 网页链接"@term .
+<t39> rdf:type owl:Individual .
+<t39> rdfs:label "超越和让路"@term .
+<t39> property:definition "如果一个参赛选手处于超越另一位选手的位置，且想超越，应喊：“Track(让路)”。将被超过的选手听到第一声“Track(让路)”喊声或其他声音信号时，即使线路足够宽，也须让开滑过来的选手前方雪道或滑道。但是此项义务不适用于离终点线前的最后 50m 和离交接区前的最后 50m 滑段。 来源 网页链接"@term .
+<t40> rdf:type owl:Individual .
+<t40> rdfs:label "起点坡道"@term .
+<t40> property:definition "起点坡道应准备得使运动员能放松地站立在起点线上，出发后能很快达到全速。"@term .
+<t41> rdf:type owl:Individual .
+<t41> rdfs:label "街头滑板风格"@term .
+<t41> property:definition "用来描述一种类似于街头滑板风格的形式。以这种形式滑行的人通 常以板尾扫雪滑行，表演一些平地动作，滑碰树木。"@term .
+<t42> rdf:type owl:Individual .
+<t42> rdfs:label "三角门旗"@term .
+<t42> property:definition "所有带有三角门旗的旗门要与垂直落下线成90度插放。"@term .
+<t43> rdf:type owl:Individual .
+<t43> rdfs:label "距离测量员"@term .
+<t43> property:definition "站在着陆坡一侧，利于距离标牌的后方"@term .
+<t44> rdf:type owl:Individual .
+<t44> rdfs:label "在空中由倒滑过渡到向前滑行"@term .
+<t44> property:definition "U型槽中，在空中由倒滑过渡到向前滑行，不需要转体。"@term .
+<t45> rdf:type owl:Individual .
+<t45> rdfs:label "特里马滑雪"@term .
+<t45> property:definition "特里马滑雪就是一种滑雪转弯时候一种曲膝技术，由于脚后跟可以抬起来，这样膝盖可以有更大的自由度。 来源 驴友论坛"@term .
+<t46> rdf:type owl:Individual .
+<t46> rdfs:label "小失误"@term .
+<t46> property:definition "小的失误包括平落地，落至平台，推滑，轻微的手触雪，以及其他的 身体不稳。"@term .
+<t47> rdf:type owl:Individual .
+<t47> rdfs:label "防踢板"@term .
+<t47> property:definition "界墙下部应安置一个防踢板，黄色，从冰面起15～25公分高。"@term .
+<t48> rdf:type owl:Individual .
+<t48> rdfs:label "角度计/测角仪"@term .
+<t48> property:definition "测角仪（goniometer） 通指量度角度大小的装置，又称测角器、测角计、角度计、量角仪等。 来源 百度百科"@term .
+<t49> rdf:type owl:Individual .
+<t49> rdfs:label "距离测量裁判员"@term .
+<t49> property:definition "凡列入国际雪联日程表的所有跳台滑雪比赛，都有距离测量员报告跳跃的距离。"@term .
+<t50> rdf:type owl:Individual .
+<t50> rdfs:label "短节目"@term .
+<t50> property:definition "短节目是花样滑冰单人滑、双人滑与团体滑项目现行竞赛内容中的头一项。就如同名称所指出的，表演时间较自由滑来得短 来源 网页链接"@term .
+<t51> rdf:type owl:Individual .
+<t51> rdfs:label "危险动作"@term .
+<t51> property:definition "在比赛过程或终点冲刺中，故意踢出冰刀造成危险，或在终点冲刺中将身 体摔过终点线等危险行为"@term .
+<t52> rdf:type owl:Individual .
+<t52> rdfs:label "滑雪鞋"@term .
+<t52> property:definition "滑雪鞋一般分为高山鞋、越野鞋、跳台鞋和单板鞋等。 来源 百度百科"@term .
+<t53> rdf:type owl:Individual .
+<t53> rdfs:label "组"@term .
+<t53> property:definition "预赛，小组赛 来源 网页链接"@term .
+<t54> rdf:type owl:Individual .
+<t54> rdfs:label "公制卷尺"@term .
+<t54> property:definition "公制卷尺是田径运动中常用的测量工具"@term .
+<t55> rdf:type owl:Individual .
+<t55> rdfs:label "“两步一撑”的蹬冰式技术"@term .
+<t55> property:definition "左雪板与右雪板各滑行一步,双雪杖同时后撑一次,称为“两步一撑”的蹬冰式技术。这种技术主要用于坡度较陡,速度较快,雪面状况较差的场合。 来源 中国滑雪协会"@term .
+<t56> rdf:type owl:Individual .
+<t56> rdfs:label "资格赛"@term .
+<t56> property:definition "运动员的滑行成绩将被记录在3个独立的、官方认可的计时系统中 (也可参看2020. 2和2020. 3)。"@term .
+<t57> rdf:type owl:Individual .
+<t57> rdfs:label "起点记录员"@term .
+<t57> property:definition "起点记录员负责记录所有运动员实际出发时间。"@term .
+<t58> rdf:type owl:Individual .
+<t58> rdfs:label "中心点"@term .
+<t58> property:definition "大本营的正中心 来源 网页链接"@term .
+<t59> rdf:type owl:Individual .
+<t59> rdfs:label "起跑犯规"@term .
+<t59> property:definition ".1. 当出现下列情况时，运动员将被判罚为起跑犯规： 1）若同组内一名或两名（全部）运动员有意识放慢完成起跑姿势，该运动员（或全部）可被认为起跑犯规。 2）若一名运动员提前起跑，导致其他运动员跟随起跑，则只有最先起跑犯规的运动员被认为是犯规。 3）运动员在“预备”口令下达后，在鸣枪之前脱离起跑姿势，则可视为犯规 来源 网页链接"@term .
+<t60> rdf:type owl:Individual .
+<t60> rdfs:label "反手"@term .
+<t60> property:definition "使用杆头的反面射门或传球"@term .
+<t61> rdf:type owl:Individual .
+<t61> rdfs:label "国际滑联"@term .
+<t61> property:definition "国际滑雪联合会（法语：Fédération Internationale de Ski，FIS）由14个国家协会在1924年于法国霞慕尼成立，到目前已有112个成员国 来源 网页链接"@term .
+<t62> rdf:type owl:Individual .
+<t62> rdfs:label "挡板"@term .
+<t62> property:definition "一种材料，用于放置在冰道两端。 来源 网页链接"@term .
+<t63> rdf:type owl:Individual .
+<t63> rdfs:label "出局位置"@term .
+<t63> property:definition "冰壶的无效位置（例如碰到边线的位置，或者超出底线的位置） 来源 网页链接"@term .
+<t64> rdf:type owl:Individual .
+<t64> rdfs:label "弹力杆/障碍杆"@term .
+<t64> property:definition "弹力杆是装有弹簧铰链的旗杆，须符合国际雪联的规定。"@term .
+<t65> rdf:type owl:Individual .
+<t65> rdfs:label "小跳台"@term .
+<t65> property:definition "从跳台到K点的距离小于45米，台高小于50米。（根据最新版International Competition Rules (ICR) Ski Jumping中的数据进行了适当的更改）"@term .
+<t66> rdf:type owl:Individual .
+<t66> rdfs:label "计时计算长"@term .
+<t66> property:definition "负责起点、终点官员的协调工作，包括计时、计算和裁判分数。在高山类比赛中，计时计算长或一位特别助理与仲裁委员会一起决定出发的间隔时间。"@term .
+<t67> rdf:type owl:Individual .
+<t67> rdfs:label "俯卧"@term .
+<t67> property:definition "脸朝下躺着：战士一动也不动地～在地上。 来源 网页链接"@term .
+<t68> rdf:type owl:Individual .
+<t68> rdfs:label "防滑蜡"@term .
+<t68> property:definition "滑雪蜡主要分成两种，一种是滑蜡主要用于竞技滑雪，提高滑雪速度和防止高温气候下雪板粘雪。另一种是防滑蜡， 主要用于越野滑雪的传统技术、防止雪板脱滑提高运动成绩。 来源 中国滑雪协会"@term .
+<t69> rdf:type owl:Individual .
+<t69> rdfs:label "射击场"@term .
+<t69> property:definition "射击场是冬季两项比赛进行射击的场所。它必须设在场地区的中心位置，靶子和靶位应能被大多数观众看到。射击场须平坦，由绝对安全的屏障围住两侧和靶后。 来源 网页链接"@term .
+<t70> rdf:type owl:Individual .
+<t70> rdfs:label "后屈小腿扭摆跳"@term .
+<t70> property:definition "后屈小腿扭摆跳是髋部向身体一侧扭摆45°的后屈小腿挺身跳。"@term .
+<t71> rdf:type owl:Individual .
+<t71> rdfs:label "障碍追逐"@term .
+<t71> property:definition "追逐赛上，4~6名运动员组成1组，以坡面、回转、旋转、跳跃的方式通过由多种地形和障碍物组成的赛道，最先通过终点线的选手为胜。 来源 平昌冬奥会官网"@term .
+<t72> rdf:type owl:Individual .
+<t72> rdfs:label "冰壶原位置"@term .
+<t72> property:definition "位置发生移动前冰壶静止在冰面上的位置 来源 网页链接"@term .
+<t73> rdf:type owl:Individual .
+<t73> rdfs:label "绿灯"@term .
+<t73> property:definition "在每个球门后面应当有： 一个红灯：当射中球门时，监门员打开红灯。一个绿灯：在比赛停止和每一局比赛结束计时员停表时，电子计时钟会自动打开绿灯。"@term .
+<t74> rdf:type owl:Individual .
+<t74> rdfs:label "发令员"@term .
+<t74> property:definition "发令员负责裁决所有与起跑有关的争议,并用英语发令"@term .
+<t75> rdf:type owl:Individual .
+<t75> rdfs:label "界墙"@term .
+<t75> property:definition "a)场地要用木制或塑料制的墙，围起来，称为界墙，颜色应为白色。其高度从冰面算起不少于1．17米，不高于1.22米。b)界墙面向冰面的一面应是平滑的，不得有任何能使运动员受伤的障碍物。所有保护装置和固定界墙的支架都应安装在界墙离开冰面的一侧。c)界墙每块板之间的缝隙应小于3毫米。"@term .
+<t76> rdf:type owl:Individual .
+<t76> rdfs:label "延迟出发"@term .
+<t76> property:definition "在起点器材检查处迟到或因更正服装和器材而出现延迟出发时间的问题。 来源 网页链接"@term .
+<t77> rdf:type owl:Individual .
+<t77> rdfs:label "准确性"@term .
+<t77> property:definition "起跳时机是否准确"@term .
+<t78> rdf:type owl:Individual .
+<t78> rdfs:label "终点摄像机"@term .
+<t78> property:definition "與終點線平行安裝的一臺高速數碼攝像機會以每秒2000次的驚人速度，將圖像掃描到一個狹窄剖面上。當每名選手跑過終點線時，攝像機會將最先觸及終點線的身體部位的電子信號發送給計時臺，從而記下他們的比賽時間。 来源 北方网"@term .
+<t79> rdf:type owl:Individual .
+<t79> rdfs:label "出发失败"@term .
+<t79> property:definition "在固定出发间隔的比赛中，运动员须按出发信号出发。如果出发时间在以下限定时间内为有效出发：正式出发时间前后5秒。运动员未在此限定时间内出发将被取消资格。起点裁判须通知裁判长出发失败的运动员或触犯出发过着的运动员的姓名和号码。"@term .
+<t80> rdf:type owl:Individual .
+<t80> rdfs:label "手柄"@term .
+<t80> property:definition "冰壶队员投壶时手抓住的冰壶的部分 来源 网页链接"@term .
+<t81> rdf:type owl:Individual .
+<t81> rdfs:label "主旋转轴"@term .
+<t81> property:definition "身体旋转所绕的第一个轴。"@term .
+<t82> rdf:type owl:Individual .
+<t82> rdfs:label "身体阻截"@term .
+<t82> property:definition "为阻止一位球员而故意用身体撞向对方的行为。"@term .
+<t83> rdf:type owl:Individual .
+<t83> rdfs:label "混合团体赛"@term .
+<t83> property:definition "在250米~300米的赛道上，使用大回转旗门进行的平行比赛。旗门间距比回转项目长，比大回转项目短。1个团队（国家）由2名男子、2名女子组成。16个团队（国家）以淘汰赛的方式得出排名 来源 网页链接"@term .
+<t84> rdf:type owl:Individual .
+<t84> rdfs:label "坡面障碍技巧"@term .
+<t84> property:definition "坡面障碍技巧是在由铁轨、桌子、箱子、墙壁及跳台构成的赛道上进行的一项比赛，运动员可在多种地形中选择适合自己的赛道进行表演。 来源 平昌冬奥会官网"@term .
+<t85> rdf:type owl:Individual .
+<t85> rdfs:label "冰鞋"@term .
+<t85> property:definition "滑冰时穿的鞋。现代冰鞋是在鞋靴的底上装有钢制冰刀或滑轮的。"@term .
+<t86> rdf:type owl:Individual .
+<t86> rdfs:label "记录席"@term .
+<t86> property:definition "记录席应安置在两个受罚席之间，长度5.5米，可容纳6人。"@term .
+<t87> rdf:type owl:Individual .
+<t87> rdfs:label "粘球"@term .
+<t87> property:definition "接触或几乎接触另一只冰壶 来源 网页链接"@term .
+<t88> rdf:type owl:Individual .
+<t88> rdfs:label "控制点"@term .
+<t88> property:definition "雪丘回转中只有一个真正的好位置用以减速，而且试图在其他时间里控制速度将给你造成麻烦。老练的雪包玩家都知道，实施速度控制的恰当位置是在回转的结尾，既当你向上滑到下个雪丘肩部的时候，而且知道在那个点位应做的最好事情就是沿着尽可能顺畅的线路走板，而它会将你带到那个控制点。 来源 新浪微博"@term .
+<t89> rdf:type owl:Individual .
+<t89> rdfs:label "指挥（队长）"@term .
+<t89> property:definition "一队中指挥比赛的队员 来源 网页链接"@term .
+<t90> rdf:type owl:Individual .
+<t90> rdfs:label "计算统计组"@term .
+<t90> property:definition "计算及统计成绩的人员组"@term .
+<t91> rdf:type owl:Individual .
+<t91> rdfs:label "滑雪靴的凹陷处"@term .
+<t91> property:definition "鞋跟底帮包括两个侧面，沿其顶部的内侧制有凹陷。踝部支撑护套包括下边缘，该下边缘至少部分地位于所述凹陷中。优选地是：凹陷包括向下延伸的沟槽。护套的两侧具有向下延伸的突舌，其被设置到沟槽内。 来源 Google Patents"@term .
+<t92> rdf:type owl:Individual .
+<t92> rdfs:label "比重秤"@term .
+<t92> property:definition "比重秤是伽利略发明的，可以很方便地测定各种合金的比重 来源 百度百科"@term .
+<t93> rdf:type owl:Individual .
+<t93> rdfs:label "追逐赛出发时间"@term .
+<t93> property:definition "每位参赛选手的出发时间是在出发时刻表中列出的时间。不允许提前出发的情况发生。如果出现晚出发情况，就要指导晚出发的参赛选手经备用道次出发，在备用道次上的工作人员将记录该参赛选手通过出发线的时间。如果参赛选手由于个人或所在参赛队的错误而造成迟到，他的出发时间就将以他在出发时刻表上正式发表的时间算起。若迟到是由于“不可抗力”或来自参赛队之外的人员的错误或意外行为造成的，在追逐赛中他的比赛时间和安排将以工作人员记录的时间算起。 来源 网页链接"@term .
+<t94> rdf:type owl:Individual .
+<t94> rdfs:label "专门权力机构/专门纪律权力机构"@term .
+<t94> property:definition "“专门权力机构”或“专门纪律权力机构”是指比赛事务的直接管理机构。"@term .
+<t95> rdf:type owl:Individual .
+<t95> rdfs:label "中等跳台"@term .
+<t95> property:definition "从跳台到K点的距离在45-74米之间，台高在50-84米之间。"@term .
+<t96> rdf:type owl:Individual .
+<t96> rdfs:label "欧洲锦标赛"@term .
+<t96> property:definition "欧洲锦标赛每年举行一次，为期三天，以两种赛制交替进行。在冬季奥林匹克运动会之前及之后的赛季中举办全能和短距离全能的欧洲锦标赛。在其他赛季中举办个人单项及团体项目的欧洲锦标 赛 来源 网页链接"@term .
+<t97> rdf:type owl:Individual .
+<t97> rdfs:label "双向板"@term .
+<t97> property:definition "—种用于自由式单板滑雪的雪板。这种雪板有对称的前端和后部，以便于雪板能够在两个方向上具有相似滑行的特点。"@term .
+<t98> rdf:type owl:Individual .
+<t98> rdfs:label "入弯"@term .
+<t98> property:definition "在比赛中为避免犯规同时提高比赛名次，入弯道时冰刀要压住对手的冰刀使对手不能用力蹬冰，跟滑方式在出弯道时内道超越。 来源 网页链接"@term .
+<t99> rdf:type owl:Individual .
+<t99> rdfs:label "终点器材检查"@term .
+<t99> property:definition "在终点须设置终点器材检查，使参赛选手能够自然地进入和通过检查。这对于接力赛尤为重要，可以使结束比赛的选手不防碍交接区出来的雪道。 来源 网页链接"@term .
+<t100> rdf:type owl:Individual .
+<t100> rdfs:label "着陆区长"@term .
+<t100> property:definition "负责准备着陆坡和终点区"@term .
+<t101> rdf:type owl:Individual .
+<t101> rdfs:label "记分板"@term .
+<t101> property:definition "每个冰场应有一个电子计时钟(记分板)，以便给观众、运动员和裁判人员提供准确的信息，包括：1.两个队的队名 2.每局比赛进行的时间，倒计时用分和秒计算从20:00走到00:00。3.受罚计时表应能记录每队至少两名队员的受罚时间，显示方式是从总受罚分钟数走到00：00。4.得分。 5.暂停时间，倒计时从00：30走到00:00。6.局间休息时间，倒计时从15:00走到00:00。"@term .
+<t102> rdf:type owl:Individual .
+<t102> rdfs:label "远端"@term .
+<t102> property:definition "比赛的第一个球所要投掷到冰道的另一端。 来源 网页链接"@term .
+<t103> rdf:type owl:Individual .
+<t103> rdfs:label "旋转"@term .
+<t103> property:definition "旋转动作大体可以分为双足旋转、单足旋转、换足旋转、联合旋转和跳接旋转等五大种类。每一种类的旋转又可因旋转足用刃、旋转方向和姿势的不同，而名称也不同 来源 网页链接"@term .
+<t104> rdf:type owl:Individual .
+<t104> rdfs:label "贝尔曼旋转"@term .
+<t104> property:definition "贝尔曼旋转（Biellmann spin）是花样滑冰直立旋转的一种。选手以单足旋转，浮足从背后弯起超过头顶，全身形成水滴状。这个旋转动作要求选手具备极好的柔韧性，因此极少有男选手完成 来源 网页链接"@term .
+<t105> rdf:type owl:Individual .
+<t105> rdfs:label "空中技巧/大跳台"@term .
+<t105> property:definition "对于空中技巧比赛，高度并不仅仅是飞得高也要落在所谓的“最佳”点上。 在空中技巧比赛中运动员飞得太低或太高都是危险的，裁判也要将这批考虑进去"@term .
+<t106> rdf:type owl:Individual .
+<t106> rdfs:label "滑雪杖"@term .
+<t106> property:definition "滑雪杖是我们滑雪时用来支撑前进、控制平衡、引导变向、支撑身体的。除跳台滑雪、空中技巧滑雪、单板滑雪外，其他项目都使用滑雪杖，是滑雪者控制重心必不可少的 ... 来源 百度百科"@term .
+<t107> rdf:type owl:Individual .
+<t107> rdfs:label "轻磕"@term .
+<t107> property:definition "轻微碰撞其他冰壶以停在更有利的位置"@term .
+<t108> rdf:type owl:Individual .
+<t108> rdfs:label "直升机跳"@term .
+<t108> property:definition "起跳后身体绕垂直轴转体360°"@term .
+<t109> rdf:type owl:Individual .
+<t109> rdfs:label "壁角动作"@term .
+<t109> property:definition "壁角上所做动作，不包括上述两种类型的动作"@term .
+<t110> rdf:type owl:Individual .
+<t110> rdfs:label "障碍赛场地主管"@term .
+<t110> property:definition "在比赛之前及比赛过程中负责按照国际雪联U型场地标准进行U型场 地/障碍赛场地的建造和准备，要熟悉当地的雪质情况，并且最好来自 比赛的承办雪场。除此之外，U型场地/障碍赛场地主管应该符合以下 条件。 一应是组委会成员之一。 一在仲裁委员会或国际雪联竞赛指导的指导下工作。 一必须确保U型场地/障碍赛场地在训练和比赛的所有时间都符合国 际雪联对于场地的推荐数据和规格 一监督裁判房的建造和建设。 一为裁判房提供充足的设备（如桌子、椅子、隔墙、供暖等）。 一在技术代表或评分裁判长未能出席的情况下监督U型场地/障碍赛 训练的情况。 一必须参加所有领队会议。 一按裁判长要求为裁判员提供充足的食品和饮料 一对于U型场地/障碍赛场地的建造和维护要有丰富的经验。国际雪联有权力指派场地专家进行场地的准备和维护方面的指导。"@term .
+<t111> rdf:type owl:Individual .
+<t111> rdfs:label "弹性"@term .
+<t111> property:definition "用来描述雪板硬度的词汇，如硬、中等、软。"@term .
+<t112> rdf:type owl:Individual .
+<t112> rdfs:label "计算长"@term .
+<t112> property:definition "计算长负责迅速、准确地计算成绩，监督非正式成绩的即时复印，在抗议期过后"@term .
+<t113> rdf:type owl:Individual .
+<t113> rdfs:label "头盔罩"@term .
+<t113> property:definition "罩在运动员头盔外的，通常有对比、颜色清晰、标明运动员号码"@term .
+<t114> rdf:type owl:Individual .
+<t114> rdfs:label "越野赛"@term .
+<t114> property:definition "即越野滑雪赛。越野滑雪（英语：Cross Country Skiing）为讲求体能和技术的冬季运动，运动员要以滑雪的型式绕过布满雪的山地滑行，为冬季奥林匹克运动会比赛项目之一。由于路程长并需要大量体力，因此越野滑雪又有“雪上马拉松”的称号。 来源 维基百科"@term .
+<t115> rdf:type owl:Individual .
+<t115> rdfs:label "在靶场上移动枪"@term .
+<t115> property:definition "参赛选手不得在到达他的靶位之前从肩上取下他的步枪固定背带。须在双脚都跨过靶位的标志线，把两个滑雪杖放在地上后才能把步枪从肩上取下。 来源 网页链接"@term .
+<t116> rdf:type owl:Individual .
+<t116> rdfs:label "连续转弯"@term .
+<t116> property:definition "连续转弯表现在板上是先用前刃向一侧滑行，板变直，用直板滑行，反过来转身用后刃滑行，在这里不要停止，继续用脚跟的后刃滑行，转身将板变直，换成用前刃滑行。过程中依旧注意三点一线以及重心在前脚，重心放低腿弯一点，背要挺直，不要低头。 来源 知乎"@term .
+<t117> rdf:type owl:Individual .
+<t117> rdfs:label "G力"@term .
+<t117> property:definition "G力原为航空专有名词，现在广泛做为高速移动时承受力道的单位。 来源 网页链接"@term .
+<t118> rdf:type owl:Individual .
+<t118> rdfs:label "电动计时"@term .
+<t118> property:definition "电动计时是指通过发令鸣枪自动开始并记录每名运动员抵达终点成绩的一种计时程序 来源 网页链接"@term .
+<t119> rdf:type owl:Individual .
+<t119> rdfs:label "小组的最后一位选手"@term .
+<t119> property:definition "小组排名最后一位选手"@term .
+<t120> rdf:type owl:Individual .
+<t120> rdfs:label "终点裁判员"@term .
+<t120> property:definition "在整个训练和比赛期间，终点裁判员须始终留在终点；须确保正确执行终点和终点停止区域组织方面的规则；监督终点监督员、终点记时和维持终点秩序；须随时和起点保持联系。"@term .
+<t121> rdf:type owl:Individual .
+<t121> rdfs:label "追加局"@term .
+<t121> property:definition "常规比赛后平手之间用来决定胜负的附加的比赛 来源 网页链接"@term .
+<t122> rdf:type owl:Individual .
+<t122> rdfs:label "转体下杆"@term .
+<t122> property:definition "50-50’s、noseresse和tailpresse转体下杆通常都是半圈或一圈转体如： 180’s、360’s、540’s (简称1、3、5)等，并且用最原始的词，如外转、内 转、反脚外转（cab)和反脚内转来描述。"@term .
+<t123> rdf:type owl:Individual .
+<t123> rdfs:label "全能"@term .
+<t123> property:definition "综合滑降与回转项目的比赛。按照第1轮滑降比赛、第2轮回转比赛的顺序进行。合算滑降比赛与回转比赛的分数后，得出排名。 来源 网页链接"@term .
+<t124> rdf:type owl:Individual .
+<t124> rdfs:label "新闻主管"@term .
+<t124> property:definition "根据竞赛委员会的指令，新闻主管负责为新闻记者、摄影记者、电视和电台记者通报情况与提供信息。"@term .
+<t125> rdf:type owl:Individual .
+<t125> rdfs:label "前掷线"@term .
+<t125> property:definition "与冰场宽度等长、与每条T线平行，距每条T线6.40m（21英尺）的线。冰壶在到达前掷线之前，必须被投出，而且必须滑行到远端前掷线外，否则该冰壶移出场外 来源 网页链接"@term .
+<t126> rdf:type owl:Individual .
+<t126> rdfs:label "没有完成"@term .
+<t126> property:definition "正常出发，但未到在终点线，不过也没犯规。例如被其对手干扰"@term .
+<t127> rdf:type owl:Individual .
+<t127> rdfs:label "连续跳跃"@term .
+<t127> property:definition "连续跳跃，即jump sequence，是由任意数量的跳跃和任意数量的单足跳旋转，以及每个动作后的转体动作组成 来源 网页链接"@term .
+<t128> rdf:type owl:Individual .
+<t128> rdfs:label "固定器"@term .
+<t128> property:definition "固定器是连接滑雪板和滑雪靴的一个重要部件，它对滑雪者的人身安全起着重要的保护作用。 来源 百度百科"@term .
+<t129> rdf:type owl:Individual .
+<t129> rdfs:label "资格成绩"@term .
+<t129> property:definition "所有报名参加国际滑联世界锦标赛都要求达到资格成绩，不同的锦标赛所要求的资格成绩，获得资格成绩的时间，竞赛种类及获得资格成绩时所处的相关条件，均由国际滑联速度滑冰技术委员会确定并公布于国际滑联公报中 来源 网页链接"@term .
+<t130> rdf:type owl:Individual .
+<t130> rdfs:label "正式出发时间"@term .
+<t130> property:definition "选手有10秒的出发时间，在正式出发时间前5秒内到后5秒内的时间段内都可出发。如果选手在此时间段内出发，计时系统将会在他们冲破起滑门时自动启动；否则，将会被取消比赛资格。 来源 爱表族网"@term .
+<t131> rdf:type owl:Individual .
+<t131> rdfs:label "让人印象深刻的穿着、动作及滑行"@term .
+<t131> property:definition "用来描述让人印象深刻的穿着、动作及滑行的词语。"@term .
+<t132> rdf:type owl:Individual .
+<t132> rdfs:label "中锋"@term .
+<t132> property:definition "作为连接边锋与后卫的角色，是攻击手中至关重要的位置，中锋须具备能攻善守的全面技术。 来源 网页链接"@term .
+<t133> rdf:type owl:Individual .
+<t133> rdfs:label "直道超越"@term .
+<t133> property:definition "尾随运动员在直道处，根据场地直道较宽的特点，通过改变自身的滑行速度超越前面对手的方法"@term .
+<t134> rdf:type owl:Individual .
+<t134> rdfs:label "制动"@term .
+<t134> property:definition "为了转弯或停止而向外滑动一个或两个滑雪板尾端。 来源 牛津辞典微信频道"@term .
+<t135> rdf:type owl:Individual .
+<t135> rdfs:label "摔倒扣分"@term .
+<t135> property:definition "1-10 小的失误包括平落地，落至平台，推滑，轻微的手触雪，以及其他的 身体不稳。 11-20 中等失误，包括完全停止、手张开之后拖雪、明显的手触雪、臀部轻 微地接触雪面，以及落地后调整雪板滑行方向。 21-25 重大失误包括臀部明显地触雪，身体触雪，以及完全摔倒。 裁判的扣分是在运动员所做动作正确完成落地所得分数的基础上扣除 的。例如一名运动员，由于考虑其没能控制稳自己的动作而被一位裁 判给了 45分，随后在此基础上对其落地时重大的失误扣掉20分，这 样这位裁判最终给了这名运动员25分。"@term .
+<t136> rdf:type owl:Individual .
+<t136> rdfs:label "导流板"@term .
+<t136> property:definition "为了减少轿车在高速行驶时所产生的升力，汽车设计师除了在轿车外型方面做了改进，将车身整体向前下方倾斜而在前轮上产生向下的压力，将车尾改为短平，减少从车顶向后部作用的负气压而防止后轮飘浮外，还在轿车前端的保险杠下方装上向下倾斜的连接板。 来源 网页链接"@term .
+<t137> rdf:type owl:Individual .
+<t137> rdfs:label "直体后空翻"@term .
+<t137> property:definition "运动员开始起跳时沿横轴向上、向后翻转，上体和下肢伸展，整个身体向后翻转360°,最后运动员要伸展身体准备着陆。"@term .
+<t138> rdf:type owl:Individual .
+<t138> rdfs:label "路兹跳"@term .
+<t138> property:definition "路兹跳也称勾手跳。它是所有跳跃中较难的一种，因为它起跳和落冰不在同一圆上 来源 网页链接"@term .
+<t139> rdf:type owl:Individual .
+<t139> rdfs:label "重跳"@term .
+<t139> property:definition "仲裁根据助滑道长提供的情况决定是否允许运动员重跳"@term .
+<t140> rdf:type owl:Individual .
+<t140> rdfs:label "未出发"@term .
+<t140> property:definition "参与了抽签并被列入比赛分组表，但未出现在起跑线 来源 网页链接"@term .
+<t141> rdf:type owl:Individual .
+<t141> rdfs:label "分组模式"@term .
+<t141> property:definition "在领队会之前，仲裁委员会（裁判长、技术代表和竞赛长）和竞赛指 导将决定使用哪种模式。"@term .
+<t142> rdf:type owl:Individual .
+<t142> rdfs:label "“消音”"@term .
+<t142> property:definition "位于前面的手抓脚趾间的脚趾侧刃，或者抓前脚前面的脚趾侧刃。"@term .
+<t143> rdf:type owl:Individual .
+<t143> rdfs:label "逆时"@term .
+<t143> property:definition "右手投壶的队员投壶时使得冰壶逆时针旋转 来源 网页链接"@term .
+<t144> rdf:type owl:Individual .
+<t144> rdfs:label "砂纸"@term .
+<t144> property:definition "砂纸是附着有研磨颗粒的纸。它用于平整物品的表面，或去除物品表面的附着物〔如旧油漆〕，有时也用于增加摩擦力。 来源 网页链接"@term .
+<t145> rdf:type owl:Individual .
+<t145> rdfs:label "冰面清理"@term .
+<t145> property:definition "主裁判员或边线裁判员有权清理球门柱周围或球门网附近的球门线上堆起的冰雪。"@term .
+<t146> rdf:type owl:Individual .
+<t146> rdfs:label "内转转体540°接半周翻转"@term .
+<t146> property:definition "内转转体540度接半周翻转。"@term .
+<t147> rdf:type owl:Individual .
+<t147> rdfs:label "自由滑"@term .
+<t147> property:definition "自由滑是花样滑冰竞赛中的内容之一，是花样滑冰单人滑、双人滑项目现行竞赛内容中的第二项 来源 网页链接"@term .
+<t148> rdf:type owl:Individual .
+<t148> rdfs:label "倒立（外转）"@term .
+<t148> property:definition "—种180度的倒立，前手支撑于壁角之上，逄 转是外转。"@term .
+<t149> rdf:type owl:Individual .
+<t149> rdfs:label "起点裁判"@term .
+<t149> property:definition "从检查开始直至整个训练和比赛期间都应该在起点区。负责起点的组 织和规则执行情况的监督。"@term .
+<t150> rdf:type owl:Individual .
+<t150> rdfs:label "固定装置"@term .
+<t150> property:definition "—种固定装置（与速降用硬质雪鞋通过一个平的“盘子’ 附着在雪板上与高山滑固定器相似），不过大多数单板固定器都不能松开的。"@term .
+<t151> rdf:type owl:Individual .
+<t151> rdfs:label "倒滑"@term .
+<t151> property:definition "用于描述以向后滑行的术语，见switchstance。"@term .
+<t152> rdf:type owl:Individual .
+<t152> rdfs:label "滑雪杖腕带"@term .
+<t152> property:definition "使用腕带更加省力，如果直接握把发力会让手部苦不堪言；正确的方法是，手从下往上穿过腕带环，调节腕带长度，手腕往后拉紧腕带，虎口向前刚好压住腕带，手指握拳，将腕带和握把一起握住，发力时虎口向下压腕带即可，无需手掌直接对握把发力。 来源 爱燃烧网"@term .
+<t153> rdf:type owl:Individual .
+<t153> rdfs:label "成绩册"@term .
+<t153> property:definition "在冬奥会、世界锦标赛、世界青年锦标赛、世界杯和洲际杯赛中所有比赛项目的最后成绩和其他重要资讯均须写进成绩册。成绩册应包括：a.竞赛日程；b.参加名册一国家、参赛选手、教练员；c.竞赛仲裁委员会和申诉仲裁委员会的决议；d.所有含有积分的最后成绩；成绩册中所有成绩专页须用白色纸张。 来源 网页链接"@term .
+<t154> rdf:type owl:Individual .
+<t154> rdfs:label "第一队员"@term .
+<t154> property:definition "每局比赛中投出该队两个壶的第一个队员 来源 网页链接"@term .
+<t155> rdf:type owl:Individual .
+<t155> rdfs:label "四周跳"@term .
+<t155> property:definition "也称后内结环四周跳）滑冰跳跃中转体四次。 来源 网页链接"@term .
+<t156> rdf:type owl:Individual .
+<t156> rdfs:label "制动转弯"@term .
+<t156> property:definition "通过制动上坡板并抬起另侧板与之平行的一种转弯，制动转弯（曾被称为克里斯蒂安制动）是以克里斯蒂安（Kristiania）的名字命名的，是奥斯陆（Oslo）的曾用名。 来源 牛津辞典微信频道"@term .
+<t157> rdf:type owl:Individual .
+<t157> rdfs:label "护腿"@term .
+<t157> property:definition "保护小腿的用品。"@term .
+<t158> rdf:type owl:Individual .
+<t158> rdfs:label "循环赛"@term .
+<t158> property:definition "每支队伍与所有其他队伍比赛 来源 网页链接"@term .
+<t159> rdf:type owl:Individual .
+<t159> rdfs:label "外转540°翻转"@term .
+<t159> property:definition "外转540度翻转"@term .
+<t160> rdf:type owl:Individual .
+<t160> rdfs:label "球出界"@term .
+<t160> property:definition "当冰球飞出比赛区域或碰到任何障碍物时，碰到界墙或界墙上的防护玻璃除外，应停止比赛，应在球被射或偏斜出的地点最近的争球点进行争球。除在本规则另有规定以外。"@term .
+<t161> rdf:type owl:Individual .
+<t161> rdfs:label "倒立（旋转外转）"@term .
+<t161> property:definition "—种180度倒立，后手支撑于壁角之上，旋转;i 外转。"@term .
+<t162> rdf:type owl:Individual .
+<t162> rdfs:label "下肢扭摆跳"@term .
+<t162> property:definition "双板向一侧扭摆至少90°。双板平 行且与身体垂直。手臂向雪板的反方向扭摆。"@term .
+<t163> rdf:type owl:Individual .
+<t163> rdfs:label "有效出发"@term .
+<t163> property:definition "在固定出发间隔的比赛中，运动员须按出发信号出发。如果出发时间在以下限定时间内为有效出发：正式出发时间前后5秒。"@term .
+<t164> rdf:type owl:Individual .
+<t164> rdfs:label "线路设备及技术设备主管"@term .
+<t164> property:definition "负责提供所有设备及线路所需的维修工具，负责比赛的进行和设备的传送。"@term .
+<t165> rdf:type owl:Individual .
+<t165> rdfs:label "横板滑行"@term .
+<t165> property:definition "滑手以一个铁杆呈90度的角度用雪板两固定器中间的部分在铁杆上横着滑动。"@term .
+<t166> rdf:type owl:Individual .
+<t166> rdfs:label "交接区的出发时间"@term .
+<t166> property:definition "接力选手的出发时间应为滑过来的选手穿过交接区起始处计时线进入交接区的时刻。 来源 网页链接"@term .
+<t167> rdf:type owl:Individual .
+<t167> rdfs:label "滑降技术"@term .
+<t167> property:definition "滑降技术是指穿着滑雪板在山坡上由上而下地滑行。 来源 滑雪百科"@term .
+<t168> rdf:type owl:Individual .
+<t168> rdfs:label "种子选手/运动员"@term .
+<t168> property:definition "依据当前世界杯或者国际雪联单板U型场地项目积分单上的最高 排名来对运动员进行排名（如果并列将以第2个排名类别为准决 定位置，如果仍然并列将由抽签决定）。"@term .
+<t169> rdf:type owl:Individual .
+<t169> rdfs:label "移动站位壶"@term .
+<t169> property:definition "把站位壶移动 来源 网页链接"@term .
+<t170> rdf:type owl:Individual .
+<t170> rdfs:label "跌倒线"@term .
+<t170> property:definition "跌倒线定位：1.标准台：超过R2（着陆坡半径）过渡曲线末端20m处；2.大跳台：超过R2（着陆坡半径）过渡曲线末端30m处"@term .
+<t171> rdf:type owl:Individual .
+<t171> rdfs:label "后空翻接转体360°抓板"@term .
+<t171> property:definition "后空翻接转体360度lien抓板"@term .
+<t172> rdf:type owl:Individual .
+<t172> rdfs:label "超级大回转"@term .
+<t172> property:definition "快速滑下斜坡并以之字形滑行通过标注旗门（Gate）的项目。与大回转相比，斜坡更为陡峭、旗门间距更为宽阔，达到25米以上。与回转、大回转项目不同，仅通过一次滑行决定最终成绩。 来源 网页链接"@term .
+<t173> rdf:type owl:Individual .
+<t173> rdfs:label "后卫线"@term .
+<t173> property:definition "在大本营后面的线，平行于T线，并离T线1.829cm 来源 网页链接"@term .
+<t174> rdf:type owl:Individual .
+<t174> rdfs:label "托举"@term .
+<t174> property:definition "托举是双人滑和冰上舞蹈的必选技术动作 来源 网页链接"@term .
+<t175> rdf:type owl:Individual .
+<t175> rdfs:label "成绩"@term .
+<t175> property:definition "成绩就是在一项比赛中参赛选手或参赛队表现情况的记录。 来源 网页链接"@term .
+<t176> rdf:type owl:Individual .
+<t176> rdfs:label "背转"@term .
+<t176> property:definition "选手在转体中有时无法看到自己的起跳和落地位置，只能伸展头部越过肩部位置进行观察。"@term .
+<t177> rdf:type owl:Individual .
+<t177> rdfs:label "记圈员"@term .
+<t177> property:definition "记圈员负责一直明确地显示领滑运动员还需滑行的圈数，并每次在领滑运动员通过时翻 动记圈板。"@term .
+<t178> rdf:type owl:Individual .
+<t178> rdfs:label "内转起跳旋转540°"@term .
+<t178> property:definition "前手支撑于壁角之上，内转起跳旋转540度，正脚向前落地。"@term .
+<t179> rdf:type owl:Individual .
+<t179> rdfs:label "参赛名额"@term .
+<t179> property:definition "每一版的冬季奥运会规则中，国际奥委会都会对每个性别参加速度滑冰的运动员总人数制定限制规定（国际奥委会配额）。 来源 网页链接"@term .
+<t180> rdf:type owl:Individual .
+<t180> rdfs:label "U型场地中后侧壁上动作"@term .
+<t180> property:definition "U型场地中后侧壁上做的任何动作"@term .
+<t181> rdf:type owl:Individual .
+<t181> rdfs:label "倒立（内转）"@term .
+<t181> property:definition "—种180度的倒立，两手或仅后手支撑于壁角 之上，旋转是内转。"@term .
+<t182> rdf:type owl:Individual .
+<t182> rdfs:label "并腿体前屈跳"@term .
+<t182> property:definition "上体在腰部弯曲约90°。上体 向前下动作，同时下肢向前上动作。板尖上抬至运动员的下颏附近。双板保持接近且与髋平行，头正直"@term .
+<t183> rdf:type owl:Individual .
+<t183> rdfs:label "比赛服"@term .
+<t183> property:definition "同一会员国所有运动员统一的着装。在两小腿外侧显示国家的名称或缩写。"@term .
+<t184> rdf:type owl:Individual .
+<t184> rdfs:label "转体上杆"@term .
+<t184> property:definition "当一个滑手做一个转体上杆动作的时候，标准是以外转滑行的方式接近 铁杆做内转（从脚尖侧刃起跳）和以内转滑行的方式接近铁杆做外转 (从脚跟侧刃起跳）。"@term .
+<t185> rdf:type owl:Individual .
+<t185> rdfs:label "直滑降"@term .
+<t185> property:definition "在滑雪板上直线向下滑动。 来源 牛津辞典微信频道"@term .
+<t186> rdf:type owl:Individual .
+<t186> rdfs:label "国际雪联/国际滑雪联合会"@term .
+<t186> property:definition "1924年在成立于1910年的国际滑雪委员会的基础上改组成立。国际滑雪联合会是国际奥委会承认的国际单项体育组织，是国际体育联合会总会成员。现有会员50多个。 来源 百度百科"@term .
+<t187> rdf:type owl:Individual .
+<t187> rdfs:label "起踏器"@term .
+<t187> property:definition "投壶队员开始投壶时脚踏的物体 来源 网页链接"@term .
+<t188> rdf:type owl:Individual .
+<t188> rdfs:label "坡度"@term .
+<t188> property:definition "坡度是用以表示斜坡的斜度，常用于标记丘陵、屋顶和道路的斜坡的陡峭程度。这个数值往往是以三角函数的正切函数的百分比或千分比数值来陈述，即“爬升高度除以在水平面上的移动距离”。 来源 网页链接"@term .
+<t189> rdf:type owl:Individual .
+<t189> rdfs:label "两腿伸直腾空"@term .
+<t189> property:definition "一种两腿伸直的腾空"@term .
+<t190> rdf:type owl:Individual .
+<t190> rdfs:label "SQRL 成绩排名"@term .
+<t190> property:definition "一个排名是根据指定的世界杯赛上，每个运动员在实际各单项中取得的最好成绩制定的（SQRL 成绩排名） 来源 网页链接"@term .
+<t191> rdf:type owl:Individual .
+<t191> rdfs:label "非正常着陆"@term .
+<t191> property:definition "如只有一只板完全着陆而另一只悬在空中"@term .
+<t192> rdf:type owl:Individual .
+<t192> rdfs:label "平行大回转(PGS)"@term .
+<t192> property:definition "平行回转和平行大回转为两人一组同时出发，滑行两次，第二次滑行使交换线路。 《体育百科知识博览》"@term .
+<t193> rdf:type owl:Individual .
+<t193> rdfs:label "硬直杆"@term .
+<t193> property:definition "圆形的、样式统一的杆，直径为20 ~ 32毫米，没有接头，这种杆为硬 直杆。其长度应为在插入雪中后仍高出雪面1.80米，并由不易碎材料 制成（聚碳酸酯塑料;或具有同样性质的材料）。"@term .
+<t194> rdf:type owl:Individual .
+<t194> rdfs:label "被动壶"@term .
+<t194> property:definition "另一支冰壶击打而转为运动的原来静止的冰壶 来源 网页链接"@term .
+<t195> rdf:type owl:Individual .
+<t195> rdfs:label "总坡长"@term .
+<t195> property:definition "比赛中每位参赛选手滑过的全部坡长(即所有上坡的总和) 来源 网页链接"@term .
+<t196> rdf:type owl:Individual .
+<t196> rdfs:label "得分"@term .
+<t196> property:definition "一局中只有一支队伍可以得分。一局中一队的每支大本营内比对方任何一支壶都接近大本营中心的冰壶都得一分。 来源 网页链接"@term .
+<t197> rdf:type owl:Individual .
+<t197> rdfs:label "冬季奥林匹克运动会（简称冬奥会）"@term .
+<t197> property:definition "冬季奥林匹克运动会，简称冬季奥运会、冬奥，每隔4年举行一届，赛事的主要特征是在冰上和雪地举行的冬季运动，如滑冰、滑雪等适合在冬季举行的项目。 来源 网页链接"@term .
+<t198> rdf:type owl:Individual .
+<t198> rdfs:label "传统技术"@term .
+<t198> property:definition "现代越野滑雪比赛共分两大类，一为传统技术各种距离项目的比赛，一为自由技术各种距离项目的比赛。 来源 体博网"@term .
+<t199> rdf:type owl:Individual .
+<t199> rdfs:label "事务主管"@term .
+<t199> property:definition "事务主管负责必要的安全措施，保证观众不进人场地。在有大量观众 的区域根据周密的计划，安排足够的人员，绳子或围栏应提前设置好。 须注意围栏外有足够的空间，以保证观众的流动。"@term .
+<t200> rdf:type owl:Individual .
+<t200> rdfs:label "固定壶"@term .
+<t200> property:definition "在混合双人比赛中，在每局比赛开始前，有两个冰壶放置在固定位置。 来源 网页链接"@term .
+<t201> rdf:type owl:Individual .
+<t201> rdfs:label "三人回转赛事"@term .
+<t201> property:definition "三人回转是由3名运动员在3条雪道上同时出发、平行下滑的竞赛项 目。3条雪道坡度、宽度，旗门设置和雪质均应相同"@term .
+<t202> rdf:type owl:Individual .
+<t202> rdfs:label "风向旗"@term .
+<t202> property:definition "当比赛或正式训练时，在每三个射道旁，距靶位 5m 和靶子 20m 处须安装风向旗。风向旗上沿与靶的下沿处于同一水平线，且不影响对靶子射击的视线。 来源 网页链接"@term .
+<t203> rdf:type owl:Individual .
+<t203> rdfs:label "大回转"@term .
+<t203> property:definition "快速滑下斜坡并以之字形滑行通过标注旗门（Gate）的项目。旗门间距比回转项目宽10米以上。与滑降、超级大回转一样，而大回转的旗帜也是四角形。与速度系列（滑降与超级大回转）不同，进行2轮（第1轮、第2轮）比赛。第1轮比赛的前30名选手以倒序参加第2轮比赛 （第1轮比赛排在第30名的选手在第2轮比赛中最先出战），而从第31名起，则以第1轮比赛的排名顺序依次参加比赛。 来源 网页链接"@term .
+<t204> rdf:type owl:Individual .
+<t204> rdfs:label "力量大"@term .
+<t204> property:definition "投掷冰壶的力量比需要的力量大 来源 网页链接"@term .
+<t205> rdf:type owl:Individual .
+<t205> rdfs:label "华尔兹跳"@term .
+<t205> property:definition "华尔兹跳，也称“3”字跳。它可因跳跃时起跳用刃和落冰是否用同足而有多种跳法 来源 网页链接"@term .
+<t206> rdf:type owl:Individual .
+<t206> rdfs:label "官方成绩"@term .
+<t206> property:definition "当裁判长在成绩册上签名后，成绩被认定为官方成绩。官方成绩不能被置疑 来源 网页链接"@term .
+<t207> rdf:type owl:Individual .
+<t207> rdfs:label "滑板"@term .
+<t207> property:definition "投壶过程中穿在滑行脚上的滑动装置，通常由特氟龙塑料或不锈钢制作 来源 网页链接"@term .
+<t208> rdf:type owl:Individual .
+<t208> rdfs:label "板尾刺"@term .
+<t208> property:definition "任何后腿伸直，将板尾伸离身体方向的动作，通常是在抓板 的同时进行的。"@term .
+<t209> rdf:type owl:Individual .
+<t209> rdfs:label "前手抓脚趾侧刃，前腿膝盖向雪板"@term .
+<t209> property:definition "前手抓两脚之间的脚趾侧刃，前腿膝盖拉向雪板。"@term .
+<t210> rdf:type owl:Individual .
+<t210> rdfs:label "踏板力量"@term .
+<t210> property:definition "一记投壶使得冰壶抵达比赛端的踏板位置的力量 来源 网页链接"@term .
+<t211> rdf:type owl:Individual .
+<t211> rdfs:label "过渡区"@term .
+<t211> property:definition "U形场地的圆周部位"@term .
+<t212> rdf:type owl:Individual .
+<t212> rdfs:label "力矩"@term .
+<t212> property:definition "在物理学里，作用力促使物体绕着转动轴或支点转动的趋向，称为力矩，也就是扭转的力。转动力矩又称为转矩。力矩能够使物体改变其旋转运动。推挤或拖拉涉及到作用力，而扭转则涉及到力矩。 来源 网页链接"@term .
+<t213> rdf:type owl:Individual .
+<t213> rdfs:label "医务主管"@term .
+<t213> property:definition "负责对正式训练和比赛中的每一个人进行急救处理，包括运动员、观众、官员等"@term .
+<t214> rdf:type owl:Individual .
+<t214> rdfs:label "计分"@term .
+<t214> property:definition "一只冰壶在或接触大本营，认为是可能得分的冰壶 来源 网页链接"@term .
+<t215> rdf:type owl:Individual .
+<t215> rdfs:label "重心"@term .
+<t215> property:definition "身体各部分都受到重力的作用且各部分所受重力作用集中于一点，这一点叫重心。"@term .
+<t216> rdf:type owl:Individual .
+<t216> rdfs:label "比赛"@term .
+<t216> property:definition "任意数量的队伍通过比赛决出胜者的过程 来源 网页链接"@term .
+<t217> rdf:type owl:Individual .
+<t217> rdfs:label "弯道内侧分界线"@term .
+<t217> property:definition "在进入弯道、弯道中及出弯道时，禁止运动员切入自己赛道弯道内侧分界线，该分界线由着色的实线、雪线或摆放在分界线内侧的可移动标志块标识 来源 网页链接"@term .
+<t218> rdf:type owl:Individual .
+<t218> rdfs:label "臀部触雪面/雪板"@term .
+<t218> property:definition "臀部触及雪面/雪板"@term .
+<t219> rdf:type owl:Individual .
+<t219> rdfs:label "板尖触壁角静止"@term .
+<t219> property:definition "板尖触壁角保持一种静止状态"@term .
+<t220> rdf:type owl:Individual .
+<t220> rdfs:label "投壶"@term .
+<t220> property:definition "将冰壶投向冰场另一端（比赛端）的动作 来源 网页链接"@term .
+<t221> rdf:type owl:Individual .
+<t221> rdfs:label "滑雪内衣"@term .
+<t221> property:definition "通常滑雪要穿排汗透气性能好的内衣，很多品牌都有专门的滑雪用排汗衣，这个可以根据价格来选择。主要功能：排汗，速干，透气，保持身体舒适干爽，除菌，高级的还有压缩功能，增加体能。 来源 知乎"@term .
+<t222> rdf:type owl:Individual .
+<t222> rdfs:label "进营力量"@term .
+<t222> property:definition "将壶旋进大本营所用的力量"@term .
+<t223> rdf:type owl:Individual .
+<t223> rdfs:label "电子计时"@term .
+<t223> property:definition "出发指令是由出发钟发出的电子信号声和可视时间给出的。发令员不得触碰参赛选手。 来源 网页链接"@term .
+<t224> rdf:type owl:Individual .
+<t224> rdfs:label "空中飞行"@term .
+<t224> property:definition "跳台滑雪的技术动作包括四部分分别是助滑、起跳、空中飞行和着陆。 来源 人民网"@term .
+<t225> rdf:type owl:Individual .
+<t225> rdfs:label "U型场地"@term .
+<t225> property:definition "建造给自由式单板滑雪使用的雪造结构，包括相对应的两个过 渡区（高度相同、尺寸相同）。选手借助U型场地形状起跳腾空，在两 个槽壁上沿滑下线荡来荡去以做出各种动作。"@term .
+<t226> rdf:type owl:Individual .
+<t226> rdfs:label "临时成绩"@term .
+<t226> property:definition "临时成绩是比赛结束后由组织者制作的第一个官方记录。临时成绩常常到抗议。在最后一个参赛选手比赛结束后，应立即在终点区和竞赛办公室公布和分发临时成绩。 来源 网页链接"@term .
+<t227> rdf:type owl:Individual .
+<t227> rdfs:label "有效出发和出发犯规"@term .
+<t227> property:definition "在固定出发间隔的比赛中，运动员须按出发信号出发。如果出发时间 在以下限定时间内为有效出发：正式出发时间前后5秒，运动员未在 此限定时间内出发将被处罚。"@term .
+<t228> rdf:type owl:Individual .
+<t228> rdfs:label "后空翻外转转体360度"@term .
+<t228> property:definition "后空翻外转转体360度"@term .
+<t229> rdf:type owl:Individual .
+<t229> rdfs:label "两只手皆触壁角的翻转"@term .
+<t229> property:definition "两只手皆触壁角的翻转"@term .
+<t230> rdf:type owl:Individual .
+<t230> rdfs:label "U型场地（只有一个槽壁）"@term .
+<t230> property:definition "只有一个槽壁的U型场地。换言之，由雪塑造成的包括一个过渡区和一个垂直部分的场地，用来做跳台使用。"@term .
+<t231> rdf:type owl:Individual .
+<t231> rdfs:label "限制线"@term .
+<t231> property:definition "限制线，长15.24厘米（英尺），最大宽度1.27厘米（1/2英寸），与前掷线平行并距前掷线外沿1.219米（4英尺），在赛道两端 来源 网页链接"@term .
+<t232> rdf:type owl:Individual .
+<t232> rdfs:label "人工计时程序"@term .
+<t232> property:definition "1.必须指派 1 名人工计时长、3 名人工计时员和 1 名替补人工计时员。人工计时长可由 1 名记录员协助工作。 2．人工计时员的位置应在终点线处，当他们看到发令员鸣枪发出烟或闪光的瞬间开始计时。（P119) 来源 网页链接"@term .
+<t233> rdf:type owl:Individual .
+<t233> rdfs:label "兴奋剂"@term .
+<t233> property:definition "兴奋剂是一系列精神药物的统称，其中包括可以增加活动力的药物、会令人感到愉快和振奋的药物，以及有交感兴奋作用的药物。兴奋剂可以提升警觉心、注意力和活力，同时也增加血压、心跳和呼吸，常用作处方药，但也有用于药物治疗以外的使用（可能是脱法药物或是非法使用），可能做为表现增强物质或是娱乐性药物。 来源 网页链接"@term .
+<t234> rdf:type owl:Individual .
+<t234> rdfs:label "裁判员"@term .
+<t234> property:definition "根据规则负责掌管比赛的人员 来源 网页链接"@term .
+<t235> rdf:type owl:Individual .
+<t235> rdfs:label "世界自由飞锦标赛/自由式滑雪世界锦标赛"@term .
+<t235> property:definition "国际滑雪联合会在1979年正式承认自由式滑雪项目，并且在运动员及其跳跃技巧方面制定了新的规则，以减小此项运动的危险性。1971年，新罕布夏州举办了世界第一个正式的自由式滑雪比赛，当时的自由式滑雪以空中技巧赛为主流。1986年，法国蒂恩镇举办了第一届自由式滑雪世界锦标赛。 来源 百度百科"@term .
+<t236> rdf:type owl:Individual .
+<t236> rdfs:label "处罚圈"@term .
+<t236> property:definition "在短距离、追逐、集体出发、接力赛中，处罚圈紧在射击场之后设置。处罚圈应是一个椭圆形雪道，其宽为 6m，长为 150(5m(沿内圈量)。 来源 网页链接"@term .
+<t237> rdf:type owl:Individual .
+<t237> rdfs:label "记圈记录员"@term .
+<t237> property:definition "记圈记录员负责完整地记录领滑运动员每一圈的成绩，误差不超过一秒，并随时核对记圈员所告示的圈数。"@term .
+<t238> rdf:type owl:Individual .
+<t238> rdfs:label "自由舞"@term .
+<t238> property:definition "运动员可自选音乐，在规定的4分钟内(±10秒)完成由各种步法、托举、小跳、姿势、握法等动作组成的自编舞蹈，裁判员根据运动员完成动作的质量、风格和创新等评定技术分和艺术印象分 来源 网页链接"@term .
+<t239> rdf:type owl:Individual .
+<t239> rdfs:label "滑步"@term .
+<t239> property:definition "蹬冰式滑步是由冰上蹬冰动作移植来的，所以它和冰上的蹬冰步很相似。它是速度滑雪、高山滑雪等在起滑、滑行和滑降中，在很短的距离内用作加速的一种滑行方法。 来源 百度百科"@term .
+<t240> rdf:type owl:Individual .
+<t240> rdfs:label "计时助理"@term .
+<t240> property:definition "两名助理计时员按照第2020. 2. 4条款操作秒表。一名助理计时员保持 所有运动员成绩的完整记录"@term .
+<t241> rdf:type owl:Individual .
+<t241> rdfs:label "反向站姿"@term .
+<t241> property:definition "反向站姿，在单板运动领域将其翻译为反脚， 描述向后滑行时做动作的词汇。需要注意的是：只有做起动作来完全如 向前滑行时一样才使用这一词汇。向后滑行像右撇，对于右撇来说相反， 因此得名“反脚”，任何动作都可以反脚来做。见“ Fakie (倒滑）”。"@term .
+<t242> rdf:type owl:Individual .
+<t242> rdfs:label "侧空翻"@term .
+<t242> property:definition "要求足超过头，完全向一侧空翻（绕着人体的矢状轴)。"@term .
+<t243> rdf:type owl:Individual .
+<t243> rdfs:label "出发坡"@term .
+<t243> property:definition "出发坡的设置应该使运动员能在出发线放松地站立，出发后能很快达 到全速。所有高山类和的比赛和追逐赛必须设置助推柱，具体标准依 据具体比赛需要。"@term .
+<t244> rdf:type owl:Individual .
+<t244> rdfs:label "处罚圈失误"@term .
+<t244> property:definition "由于组织委员会的错误或靶子的功能故障，使参赛队的队员或射击队员多滑了处罚圈。 来源 网页链接"@term .
+<t245> rdf:type owl:Individual .
+<t245> rdfs:label "右后卫"@term .
+<t245> property:definition "后卫分为右后卫（RD）和左后卫（LD）；后卫不仅是需要进行防守的位置，同时也是发动进攻的位置；后卫须具备身体阻截能力、与前锋的配合能力以及正确地判断能力。 来源 网页链接"@term .
+<t246> rdf:type owl:Individual .
+<t246> rdfs:label "卧势"@term .
+<t246> property:definition "在卧势射击时，参赛选手必须附合下列规定。步枪只能与参赛选手的双手、肩和脸颊接触。支撑步枪的手腕低的一侧须清楚地高于地面(雪面)。 来源 网页链接"@term .
+<t247> rdf:type owl:Individual .
+<t247> rdfs:label "外力事件"@term .
+<t247> property:definition "不是由比赛双方所导致的情况 来源 网页链接"@term .
+<t248> rdf:type owl:Individual .
+<t248> rdfs:label "编制号码"@term .
+<t248> property:definition "在冬奥会、世界锦标赛、世界杯、世界青年锦标赛、世界杯和洲际杯赛中，男子和女子的每次出发号码应从 l 号开始，按数字顺序排到最后一个号码。 来源 网页链接"@term .
+<t249> rdf:type owl:Individual .
+<t249> rdfs:label "越位"@term .
+<t249> property:definition "a)攻队队员不得先于球进入攻区。b)确定越位的决定因素：1．队员冰刀的位置——在球完全越过蓝线前，队员的两只冰刀完全越过了他的攻区的蓝线，即为越位。2．球的位置——球必须完全越过蓝线进入了攻区。3.如果一个队员倒滑带球在球之前越过蓝线，他不算越位，前提是这名队员越过蓝线之前，他的两只冰刀都在中区时，他就已经控制了球。"@term .
+<t250> rdf:type owl:Individual .
+<t250> rdfs:label "出手"@term .
+<t250> property:definition "冰壶接近于圆心。 来源 网页链接"@term .
+<t251> rdf:type owl:Individual .
+<t251> rdfs:label "移动位置的壶"@term .
+<t251> property:definition "一个静止的冰壶已经移动到新的位置 来源 网页链接"@term .
+<t252> rdf:type owl:Individual .
+<t252> rdfs:label "压线"@term .
+<t252> property:definition "该冰壶恰好接触到大本营最外沿部分的圈 来源 网页链接"@term .
+<t253> rdf:type owl:Individual .
+<t253> rdfs:label "垂直轴"@term .
+<t253> property:definition "贯穿人体前后，且通过重心。"@term .
+<t254> rdf:type owl:Individual .
+<t254> rdfs:label "滑雪雪道"@term .
+<t254> property:definition "雪道（piste）是一条标记出来用于滑雪或其它冬季运动的山地斜道。 单词“piste”来源于法语（路径），在北美也称作“trail”（小径）、“slope”（斜坡）或者“groomed run”（平整 ... 来源 维基百科"@term .
+<t255> rdf:type owl:Individual .
+<t255> rdfs:label "全队投壶赛"@term .
+<t255> property:definition "循环赛后用来决定排名的计算方 来源 网页链接"@term .
+<t256> rdf:type owl:Individual .
+<t256> rdfs:label "滑行"@term .
+<t256> property:definition "以雪板某一部分在壁角、铁杆或其它表面上滑行"@term .
+<t257> rdf:type owl:Individual .
+<t257> rdfs:label "入槽区"@term .
+<t257> property:definition "人槽区是为运动员以合适的速度和动能进人U型场地的区域，不是用 来让运动员尝试动作的地方。"@term .
+<t258> rdf:type owl:Individual .
+<t258> rdfs:label "检录"@term .
+<t258> property:definition "1．每次比赛开始前，应在起点和更衣室内清楚的听到即将参赛的运动员的姓名。 2．未能及时到达起点的参赛运动员，视为在该项距离比赛中自动弃权 来源 网页链接"@term .
+<t259> rdf:type owl:Individual .
+<t259> rdfs:label "人工计时个人出发"@term .
+<t259> property:definition "如果仅使用人工计时，参赛选手双脚必须置于起滑线后，在起滑时方可跨过起滑线。 来源 网页链接"@term .
+<t260> rdf:type owl:Individual .
+<t260> rdfs:label "并步"@term .
+<t260> property:definition "冰上舞蹈中的一种滑翔步，两脚交替滑行。来自芭蕾舞术语，冰上舞蹈的并步有三种形式：简单并步、交叉并步以及滑行并步。 来源 网页链接"@term .
+<t261> rdf:type owl:Individual .
+<t261> rdfs:label "外转腾空"@term .
+<t261> property:definition "可称作外转腾空，一个真正的frontside air的动作是在前侧 壁上进行的，并结合“indy”抓板，后手抓两固定器之间的雪板外转 在这种特殊动作中，前腿通常是伸直的。从技术上来说没有“fromside indy”这个动作，但是有些时候这一称呼有助于描述动作。外转腾空动 作也就是在前侧壁上进行的任何腾空。"@term .
+<t262> rdf:type owl:Individual .
+<t262> rdfs:label "蹲踞旋转"@term .
+<t262> property:definition "准备动作：左前外刃“3”字步。 旋转用刃：左后内刃。 旋转姿势：蹲踞式，即左腿下蹲，右腿微屈前伸，上体稍前倾，两手于左膝前相握。 结束动作：直立后用右后外刃或左前外刃滑出 来源 网页链接"@term .
+<t263> rdf:type owl:Individual .
+<t263> rdfs:label "平地滑雪"@term .
+<t263> property:definition "平地滑雪技术指包括交替滑行、同时推行滑行(简称同时滑行)、蹬冰式滑行、综合滑行及改变方向等在内的实用滑雪基本技巧。 来源 滑雪百科"@term .
+<t264> rdf:type owl:Individual .
+<t264> rdfs:label "出发停止"@term .
+<t264> property:definition "第1名队员在赛道上发生碰撞的情况下，被碰撞的运动员处在不安全 的位置，有必要在第2个队员的出发门打开之前停止比赛，在这种情 况下第1名运动员的成绩就代表该组比赛成绩。在只有1名运动员完 成比赛的情况下，则这名完成比赛的运动员代表的队进人下一轮。一 旦场地被安全地处理干净之后，其他3个队的第2名运动员将同时出 发比赛来决定哪个队第2个进人下一轮。被取消资格的队不能继续比 赛。"@term .
+<t265> rdf:type owl:Individual .
+<t265> rdfs:label "线路设置员"@term .
+<t265> property:definition "负责比赛路线的设置，为设置好线路，要考虑到地形、积雪、参赛运动员的能力等情况，线路设置员应和技术代表、裁判长、竞赛长、线路长一起预先考察地形。"@term .
+<t266> rdf:type owl:Individual .
+<t266> rdfs:label "松紧装置"@term .
+<t266> property:definition "松紧装置，皮带 组织者或雪场如果没有要求，可以选择使用安全皮带。"@term .
+<t267> rdf:type owl:Individual .
+<t267> rdfs:label "口头谴责"@term .
+<t267> property:definition "仲裁对对故意错判或不公正判决的距离测量员采取的处罚措施之一"@term .
+<t268> rdf:type owl:Individual .
+<t268> rdfs:label "竞赛仲裁委员会"@term .
+<t268> property:definition "竞赛仲裁委员会是作为国际冬季两项联盟赛事的权利机构而建立的。负责处理除特别规定由国际冬季两项联盟的其他组织处理的一切与赛事有关的事务。竞赛仲裁委员会在此规则的授权下建立和运作，可分别建立男子竞赛仲裁委员会和女子竞赛仲裁委员会。 来源 网页链接"@term .
+<t269> rdf:type owl:Individual .
+<t269> rdfs:label "裁判塔/裁判台/裁判楼"@term .
+<t269> property:definition "5个裁判隔间应用坚固的隔墙分开，隔间间的最小宽度为1.0m,最小深度为1.20m,各隔间应能看到起跳和运动员飞行轨迹。 来源 2018平昌冬奥会官方网站"@term .
+<t270> rdf:type owl:Individual .
+<t270> rdfs:label "团身前空翻"@term .
+<t270> property:definition "运动员开始起跳时沿横轴向上、向前翻转，上体和下肢伸展，随后上体和下肢在腰部屈成团身姿势，整个身体向前翻转360°，最后运动员 要伸展身体准备着陆。"@term .
+<t271> rdf:type owl:Individual .
+<t271> rdfs:label "裁判房"@term .
+<t271> property:definition "裁判房最小尺寸必须是5米x 2. 5米。裁判观察区域应该设置足够的 空间给适宜数量的官员，能让他们看到比赛的精彩之处和整个比赛的 运作过程。裁判房必须在U型场地的底部。 裁判区域要用围栏围挡，使运动员、观众不能进入。"@term .
+<t272> rdf:type owl:Individual .
+<t272> rdfs:label "国际滑雪联合会"@term .
+<t272> property:definition "国际滑雪联合会（法语：Fédération Internationale de Ski，FIS）由14个国家协会在1924年于法国霞慕尼成立，到目前已有112个成员国。而由于滑雪是冬季奥运会中主要的项目之一，因此国际滑雪联合会是国际单项运动总会联合会的成员之一。中国滑雪协会于1981年5月加入国际滑雪联台会。 来源 网页链接"@term .
+<t273> rdf:type owl:Individual .
+<t273> rdfs:label "雪杖/滑雪杖"@term .
+<t273> property:definition "雪杖是滑雪时用来支撑前进、控制平衡、引导变向、支撑身体的。 来源 百度百科"@term .
+<t274> rdf:type owl:Individual .
+<t274> rdfs:label "正向直板滑行"@term .
+<t274> property:definition "一个滑手用雪板在铁杆上滑动的基本动作，雪板指向与铁杆相同，滑手身体重心位于中间位置。"@term .
+<t275> rdf:type owl:Individual .
+<t275> rdfs:label "终点时刻"@term .
+<t275> property:definition "终点时刻是指参赛选手或参赛队比赛时间结束的那一时刻。使用电子记时时，当终点线上的电子敏感器射出的光束被到来的参赛选手切断，该参赛选手就是到达了终点。使用人工记时时，参赛选手到达终点系指参赛选手的单或双脚跨过终点线。团体赛中是用参赛队最后一位选手到达终点计时。 来源 网页链接"@term .
+<t276> rdf:type owl:Individual .
+<t276> rdfs:label "射击"@term .
+<t276> property:definition "冬季两项比赛时，运动员要脚穿滑雪板，手持滑雪杖，携带枪支，沿标记的滑道，按正确的方向和顺序滑完预定的全程。男子20公里和女子15公里射击4次，射击姿势及顺序为卧射、立射、卧射、立射，每次5发子弹。男子10公里、女子7.5公里和男、女4×7.5公里接力均射击两次，射击姿势及顺序为卧射、立射，个人赛每次5发子弹，接力赛每人每次8发子弹。 来源 网页链接"@term .
+<t277> rdf:type owl:Individual .
+<t277> rdfs:label "用刃"@term .
+<t277> property:definition "注：滑雪板刃——滑雪板的边刃要随时保持锋利，这样在你对它施加重力时，不会产生侧滑。 来源 圣诺网"@term .
+<t278> rdf:type owl:Individual .
+<t278> rdfs:label "受罚席"@term .
+<t278> property:definition "每个冰场应设有两个受罚席，每个受罚席至少可容纳5名队员。受罚席的位置应设置在记录席两侧，即运动员席的对面。最小长度4米，最小宽度1.5米。除受罚运动员及记罚员外其他人严禁进入受罚席。每个队必须使用自己队员席对面的受罚席，比赛中不得交换队员席及受罚席。"@term .
+<t279> rdf:type owl:Individual .
+<t279> rdfs:label "集体出发赛"@term .
+<t279> property:definition "男子15公里，女子12.5公里。在过程中需要绕行赛道五圈，进行四次射击，射击顺序为卧射、卧射、立射、立射，每次各五个目标。每当一个目标未被击中时，选手在射击结束后需在150米长的惩罚赛道滑行一圈才能继续进行。集体出发赛是全部选手一起出发，只有一个广大的出发区，依背号做横向排列，通常一横列有十人。同样为了避免射击区人数过多，世界杯中的集体出发赛只有三十名选手能参加，基本上是世界杯积分排名的前十五名与同地点一系列比赛中个人赛、冲刺赛、追逐赛的前三名选手。在进行第一次射击时，选手需要在与自己背号相同的射击道。之后的射击则依照到达射击区的顺序排列。最先到达终点者获胜。 来源 网页链接"@term .
+<t280> rdf:type owl:Individual .
+<t280> rdfs:label "燕式旋转"@term .
+<t280> property:definition "燕式旋转也称驼式旋转 准备动作：左前外刃“3”字步 旋转用刃：左后内刃 旋转姿势：燕式或称驼式。上体前屈，右浮腿向后抬起，使身体与冰面平行，与旋转腿呈垂直关系。 结束动作：右后外刃或左前外刃滑出 来源 网页链接"@term .
+<t281> rdf:type owl:Individual .
+<t281> rdfs:label "滑雪板/雪橇板"@term .
+<t281> property:definition "滑雪板是一种通过使用者穿戴于脚上，以此帮助滑雪者在雪上滑行的工具。初期使用于游览区救援，现在主要用于体育和娱乐方面。 来源 维基百科"@term .
+<t282> rdf:type owl:Individual .
+<t282> rdfs:label "淘汰赛形式"@term .
+<t282> property:definition "运动员根据在一轮中的排名或成绩来决定下一轮比赛情况 来源 网页链接"@term .
+<t283> rdf:type owl:Individual .
+<t283> rdfs:label "检录长"@term .
+<t283> property:definition "检录长负责在每场比赛开始前运动员的报到，以及检查运动员是否佩戴号码及正确的着装"@term .
+<t284> rdf:type owl:Individual .
+<t284> rdfs:label "后屈小腿挺身跳"@term .
+<t284> property:definition "从侧面看，双板向后摆动至少 90°，膝关节弯曲，髋部向前，上肢（肩部）反方向稍微向后。腿部并拢，双板平行。"@term .
+<t285> rdf:type owl:Individual .
+<t285> rdfs:label "端区争球点"@term .
+<t285> property:definition "在每个端区和每个球门的两侧，按照图示各画一个争球点和一个争球圈。 争球点直径应为60公分，红色。在端区争球点对面每侧画两个“L”。以争球点的中心为圆心，以4.5米为半径，用5公分宽的红线画一个争球圈。"@term .
+<t286> rdf:type owl:Individual .
+<t286> rdfs:label "中途时间"@term .
+<t286> property:definition "在冬奥会、世界锦标赛、世界青年锦标赛和世界杯赛中，每个回合射击的时间都要提供给电子资讯牌、传媒和参赛队。在处罚圈后设立中途计时线，记录每个队员完成每个射击回合的时间。 来源 网页链接"@term .
+<t287> rdf:type owl:Individual .
+<t287> rdfs:label "硬靴"@term .
+<t287> property:definition "设计给卡宾技术及竞速滑雪使用的雪鞋，鞋是硬塑料制成 的，较硬以便最大限度地支持脚踝，与髙山滑雪雪鞋类似。"@term .
+<t288> rdf:type owl:Individual .
+<t288> rdfs:label "主动性超越"@term .
+<t288> property:definition "尾随运动员在比赛中，根据实际和战术配合的需要，利用速度和技术进行有目标、有目的的实施超越对手的方法"@term .
+<t289> rdf:type owl:Individual .
+<t289> rdfs:label "执行等级"@term .
+<t289> property:definition "裁判组的十二名裁判各自为这个动作打出质量和执行分数，这个分数称作执行等级（grade of execution，缩写GOE），是一个-3到+3之间的整数 来源 网页链接"@term .
+<t290> rdf:type owl:Individual .
+<t290> rdfs:label "弯道中部超越"@term .
+<t290> property:definition "尾随运动员在弯道处，在前面对手身体难以控制，而造成的外甩或降速，利用自身的滑行速度和技术超越对手的方法"@term .
+<t291> rdf:type owl:Individual .
+<t291> rdfs:label "K点"@term .
+<t291> property:definition "K点是跳台滑雪中打出距离分所用的参照点。 来源 网页链接"@term .
+<t292> rdf:type owl:Individual .
+<t292> rdfs:label "试跳长"@term .
+<t292> property:definition "负责赛前和比赛期间组织并协助使用仪器检测助滑道长度"@term .
+<t293> rdf:type owl:Individual .
+<t293> rdfs:label "箭头标志"@term .
+<t293> property:definition "在滑雪场指示滑雪运动员进行移动的标志，标志上常标有箭头指示方向"@term .
+<t294> rdf:type owl:Individual .
+<t294> rdfs:label "粒径"@term .
+<t294> property:definition "粒径是指如岩石或其他固体单一个粒子的物理尺度。颗粒物质的大小范围可由极小的胶体，经黏土、粉砂、砂、砾，至岩石。 来源 网页链接"@term .
+<t295> rdf:type owl:Individual .
+<t295> rdfs:label "攻区"@term .
+<t295> property:definition "两条30厘米宽的蓝线横贯整个冰场并垂直延伸到边线界墙，将两条球门线之间的区域作三等分，自己球门一侧为守区，中间为中区，对方球门一侧为攻区。 来源 中国冰球网"@term .
+<t296> rdf:type owl:Individual .
+<t296> rdfs:label "与前腿相似，但板尖指向上方"@term .
+<t296> property:definition "与前腿相似，但板尖指向上方"@term .
+<t297> rdf:type owl:Individual .
+<t297> rdfs:label "空翻转体360°"@term .
+<t297> property:definition "身体沿主旋转轴或副旋转轴旋转 360°，所有空翻转体360° (包括在一个空翻动作中的多次转体）必须以直体姿势完成。"@term .
+<t298> rdf:type owl:Individual .
+<t298> rdfs:label "场内裁判员"@term .
+<t298> property:definition "场内裁判员:一名主裁判员，两名边线裁判员或者两名主裁判员，两名边线裁判员"@term .
+<t299> rdf:type owl:Individual .
+<t299> rdfs:label "大本营"@term .
+<t299> property:definition "冰场两端同心圆内的区域 来源 网页链接"@term .
+<t300> rdf:type owl:Individual .
+<t300> rdfs:label "人工计时"@term .
+<t300> property:definition "个人和团体出发时不用电子计时门，发令员在比赛出发前 10 秒说:“预备”，然后大声地数秒，说:“5、4、3、2、1。 ”在起滑正点时，发令员发出“走”的指令。发令员不得触碰参赛选手。 来源 网页链接"@term .
+<t301> rdf:type owl:Individual .
+<t301> rdfs:label "比赛时间"@term .
+<t301> property:definition "比赛时间是指比赛过程中实际所用的那段时间。参赛选手或参赛队在比赛成绩中所排列的名次是以比赛所用时间为依据的。这一比赛时间通常包括竞赛仲裁委员会施加的处罚或裁定的处罚和时间调整。 来源 网页链接"@term .
+<t302> rdf:type owl:Individual .
+<t302> rdfs:label "横轴"@term .
+<t302> property:definition "通过身体平衡中心点，穿过人体前后部位"@term .
+<t303> rdf:type owl:Individual .
+<t303> rdfs:label "裁判"@term .
+<t303> property:definition "体育界担任裁决评判工作的人 来源 网页链接"@term .
+<t304> rdf:type owl:Individual .
+<t304> rdfs:label "基础分"@term .
+<t304> property:definition "BV是花滑比赛节目中技术动作的基础得分，由技术组判定 来源 网页链接"@term .
+<t305> rdf:type owl:Individual .
+<t305> rdfs:label "比赛端"@term .
+<t305> property:definition "冰壶被投向的一端 来源 网页链接"@term .
+<t306> rdf:type owl:Individual .
+<t306> rdfs:label "兴奋剂检测"@term .
+<t306> property:definition "兴奋剂检测(Doping Control)是指赛前、赛后甚至平时，各级体育组织派专门的检测人员对运动员进行检测，以确定其是否使用了违禁物质或违禁方法。"@term .
+<t307> rdf:type owl:Individual .
+<t307> rdfs:label "后刃"@term .
+<t307> property:definition "向与站姿相反方向滑的情况。例如：左脚在前的滑雪者换成用右脚向前滑。"@term .
+<t308> rdf:type owl:Individual .
+<t308> rdfs:label "接续步"@term .
+<t308> property:definition "接续步的种类分为三种：直线接续步（straight line）、圆形接续步（circular）和蛇形接续步（serpentine）。接续步包含转体、步法、小跳和变刃。此外，步法和转体还可以作为技术动作要素之间的衔接 来源 网页链接"@term .
+<t309> rdf:type owl:Individual .
+<t309> rdfs:label "集体出发"@term .
+<t309> property:definition "集体出发赛的出发与接力赛中各队第一位队员出发形式相同。在接力赛中，每队第一个参赛选手应站在指定的道次上，双脚保持在出发排的标记线后，如果没有这条标记线，则在道次的号码后。当预定信号发出后方可跨过起滑线。 来源 网页链接"@term .
+<t310> rdf:type owl:Individual .
+<t310> rdfs:label "刻雪动作"@term .
+<t310> property:definition "刻雪是适时的身 体重心移动的结果。板尾与板尖一致时的回转就 是刻雪动作"@term .
+<t311> rdf:type owl:Individual .
+<t311> rdfs:label "换道区"@term .
+<t311> property:definition "换道区是指从一个弯道结束至下一个弯道开始之间直道的 全长 来源 网页链接"@term .
+<t312> rdf:type owl:Individual .
+<t312> rdfs:label "追逐赛"@term .
+<t312> property:definition "男子12.5公里，女子10公里。在过程中需要绕行赛道五圈，进行四次射击，射击顺序为卧射、卧射、立射、立射，每次各五个目标。每当一个目标未被击中时，选手在射击结束后需在150米长的惩罚赛道滑行一圈才能继续进行。追逐赛会以前一次比赛的成绩为基准做换算（通常是冲刺赛，但也可能使用个人赛），第一名的选手最早出发，其余的选手则根据与第一名选手的时间差距以秒为单位四舍五入，所得到的时间即是与第一名选手出发时间的间隔。由于有多位选手同时出发的可能，场地通常会有四条出发道，依出发顺序做横向排列，如第一出发道的选手背号为1、5、9⋯⋯等。因为此种较特殊的出发方式容易造成射击区人数过多，为了避免危险与影响，世界杯中的追逐赛只有前六十名选手能参加（根据前一次的比赛成绩）。射击道选择与个人赛相同。最先到达终点者获胜。 来源 网页链接"@term .
+<t313> rdf:type owl:Individual .
+<t313> rdfs:label "技术暂停"@term .
+<t313> property:definition "参赛队可在要求裁决、队员受伤或其他特殊情况时叫技术暂停，技术暂停期间计时器停止 来源 网页链接"@term .
+<t314> rdf:type owl:Individual .
+<t314> rdfs:label "回转"@term .
+<t314> property:definition "运动员倾斜滑雪板至它们的板刃以转弯，并利用自身的重量将它们弯曲，因而达到弧形滑动。回转包括做出一系列的弧形或半圆形。 来源 牛津辞典微信频道"@term .
+<t315> rdf:type owl:Individual .
+<t315> rdfs:label "前侧壁"@term .
+<t315> property:definition "当站在U型场地的顶部往下看时，前侧墙在选手的右侧， 而对于右撇来说，在左侧。如果你径直沿着中心滑下，你面对的就是你的前侧墙。"@term .
+<t316> rdf:type owl:Individual .
+<t316> rdfs:label "冰上芭蕾"@term .
+<t316> property:definition "冰上芭蕾（ice ballet）用芭蕾结构形式编排并大量使用芭蕾技巧动作规范的冰上舞蹈 来源 网页链接"@term .
+<t317> rdf:type owl:Individual .
+<t317> rdfs:label "前空翻加180°外转转体"@term .
+<t317> property:definition "在前侧槽壁上做的空翻。前空翻加一个180度的外转转体。"@term .
+<t318> rdf:type owl:Individual .
+<t318> rdfs:label "反脚后空翻外转转体720°"@term .
+<t318> property:definition "在U型场地当中进行的一种翻转动作，运动员倒滑接近前侧壁，在壁角运动员向U型场地内做后空翻并外转720度着地。"@term .
+<t319> rdf:type owl:Individual .
+<t319> rdfs:label "暂停"@term .
+<t319> property:definition "某队或裁判要求的比赛中断 来源 网页链接"@term .
+<t320> rdf:type owl:Individual .
+<t320> rdfs:label "异频雷达发射系统"@term .
+<t320> property:definition "一种异频雷达发射系统利用佩戴在运动员身上的电磁波发射器发出的信号记录终点成绩。 来源 网页链接"@term .
+<t321> rdf:type owl:Individual .
+<t321> rdfs:label "终点主管（仅追逐赛）"@term .
+<t321> property:definition "负责终点区域的组织和管理工作（也可见2003.3.4)及终点裁判。负责接受终点区域的抗议。必须立即将抗议报告给其他仲裁委员。"@term .
+<t322> rdf:type owl:Individual .
+<t322> rdfs:label "轮椅线"@term .
+<t322> property:definition "前掷线到最近大本营边缘的两条线，投壶队员可允许在此范围内投掷冰壶 来源 网页链接"@term .
+<t323> rdf:type owl:Individual .
+<t323> rdfs:label "开赛端"@term .
+<t323> property:definition "一场比赛中投出第一支壶的一端 来源 网页链接"@term .
+<t324> rdf:type owl:Individual .
+<t324> rdfs:label "软靴"@term .
+<t324> property:definition "自由式及自由滑行单板滑雪所穿的雪鞋，鞋软且易弯曲，可 以提供足够的支持力做大幅度的动作"@term .
+<t325> rdf:type owl:Individual .
+<t325> rdfs:label "后空翻接外转转体540°"@term .
+<t325> property:definition "后空翻接外转转体540°"@term .
+<t326> rdf:type owl:Individual .
+<t326> rdfs:label "在投壶过程中"@term .
+<t326> property:definition "从投壶队员在起踏器站好后到冰壶从投壶队员手中放开的过程。 来源 网页链接"@term .
+<t327> rdf:type owl:Individual .
+<t327> rdfs:label "淘汰制"@term .
+<t327> property:definition "淘汰制（knockout，简称KO）是一种竞赛形式，每场比赛的负方将与竞赛的冠军或锦标绝缘，但不表示负方在出局后再没有比赛，有部份竞赛的负方仍需为排名角逐“名次赛”或“遗材赛”。"@term .
+<t328> rdf:type owl:Individual .
+<t328> rdfs:label "打点"@term .
+<t328> property:definition "赛前用打点壶喷洒出来的水珠，该水珠冻在冰面，减少了冰面和冰壶之间的摩擦力 来源 网页链接"@term .
+<t329> rdf:type owl:Individual .
+<t329> rdfs:label "力量"@term .
+<t329> property:definition "投壶时给冰壶的力量或产生的速度 来源 网页链接"@term .
+<t330> rdf:type owl:Individual .
+<t330> rdfs:label "副计时长"@term .
+<t330> property:definition "副计时长在一项比赛结束后应立即控 制电动计时系统生成一套完整的成绩记录，并通知电动计时长任何系统偶然失灵、发生故障的迹象和证据 来源 网页链接"@term .
+<t331> rdf:type owl:Individual .
+<t331> rdfs:label "前锋"@term .
+<t331> property:definition "分为右边峰（RW）和左边锋（LW）；边锋虽然是射门得分的角色，但是当出现攻防转换局面时，需要迅速地进行前场阻截；边锋的速度须威胁到对方的后卫，因此须具备速度、射门能力以及护球能力。 来源 网页链接"@term .
+<t332> rdf:type owl:Individual .
+<t332> rdfs:label "菲力浦跳"@term .
+<t332> property:definition "菲力浦跳也称点冰沙霍夫跳或后内点冰跳。它与沙霍夫跳的不同在于有点冰动作 来源 网页链接"@term .
+<t333> rdf:type owl:Individual .
+<t333> rdfs:label "终点主裁判"@term .
+<t333> property:definition "在没有终点摄像设备的国际比赛， 终点主裁判决定运动员到达终点的正式顺序。"@term .
+<t334> rdf:type owl:Individual .
+<t334> rdfs:label "冬季奥林匹克运动会"@term .
+<t334> property:definition "冬季奥林匹克运动会，简称冬季奥运会、冬奥，每隔4年举行一届，赛事的主要特征是在冰上和雪地举行的冬季运动，如滑冰、滑雪等适合在冬季举行的项目。 来源 网页链接"@term .
+<t335> rdf:type owl:Individual .
+<t335> rdfs:label "汽笛"@term .
+<t335> property:definition "每个冰场应提供一个汽笛或合适的其它声响装置供计时员使用。"@term .
+<t336> rdf:type owl:Individual .
+<t336> rdfs:label "着陆坡/着陆区"@term .
+<t336> property:definition "跳台滑雪比赛中的跳台由助滑坡、着陆坡、停止区组成。 来源 人民网"@term .
+<t337> rdf:type owl:Individual .
+<t337> rdfs:label "双人旋转"@term .
+<t337> property:definition "两位选手同时绕一个共同轴心旋转 来源 网页链接"@term .
+<t338> rdf:type owl:Individual .
+<t338> rdfs:label "高度落差"@term .
+<t338> property:definition "起点和终点之间的高度距离 来源 网页链接"@term .
+<t339> rdf:type owl:Individual .
+<t339> rdfs:label "冰球（比赛用具）"@term .
+<t339> property:definition "a）冰球为硬橡胶或经国际冰联批准的其它材料制成，其主色应为黑色。b)冰球的尺寸不应超过：直径7.62公分 厚度2.54公分 重量156—170克 冰球每一面的标识、商标和／或广告其直径不能超过4.5公分，或不能超过球每一面面积的35%，他们可以印在球的两个侧面上。"@term .
+<t340> rdf:type owl:Individual .
+<t340> rdfs:label "防护网"@term .
+<t340> property:definition "适当高度的防护网必须悬挂在两端球门后的端区防护玻璃上,并至少延伸至死球线与界墙的交接点。"@term .
+<t341> rdf:type owl:Individual .
+<t341> rdfs:label "滑降"@term .
+<t341> property:definition "滑降赛是其中一个高山滑雪的小项，当中，男子运动员起点及终点海拔差距为800至1000米，女子运动员差距为500至700米，并且经过多个密集而又令运动员容易出错的旗门(两个旗标中间)，运动员被扣分不得多于120分。由于距离只是数公里的关系，加上滑行速度可超过100公里。因此男子运动员的在两分钟以内就能完成，而女子运动员的成绩为1分40秒左右。 来源 网页链接"@term .
+<t342> rdf:type owl:Individual .
+<t342> rdfs:label "获得线"@term .
+<t342> property:definition "为了解除死球，控球的队应该“获得线”。获得线”是指，当时在队员的球杆上（不在球刀上）的球接触中区红线，以解除潜在的死球。"@term .
+<t343> rdf:type owl:Individual .
+<t343> rdfs:label "冰刷（扫帚）"@term .
+<t343> property:definition "比赛中队员使用的扫冰的工具 来源 网页链接"@term .
+<t344> rdf:type owl:Individual .
+<t344> rdfs:label "赛制"@term .
+<t344> property:definition "关于比赛的规则和具体安排，如循环赛制、主客场赛制等。 来源 新华字典"@term .
+<t345> rdf:type owl:Individual .
+<t345> rdfs:label "起跳"@term .
+<t345> property:definition "跳台滑雪的技术动作包括四部分分别是助滑、起跳、空中飞行和着陆。起跳是整个技术动作的关键，起跳动作的好坏决定着运动员的成绩。 来源 人民网"@term .
+<t346> rdf:type owl:Individual .
+<t346> rdfs:label "冰上舞蹈"@term .
+<t346> property:definition "冰上舞蹈源于花样滑冰，较偏重于舞蹈，强调以动作来表达音乐，由一男一女组成 来源 网页链接"@term .
+<t347> rdf:type owl:Individual .
+<t347> rdfs:label "落地回转"@term .
+<t347> property:definition "由向后滑行转换到向前滑行，或由向前滑行转到向后滑行，通常 是在雪板依然接触地面时完成的。"@term .
+<t348> rdf:type owl:Individual .
+<t348> rdfs:label "器材检测"@term .
+<t348> property:definition "检查比赛用的器材"@term .
+<t349> rdf:type owl:Individual .
+<t349> rdfs:label "成绩依据人工计时程序"@term .
+<t349> property:definition "7．当决定运动员的正式成绩时（根据人工计时程序），根据 上面第 6 节的规则，应在人工计时成绩基础上加 0.2 秒。 8．如果人工计时程序是比赛或部分运动员的成绩来源，官方 的成绩册和发表的成绩单应明确的标明这些成绩是人工计时程序取 得或人工计时成绩，参见规则第 273 条，第 1 节，第 4 款。 来源 网页链接"@term .
+<t350> rdf:type owl:Individual .
+<t350> rdfs:label "转体180°"@term .
+<t350> property:definition "身体绕垂直轴在一种“自由”姿势中转体180°，但在结束时的转体180°身体必须为直体。"@term .
+<t351> rdf:type owl:Individual .
+<t351> rdfs:label "滑雪帽"@term .
+<t351> property:definition "滑雪帽的主要作用是护住头部和耳朵，所以在选择滑雪帽的时候一定要注意轻便和不影响视野为宜，一般用弹性较好的细绒线织成的都可以。 来源 百度百科"@term .
+<t352> rdf:type owl:Individual .
+<t352> rdfs:label "双赛道"@term .
+<t352> property:definition "单赛道模式，一次只有一位竞赛者滑赛道。在双赛道/淘汰赛模式，同时有两位滑雪者并排下滑，两位滑雪者互相竞争。 来源 新浪微博"@term .
+<t353> rdf:type owl:Individual .
+<t353> rdfs:label "滑行动作不稳"@term .
+<t353> property:definition "不稳的滑行动作，几乎要倒。"@term .
+<t354> rdf:type owl:Individual .
+<t354> rdfs:label "技术总分"@term .
+<t354> property:definition "新系统中，每一项花样滑冰的技术动作要素都将分别得到分数，这些分数的总和即是技术总分（Total Element Score，缩写为TES） 来源 网页链接"@term .
+<t355> rdf:type owl:Individual .
+<t355> rdfs:label "技术代表助理"@term .
+<t355> property:definition "技术代表助理必须具有跳台滑雪技术代表证书，他是仲裁成员，由技术代表指派做特定的工作。"@term .
+<t356> rdf:type owl:Individual .
+<t356> rdfs:label "裁判长"@term .
+<t356> property:definition "裁判长是比赛的最高执行官，裁决所有对规则条款有争议和违反规则的问题直至受到制 裁。他的决定应是最后裁决。"@term .
+<t357> rdf:type owl:Individual .
+<t357> rdfs:label "单板追逐赛团体赛"@term .
+<t357> property:definition "在团体赛中每个队的第1位运动员在其前腿膝盖以下脚踝以上部位佩 戴一个转发器。每个队的第1位运动员在起点站成一排并且所有的出 发门按照传统的单板追逐赛的出发节奏同时打开。这些运动员一离开 起点，出发门立即关闭，其他队友再次站成一排。当某个队的第1位 运动员冲过终点后，转发器向出发门发出一个信号提示只打开这名运 动员队友的出发门。在第1位运动员没有完成比赛（DNS)的情况 下，他的第2位队友的出发门不会打开。前两个队中第2名队员冲过 终点的队进入下一轮。"@term .
+<t358> rdf:type owl:Individual .
+<t358> rdfs:label "援助"@term .
+<t358> property:definition "在同一场比赛中来自其他运动员的援助"@term .
+<t359> rdf:type owl:Individual .
+<t359> rdfs:label "球门区"@term .
+<t359> property:definition "在每个球门前有一1．22米×2．44米，由线宽5厘米的红线连成的长方形，称为球门区。 来源 中国冰球网"@term .
+<t360> rdf:type owl:Individual .
+<t360> rdfs:label "SQRL 积分排名"@term .
+<t360> property:definition "一个排名是根据指定的世界杯赛获得的世界杯积分制定的 （SQRL 积分排名） 来源 网页链接"@term .
+<t361> rdf:type owl:Individual .
+<t361> rdfs:label "双打分比赛方式"@term .
+<t361> property:definition "裁判员将被分成不同的两组加上1位裁判长，2组裁判（每组3人） 都对综合印象进行打分。比赛模式是分组比赛模式，如2604.7款所述。各组中的所有运动员在同一时间进人训练和比赛。 第一组裁判对第1和第3组运动员进行评分，第2组裁判对第2和第 4组运动员进行评分。"@term .
+<t362> rdf:type owl:Individual .
+<t362> rdfs:label "测量仪器"@term .
+<t362> property:definition "测量仪器是为了取得目标物某些属性值而进行衡量所需要的第三方标准，测量仪器一般都具有刻度，容积等单位。 来源 网页链接"@term .
+<t363> rdf:type owl:Individual .
+<t363> rdfs:label "取消资格"@term .
+<t363> property:definition "由于犯规或其他原因导致被取消资格 来源 网页链接"@term .
+<t364> rdf:type owl:Individual .
+<t364> rdfs:label "后空翻"@term .
+<t364> property:definition "要求足超过头，完全向后空翻。"@term .
+<t365> rdf:type owl:Individual .
+<t365> rdfs:label "世界青年滑雪锦标赛"@term .
+<t365> property:definition "世界青年滑雪锦标赛由国际滑雪总会负责举办。"@term .
+<t366> rdf:type owl:Individual .
+<t366> rdfs:label "温度计"@term .
+<t366> property:definition "准确的判断和测量温度的工具 来源 百度百科"@term .
+<t367> rdf:type owl:Individual .
+<t367> rdfs:label "屈体"@term .
+<t367> property:definition "身体开始从伸展位到腰部屈曲位，腿伸直。"@term .
+<t368> rdf:type owl:Individual .
+<t368> rdfs:label "弃权"@term .
+<t368> property:definition "参与了抽签，但是放弃出发并导致重新编组 来源 网页链接"@term .
+<t369> rdf:type owl:Individual .
+<t369> rdfs:label "备用步枪"@term .
+<t369> property:definition "步枪在比赛中受损或由于功能障碍不能在比赛中继续使用，可以换用参赛队的备用步枪。备用步枪须是已经标记过，并通过器材检查，在赛前被参赛队放置在指定的备用枪架上的枪。参赛选手必须用备用步枪继续比赛。 来源 网页链接"@term .
+<t370> rdf:type owl:Individual .
+<t370> rdfs:label "“沉默”抓板"@term .
+<t370> property:definition "雪板处于十字交叉状态，运动员一手 抓异侧雪板固定器前方，同时同侧腿做伸展动作。"@term .
+<t371> rdf:type owl:Individual .
+<t371> rdfs:label "外转/内转"@term .
+<t371> property:definition "两种方向的转弯动作可以做出。在U型场地当中，参照物是 壁/壁角，当胸面对壁/壁角的时候为外转，如果背部对着壁/壁角的话则 为内转。"@term .
+<t372> rdf:type owl:Individual .
+<t372> rdfs:label "传媒区"@term .
+<t372> property:definition "紧接终点区和器材检查区，须为电视、新闻记者和摄影师设置一个专用区，便于他们对参赛选手赛后进行采访和拍照等方面的接触。 来源 网页链接"@term .
+<t373> rdf:type owl:Individual .
+<t373> rdfs:label "“果酱”比赛方式"@term .
+<t373> property:definition "12名男运动员和6名女运动员将进入决赛。 2组裁判（每组3人，A组和B组），都对综合印象进行打分，每名运动员总共滑行1个小时或由仲裁委员会决定的时间。2组裁判中每名运动员滑行表演中的两个最高分数相加作为最后得分。"@term .
+<t374> rdf:type owl:Individual .
+<t374> rdfs:label "雪橇运动"@term .
+<t374> property:definition "滑雪运动项目之一。乘木制或金属制的双橇滑板在专设的冰雪线路上作高速滑降、回转的运动。雪橇可分无舵和有舵、单橇和宽橇、骑式和卧式等。 来源 网页链接"@term .
+<t375> rdf:type owl:Individual .
+<t375> rdfs:label "前手抓脚跟侧刃并且身体向板尖侧倾"@term .
+<t375> property:definition "前手抓脚跟侧刃并且身体向板尖侧倾，此动作必须在前侧壁做, 此名称来源于nail blender。"@term .
+<t376> rdf:type owl:Individual .
+<t376> rdfs:label "腿伸直加抓板"@term .
+<t376> property:definition "两条腿都伸直，同时结合一个抓板的动作（如mute stiffy)。"@term .
+<t377> rdf:type owl:Individual .
+<t377> rdfs:label "连体服/滑雪服"@term .
+<t377> property:definition "滑雪服一般分为竞技服和旅游服。竞技服是根据比赛项目的特点而设计的，注重于运动成绩的提高。旅游服主要是保暖、美观、舒适、实用。滑雪服的颜色一般十分鲜艳，这不仅是从美观上考虑，更主要的是从安全方面着想。 来源 百度百科"@term .
+<t378> rdf:type owl:Individual .
+<t378> rdfs:label "抽签"@term .
+<t378> property:definition "抽签又称拈阄，是遇见问题难以解决或各种财务、职缺、奖品等利益分配时，解决争议的方法。是由人抽取有特定标记的“签条”（例如竹、木、纸等等），理论上结果是随机的。可以由领导人（会首）抽取，或由一般成员（会员）自行抽取。 来源 网页链接"@term .
+<t379> rdf:type owl:Individual .
+<t379> rdfs:label "越野滑雪靴"@term .
+<t379> property:definition "一双好的滑雪靴要使人感到既舒适又很合脚，脚趾在靴里不能感觉太紧，要能活动自如，穿好滑雪靴应感到靴紧裹在脚和小腿上，感到紧而舒适（除非到顶级水平后为追求性能要牺牲舒适——直立时脚趾触到靴端，前倾时脱离接触）。 来源 百度百科"@term .
+<t380> rdf:type owl:Individual .
+<t380> rdfs:label "直接下滑线"@term .
+<t380> property:definition "沿任何坡度滑下时阻力最小的线路。"@term .
+<t381> rdf:type owl:Individual .
+<t381> rdfs:label "哥萨克跳"@term .
+<t381> property:definition "它是横大一字跳与并腿体前屈跳的结合体。手臂可处于不同位置，即可在前面、可在双板间、可在体侧，也可用手抓板尖。腿部同时抬起，从体前到体侧伸展。双腿应达到水平位，上体 前倾以对抗腿部上提带来的惯性力。双板应垂直对称。"@term .
+<t382> rdf:type owl:Individual .
+<t382> rdfs:label "平行赛事资格赛"@term .
+<t382> property:definition "两条线路从最开始就是平行的，而且赛道和线路与决赛的赛道和线路 应相同或相似。 这个资格赛体系包含两次滑行，可能的情况下，两次滑行要在同一天 进行。"@term .
+<t383> rdf:type owl:Individual .
+<t383> rdfs:label "技术代表"@term .
+<t383> property:definition "技术代表由国际冬季两项联盟技术委员会任命，国际冬季两项联盟 执行委员会批准任命，并作为 国际冬季两项联盟的官方代表。技术代表负责确保比赛项目按 国际冬季两项联盟 的规则进行筹备和进展。同时，技术代表充当组委会的建议者和顾问的作用。遵循本规则，组委会必须服从技术代表发布的指示。 来源 网页链接"@term .
+<t384> rdf:type owl:Individual .
+<t384> rdfs:label "刀刃跳"@term .
+<t384> property:definition "刀刃跳不用点冰辅助。按照由易到难的顺序，刀刃跳包含下列三种： 1. 后内结环跳 以逆时针选手为例，后内结环跳（又称后内跳）是左后内刃起跳。 2. 后外结环跳 以逆时针选手为例，后外结环跳是右后外刃起跳。 3. 阿克塞尔跳 又称 前外跳 来源 网页链接"@term .
+<t385> rdf:type owl:Individual .
+<t385> rdfs:label "第...名"@term .
+<t385> property:definition "第1名和第16名 第8名和第9名 第5名和第12名 第4名和第13名 第3名和第14名 第6名和第11名 第7名和第10名 第2名和第15名"@term .
+<t386> rdf:type owl:Individual .
+<t386> rdfs:label "死球"@term .
+<t386> property:definition "人数相等或人数多于对方的队，从自己半场以任何方式射球（球杆，手套，球刀，身体打球）－－包括从 板墙或防护玻璃反弹－－球没有接触到任何队员，球越过对方球门线，形成死球。"@term .
+<t387> rdf:type owl:Individual .
+<t387> rdfs:label "分段成绩"@term .
+<t387> property:definition "多圈的比赛，必须记录每圈成绩。当使用电动计时系统时，还应记录累积单圈成绩（分段成绩），精确到百分之一秒，并且单圈 成绩应该在成绩册中以同样的精确程度计算并记录 来源 网页链接"@term .
+<t388> rdf:type owl:Individual .
+<t388> rdfs:label "站位"@term .
+<t388> property:definition "一记投壶，该壶位置也许保护了另一个冰壶 来源 网页链接"@term .
+<t389> rdf:type owl:Individual .
+<t389> rdfs:label "V型姿势/V字型跳跃"@term .
+<t389> property:definition "选手在空中将身体放平靠近雪板，双手自然向后，雪板呈“V”字型，选手在空中飞行地时距离坡面的高度不超过6米。 来源 北京市体育局"@term .
+<t390> rdf:type owl:Individual .
+<t390> rdfs:label "空翻"@term .
+<t390> property:definition "空翻包括所有跳跃空翻，但只有单个空翻被允许"@term .
+<t391> rdf:type owl:Individual .
+<t391> rdfs:label "红灯"@term .
+<t391> property:definition "在每个球门后面应当有： 一个红灯：当射中球门时，监门员打开红灯。一个绿灯：在比赛停止和每一局比赛结束计时员停表时，电子计时钟会自动打开绿灯。"@term .
+<t392> rdf:type owl:Individual .
+<t392> rdfs:label "防护玻璃"@term .
+<t392> property:definition "位于界墙上的防护玻璃在场地端面应为高160～200公分，长度应从球门线向中区延伸4米。场地侧面的界墙上防护玻璃不低于80公分，运动员席前面除外。防护玻璃块与块之间的缝隙应小到5毫米。防护玻璃的中断处应装防护垫，预防运动员受伤。防护玻璃上不得有开放处。"@term .
+<t393> rdf:type owl:Individual .
+<t393> rdfs:label "计时钟"@term .
+<t393> property:definition "每个冰场应有一个电子计时钟(记分板)，以便给观众、运动员和裁判人员提供准确的信息，包括：1.两个队的队名 2.每局比赛进行的时间，倒计时用分和秒计算从20:00走到00:00。3.受罚计时表应能记录每队至少两名队员的受罚时间，显示方式是从总受罚分钟数走到00：00。4.得分。 5.暂停时间，倒计时从00：30走到00:00。6.局间休息时间，倒计时从15:00走到00:00。"@term .
+<t394> rdf:type owl:Individual .
+<t394> rdfs:label "平衡中心"@term .
+<t394> property:definition "位于质量中心，三个轴通过该中心"@term .
+<t395> rdf:type owl:Individual .
+<t395> rdfs:label "自由飞台"@term .
+<t395> property:definition "从跳台到K点的距离大于170米，台高大于185米。"@term .
+<t396> rdf:type owl:Individual .
+<t396> rdfs:label "后手抓脚跟侧刃"@term .
+<t396> property:definition "后手抓后腿后面、两脚之间的脚跟侧刃，同时后腿伸直。"@term .
+<t397> rdf:type owl:Individual .
+<t397> rdfs:label "装备的测量"@term .
+<t397> property:definition "a)主裁判员在任何时候可以自行决定检查任何装备。b)当一方队长对对方队员的装备的尺寸正式提出要求测量时，裁判员应立刻给予测量。然而，进球得分不能因任何测量的结果而取消。c)如果提出的疑问没有得到证实，请求测量的一方应受队小罚(555条)d)如果提出的疑问得到证实，被测量装备不合格的队员应受小罚(555条)。e)请求对任何装备的测量，在每次比赛停止只准许一个队的请求。f)除守门员球杆外，请求对守门员其它装备的测量，只有在每局结束时才能立即申请。g)如果某队在人数缺少两人的情况下，在比赛剩下最后两分钟或在加时赛的任何时候，提出测量对方的装备，而测量结果对方装备合格，裁判员应判非犯规队罚任意球。"@term .
+<t398> rdf:type owl:Individual .
+<t398> rdfs:label "非正式训练"@term .
+<t398> property:definition "非正式训练即指在一定时间内组织者允许使用与正式训练不同的训练设施进行训练，该设施不一定要与正式比赛的相同。 来源 网页链接"@term .
+<t399> rdf:type owl:Individual .
+<t399> rdfs:label "运动员休息室"@term .
+<t399> property:definition "每队要有一个适当的房间，应足够容下队员和队官员共25人及其装备，要备有座椅、厕所和淋浴设施。"@term .
+<t400> rdf:type owl:Individual .
+<t400> rdfs:label "直立旋转"@term .
+<t400> property:definition "所有滑行腿伸展（或允许膝盖有一点弯曲）的、不属于Camel Spin的旋转姿态，都是直立旋转 来源 网页链接"@term .
+<t401> rdf:type owl:Individual .
+<t401> rdfs:label "终点裁判"@term .
+<t401> property:definition "从正式检査开始直至整个训练和比赛期间都应该在终点区。负责终点 的组织和规则执行情况的监督。"@term .
+<t402> rdf:type owl:Individual .
+<t402> rdfs:label "雪板沿纵轴滑行"@term .
+<t402> property:definition "雪板沿纵轴在壁角滑行"@term .
+<t403> rdf:type owl:Individual .
+<t403> rdfs:label "设备主管"@term .
+<t403> property:definition "负责向竞赛长提供合适的器具"@term .
+<t404> rdf:type owl:Individual .
+<t404> rdfs:label "腾空后倒转动作。"@term .
+<t404> property:definition "选手腾空后在任何时间做的倒转动作。"@term .
+<t405> rdf:type owl:Individual .
+<t405> rdfs:label "一般滑雪规则"@term .
+<t405> property:definition "参赛选手必须在滑雪板上、带着枪和所需数量的子弹，准确地沿标记过的线路、按正确方向和顺序滑完规定的全部赛程。除使用滑雪板、雪杖和自身肌肉力量外不得使用其他推进力。所有滑雪技术都允许使用。 来源 网页链接"@term .
+<t406> rdf:type owl:Individual .
+<t406> rdfs:label "涂蜡熨斗"@term .
+<t406> property:definition "使用涂蜡熨头时，将雪蜡烫至液态。注意不断滑动熨斗，以免烫伤滑走面。同时将温度设定在不冒烟的程度。房间的温度在15℃～20℃最为理想。 来源 中国滑雪协会"@term .
+<t407> rdf:type owl:Individual .
+<t407> rdfs:label "磨料"@term .
+<t407> property:definition "磨料是锐利、坚硬的材料，用以磨削较软的材料表面。磨料有天然磨料和人造磨料两大类。按硬度分类有超硬磨料和普通靡磨料两大类。磨料的范围很广，从较软的家用去垢剂、宝石磨料到最硬的材料金刚石。 来源 网页链接"@term .
+<t408> rdf:type owl:Individual .
+<t408> rdfs:label "Ｚ字型滑降"@term .
+<t408> property:definition "在熟悉横滑动作后，再来要练习Ｚ字型滑降(zig-zag，又称落叶飘)；这个像似落叶飘流的动作，对于初学者是十分安全而有用的，能够不用转弯又可以安全的下滑，可说是一举两得。和滑雪一样，眼光随着移动的方向望去；想要做一个右移的动作，随着目光的右移，同时也将身体重量移至右脚，左侧移动作亦同。 来源 网页链接"@term .
+<t409> rdf:type owl:Individual .
+<t409> rdfs:label "继续比赛"@term .
+<t409> property:definition "边线裁判员手势，表示不判"@term .
+<t410> rdf:type owl:Individual .
+<t410> rdfs:label "点冰跳"@term .
+<t410> property:definition "点冰跳是靠冰刀前端的刀齿点冰起跳的 1.后外点冰跳 以逆时针选手为例，后外点冰跳是左足刀齿点冰，右后外刃起跳。 2. 后内点冰跳 以逆时针选手为例，后内点冰跳（又称飞利浦跳）是右足刀齿点冰，左后内刃起跳 3. 勾手跳 以逆时针选手为例，勾手跳（又称鲁兹跳）是右足刀齿点冰，左后外刃起跳。 来源 网页链接"@term .
+<t411> rdf:type owl:Individual .
+<t411> rdfs:label "教练台"@term .
+<t411> property:definition "在能够组织国际比赛的跳台设施中，教练员必须有他们自己的两座观看台（能容纳20人）。 一个接近起飞区的边缘，另一个在不应有影响观看运动员飞行前半程视线处。 对于冬奥会，世界滑雪锦标赛和世界杯赛事，教练台应可容纳40人。 来源 网页链接"@term .
+<t412> rdf:type owl:Individual .
+<t412> rdfs:label "备用旗门杆"@term .
+<t412> property:definition "场地长负责准备充足的备用旗门杆并放在相应的位置，应保证运动员不被其误导或混淆。"@term .
+<t413> rdf:type owl:Individual .
+<t413> rdfs:label "保护靴"@term .
+<t413> property:definition "设计作保护脚部的靴可以由一块如皮革或橡胶等物料紧密缝制而成，以防止水分、泥或尘土等由鞋带或鞋舌的空隙进入脚部。更有隔绝保护设计的靴，为在南极步行者而设。 来源 维基百科"@term .
+<t414> rdf:type owl:Individual .
+<t414> rdfs:label "空中翻转540°"@term .
+<t414> property:definition "旋转540度的空翻动作。正脚接近槽壁，起跳，内转540度， 同时做一个前空翻，以正脚向前落地。名字源自Mike Mcgill。"@term .
+<t415> rdf:type owl:Individual .
+<t415> rdfs:label "接力赛交接区"@term .
+<t415> property:definition "接力赛中，在平直路段末端要设置有明显标志的交接区，30m 长和 9m 宽，以便使参赛选手在传棒时能以可控制速度到达。 来源 网页链接"@term .
+<t416> rdf:type owl:Individual .
+<t416> rdfs:label "板尾平衡"@term .
+<t416> property:definition "一个技术性更强的50-50动作，滑手身体向后倾斜将压力施加于板尾之上以便拾起前脚使之与铁杆不接触"@term .
+<t417> rdf:type owl:Individual .
+<t417> rdfs:label "节目内容分"@term .
+<t417> property:definition "比赛节目得分的另一部分，也就是节目内容分（program components score，缩写为PCS），是针对技术总分（TES）中没有涵盖的细节和节目的艺术表现方面打分。它包括以下五个小项：滑行技术（skating skills，缩写SS），衔接（transitions，缩写TR），表现/执行（performance/execution，缩写PE），编舞（choreography，缩写CH），诠释（interpretation，缩写IN） 来源 网页链接"@term .
+<t418> rdf:type owl:Individual .
+<t418> rdfs:label "第四队员"@term .
+<t418> property:definition "每局比赛中投出该队两个壶的第四个队员 来源 网页链接"@term .
+<t419> rdf:type owl:Individual .
+<t419> rdfs:label "射中无效"@term .
+<t419> property:definition "a)射中无效情况如下：1.如果攻队队员故意踢到、扔、用手打，或用冰球杆以外的其它方式把球导入门内，即使球曾碰任何队员，守门员或裁判员。2.如果攻队队员在球门横梁以上用杆碰球。3.如果碰到裁判员变向后直接入门。4.当射中球门时，如果攻队队员站在球门区内或把杆放在球门区内，除非守队任何队员用身体上的动作干扰他使得他在球进入球门时处在球门区内，除非是如果主裁判员认为他有足够的时间离开球门区，或除非是本规则470所规定的情况。5.如果球门离开了正常位置，或者球门架没有完全平的在冰面上。6.当守门员在球门区时，如果进攻队员接触到了守门员，不管是偶然的或别的原因，这时球进了。7.守门员位于球门区外时攻队队员主动与守门员有任何接触，偶然的除外，此时球进入球门。8.攻队队员进入或站在球门区内，为了阻挡守门员的视线，削弱其守门的能力，此时球进入球门。9.当守门员挡住球后，被连人带球一起推入球门。如果可能，应做适当的处罚。b)当球被一名处在球门区内或附近的队员压在身下时(故意的或其它原因)，将球和这名队员一起推入球门不能判进球。如果有条款可适用，应判适当的处罚，包括判罚任意球。"@term .
+<t420> rdf:type owl:Individual .
+<t420> rdfs:label "中等失误"@term .
+<t420> property:definition "中等失误，包括完全停止、手张开之后拖雪、明显的手触雪、臀部轻 微地接触雪面，以及落地后调整雪板滑行方向。"@term .
+<t421> rdf:type owl:Individual .
+<t421> rdfs:label "冰面"@term .
+<t421> property:definition "一条完整赛道的全部区域 来源 网页链接"@term .
+<t422> rdf:type owl:Individual .
+<t422> rdfs:label "射中球门"@term .
+<t422> property:definition "射中有效的情况：1攻队队员用冰球杆将球送进两球门柱之间、横梁以下并完全越过了球门线。2守队队员以任何方式使球进入球门。3攻队队员射的球，触及同队队员的任何部分变向进入球门。4如果攻队队员被守队的任何队员的行为进行了身体的干扰导致他处在球门区时射中球门，除非主裁判员认为他有足够时间离开。5球被合法打入球门区，这个球成了无人控制的球，攻队队员用球杆射中球门。6当球从攻队或守队队员的冰刀直接偏转出。7在球越过球门线进入球门时，如果一名攻队队员位于球门区内，但他对守门员的防守能力丝毫没有影响。除非属于规则471条所描述的情况。"@term .
+<t423> rdf:type owl:Individual .
+<t423> rdfs:label "顺时"@term .
+<t423> property:definition "右手投壶的队员投壶时使得冰壶顺时针旋转 来源 网页链接"@term .
+<t424> rdf:type owl:Individual .
+<t424> rdfs:label "领先滑行/领滑"@term .
+<t424> property:definition "领先于场上所有运动员的滑行"@term .
+<t425> rdf:type owl:Individual .
+<t425> rdfs:label "人体骨架"@term .
+<t425> property:definition "人体骨架包含了融合以及骨骼，并辅以关节韧带、肌腱、肌肉和关节软骨。 来源 网页链接"@term .
+<t426> rdf:type owl:Individual .
+<t426> rdfs:label "出发计时"@term .
+<t426> property:definition "出发计时要以运动员小腿通过起点线的准确时间算起。"@term .
+<t427> rdf:type owl:Individual .
+<t427> rdfs:label "装弹和退出子弹"@term .
+<t427> property:definition "只有当枪管对着靶子方向时，枪才能装弹和退出子弹。装入弹匣也属于装弹。在从一个射击位置向另一个射击位置移动时，参赛选手必须首先退出子弹、下枪、并将枪以正确姿势背在背上。 来源 网页链接"@term .
+<t428> rdf:type owl:Individual .
+<t428> rdfs:label "副裁判长"@term .
+<t428> property:definition "副裁判长在裁判长因病或受伤不能上场时，代替裁判长执裁，执行裁判长赋予所有的任务和职责，向裁判长报告他们的观察，每组比赛后立即向裁判长出示记录情况"@term .
+<t429> rdf:type owl:Individual .
+<t429> rdfs:label "身体平衡中心点"@term .
+<t429> property:definition "位于肚脐的位置，是人体3个轴的汇聚点"@term .
+<t430> rdf:type owl:Individual .
+<t430> rdfs:label "短暂中断"@term .
+<t430> property:definition "仲裁委员会的每一个成员有权力决定一个比赛的短暂中断。一个旗门裁判员可以请求一个短暂的比赛中断。"@term .
+<t431> rdf:type owl:Individual .
+<t431> rdfs:label "创编节目"@term .
+<t431> property:definition "短节目是花样滑冰单人滑、双人滑与团体滑项目现行竞赛内容中的头一项。就如同名称所指出的，表演时间较自由滑来得短。在花样滑冰历史上，人们也曾以其他名称呼短节目，比如1989至1992年间，它被叫做创编节目 来源 网页链接"@term .
+<t432> rdf:type owl:Individual .
+<t432> rdfs:label "高背固定器"@term .
+<t432> property:definition "种固定装置，即高背固定器。包括一个从雪板开始垂直的扩展高背结构，紧靠在小腿上，为腿后部提供支持，尤其是脚 跟侧用刃或转弯时。是由单板滑雪运动员Jeff Grell创造的。"@term .
+<t433> rdf:type owl:Individual .
+<t433> rdfs:label "最后两圈时接力"@term .
+<t433> property:definition "最后两圈前，最后一次接力的动作没有明显的开始"@term .
+<t434> rdf:type owl:Individual .
+<t434> rdfs:label "雪板前端"@term .
+<t434> property:definition "雪板的前端"@term .
+<t435> rdf:type owl:Individual .
+<t435> rdfs:label "板边横滑"@term .
+<t435> property:definition "用单板板边在除平坦雪面之外的任何物体上横滑，包括放倒 的树枝/圆木、U型场地壁角、野餐桌等。"@term .
+<t436> rdf:type owl:Individual .
+<t436> rdfs:label "转体540°"@term .
+<t436> property:definition "向前滑行或倒滑时做的空翻。在空翻的同时外转转体或内转转体，度数可以为540度、720度、900度和1080度。"@term .
+<t437> rdf:type owl:Individual .
+<t437> rdfs:label "抛光"@term .
+<t437> property:definition "抛光是使用物理机械或化学药品降低物体表面粗糙度的工艺。抛光技术主要在精密机械和光学工业中使用。抛光后的工件表面光滑具有良好的反射效果。 来源 维基百科"@term .
+<t438> rdf:type owl:Individual .
+<t438> rdfs:label "板尾接触壁角"@term .
+<t438> property:definition "雪板在垂直位置，比板尾接触壁角"@term .
+<t439> rdf:type owl:Individual .
+<t439> rdfs:label "抛光软木"@term .
+<t439> property:definition "抛光是使用物理机械或化学药品降低物体表面粗糙度的工艺。抛光技术主要在精密机械和光学工业中使用。抛光后的工件表面光滑具有良好的反射效果。软木（softwood），即指针叶树材，由松柏植物门的树所生成的木材，常用于建筑的结构组件，亦有用于家具和工厂之木工制品如铸造制模、门、窗等。软木同时是造纸的主要原料及制造中纤板。 来源 维基百科"@term .
+<t440> rdf:type owl:Individual .
+<t440> rdfs:label "二垒"@term .
+<t440> property:definition "每局比赛中投出该队两个壶的第二个队员。 来源 网页链接"@term .
+<t441> rdf:type owl:Individual .
+<t441> rdfs:label "界墙门"@term .
+<t441> property:definition "所有通向冰面的门必须向外开。门与界墙之间的缝隙应小于5毫米。"@term .
+<t442> rdf:type owl:Individual .
+<t442> rdfs:label "终点区/停止区"@term .
+<t442> property:definition "跳台滑雪比赛中的跳台由助滑坡、着陆坡、停止区组成。 来源 人民网"@term .
+<t443> rdf:type owl:Individual .
+<t443> rdfs:label "手触摸冰面"@term .
+<t443> property:definition "运动员一旦进入弯道后，必须要借助带着防护手套的左手触摸冰面，这不仅可以增大人体(冰刀)与冰面之间的摩擦力，更重要的是对身体有一定的支撑作用 来源 网页链接"@term .
+<t444> rdf:type owl:Individual .
+<t444> rdfs:label "宣告员"@term .
+<t444> property:definition "宣告员负责在比赛期间要通过广播让观众了解情况，并根据裁判长要求，宣告有关运动员的详细处罚情况"@term .
+<t445> rdf:type owl:Individual .
+<t445> rdfs:label "台高"@term .
+<t445> property:definition "跳台滑雪运动员在比赛中场地数据国际雪联通常以HS值作为跳台定级标准。HS是由起跳区边缘底端至着陆坡末端（通常称L点）之间的弧线距离来确定的。 来源 2018平昌冬奥会官方网站"@term .
+<t446> rdf:type owl:Individual .
+<t446> rdfs:label "跳接燕式旋转"@term .
+<t446> property:definition "准备动作：右后内刃或右后外刃滑行 起跳用刃：左前外刃 空中姿势：燕式 旋转用刃：右后外刃 结束动作：左前外刃滑出 来源 网页链接"@term .
+<t447> rdf:type owl:Individual .
+<t447> rdfs:label "攻击者"@term .
+<t447> property:definition "对抗中挥拳猛击对方的队员,该对方队员无防备,不能保护自己。"@term .
+<t448> rdf:type owl:Individual .
+<t448> rdfs:label "助理发令员"@term .
+<t448> property:definition "助理发令员负责按运动员正确的顺序将他们召集到起点。"@term .
+<t449> rdf:type owl:Individual .
+<t449> rdfs:label "边线裁判员"@term .
+<t449> property:definition "1. 冰球比赛的裁判人员：裁判人员包括两名场上裁判员，两名监门员（球门裁判员）,两名边线裁判员，一名计时员和一名记分员。（两位）场上裁判员共同控制整个比赛，各负责一个半场。边线裁判员主要负责当有人越位时打出信号。 来源 中国冰球网"@term .
+<t450> rdf:type owl:Individual .
+<t450> rdfs:label "旗门裁判员"@term .
+<t450> property:definition "负责一个或者更多旗门的监督。观察运动员在他所负责的区域是否正 确通过旗门。他也必须完成2071条款中所规定的一些其他的重要 任务。"@term .
+<t451> rdf:type owl:Individual .
+<t451> rdfs:label "淘汰赛"@term .
+<t451> property:definition "淘汰赛是指体育比赛和其它各种比赛中的一种赛制，在这种赛制中赛员两两相对，输一场即淘汰出局。每一轮淘汰掉一半选手，直至产生最后的冠军。"@term .
+<t452> rdf:type owl:Individual .
+<t452> rdfs:label "身体环节"@term .
+<t452> property:definition "身体分为几个部分，主要分为上肢和下肢两个部分。"@term .
+<t453> rdf:type owl:Individual .
+<t453> rdfs:label "单人出发"@term .
+<t453> property:definition "越野滑雪单项比赛采用间隔单人出发。除雪板前部和雪杖外，双脚位置不得超过起点线。比赛名次根据运动员按规则滑完全程所用的时间确定。运动员到达终点时至少有一只脚穿带有标记的滑雪板，否则成绩无效。 来源 百度百科"@term .
+<t454> rdf:type owl:Individual .
+<t454> rdfs:label "没有出发"@term .
+<t454> property:definition "参与了抽签并被列入比赛分组表，但未出现在起跑线"@term .
+<t455> rdf:type owl:Individual .
+<t455> rdfs:label "打甩"@term .
+<t455> property:definition "用另外一支冰壶把对手冰壶击打出去，并甩到另外一个位置 来源 网页链接"@term .
+<t456> rdf:type owl:Individual .
+<t456> rdfs:label "护具"@term .
+<t456> property:definition "保护运动中的你免受伤害的一种工具。运动护具：一般可分为护头、护肩、护手、护肘、护腕、护腰、护腿、护膝、护踝、组合运动护具、其他运动护具。 来源 网页链接"@term .
+<t457> rdf:type owl:Individual .
+<t457> rdfs:label "防护头盔"@term .
+<t457> property:definition "上面有独立的或可以动的面罩，有的还有护颚。 来源 人民网"@term .
+<t458> rdf:type owl:Individual .
+<t458> rdfs:label "前膝团抱"@term .
+<t458> property:definition "前膝团起来的mute"@term .
+<t459> rdf:type owl:Individual .
+<t459> rdfs:label "正式训练"@term .
+<t459> property:definition "正式训练即指在一段时间内组织者须提供训练设施。在正式训练中，所提供的设施必须与正式比赛的相同。 来源 网页链接"@term .
+<t460> rdf:type owl:Individual .
+<t460> rdfs:label "最大爬坡"@term .
+<t460> property:definition "许可的最大上坡的垂直高度，在大于 200m 的坡道上没有平地或斜坡。 来源 网页链接"@term .
+<t461> rdf:type owl:Individual .
+<t461> rdfs:label "医务及营救主管"@term .
+<t461> property:definition "医务及营救主管在训练和比赛时负责组织适当的现场急救和医疗服务工作。"@term .
+<t462> rdf:type owl:Individual .
+<t462> rdfs:label "出发信号"@term .
+<t462> property:definition "在出发前的10秒时，发令员将对每位即将出发的运动员说：“10秒”，在出发前的5秒时，他将数“5/4/3/2/1”，然后发出出发命令：“出发”。"@term .
+<t463> rdf:type owl:Individual .
+<t463> rdfs:label "出发门"@term .
+<t463> property:definition "支撑出发门的门柱距离应该在80 ~90厘米之间。如果计时门看起来对 运动员“助推”不起作用的话，可以设置在固定的位置上设置额外的 门柱以便“助推”。 出发门由2个（平行赛事）、3个（三人平行回转赛事）、4个（单板 追逐赛）或者6个（单板追逐赛）独立的出发装置与1个档杆系统或者 出发系统相连组成，以便在门没有开或者触及的时候不可能出发"@term .
+<t464> rdf:type owl:Individual .
+<t464> rdfs:label "过渡"@term .
+<t464> property:definition "U型场地平坦底部至槽壁垂直部位之间的圆周曲线 部分。选手要在这一区域用力滑行以获取速度、跳到空中及着地"@term .
+<t465> rdf:type owl:Individual .
+<t465> rdfs:label "大决赛"@term .
+<t465> property:definition "三人回转的决赛 一第1轮，27名运动员。 一第2轮，18名运动员。 —第3轮，6名运动员。 —第4轮，9名运动员。 一第5轮，9名运动员。 第 1 轮 第1名和第2名运动员进人第2轮。 第2 轮 第2轮的获胜者进人第4轮，第2名进人第3轮。 第 3 轮 第4 轮 获胜者迸入大决赛（1 ~3名），第2名进入小决赛（4~6名），第3 名进人排位赛"@term .
+<t466> rdf:type owl:Individual .
+<t466> rdfs:label "K点/建筑点"@term .
+<t466> property:definition "K点是跳台滑雪中打出距离分所用的参照点。 来源 百度百科"@term .
+<t467> rdf:type owl:Individual .
+<t467> rdfs:label "自由防守区"@term .
+<t467> property:definition "赛道上比赛端前掷线和T线之间，不包括大本营的区域 来源 网页链接"@term .
+<t468> rdf:type owl:Individual .
+<t468> rdfs:label "平行回转"@term .
+<t468> property:definition "两名选手在平行设置的两个旗门赛道（蓝旗、红旗）同时出发，向下滑降，先行到达终点的运动员为胜。"@term .
+<t469> rdf:type owl:Individual .
+<t469> rdfs:label "试滑员"@term .
+<t469> property:definition "组织者有义务提供3名合格的试滑员。在滑降比赛中，试滑员须参加所有的滑行训练。根据要求，试滑人员要把雪质、可见度和线路情况报告给仲裁委员会成员。"@term .
+<t470> rdf:type owl:Individual .
+<t470> rdfs:label "圣莫里茨"@term .
+<t470> property:definition "圣莫里茨位于瑞士东南部的格劳宾登州，库尔东南、因河河谷上游，被山清水秀的恩嘎丁山谷环抱。 来源 网页链接"@term .
+<t471> rdf:type owl:Individual .
+<t471> rdfs:label "路障"@term .
+<t471> property:definition "路障，是阻挡道路交通的障碍物，可以指修路期间用作围栏的屏障，在重要建筑物门外防止恐怖袭击的油压保安路障，或大型示威中示威者临时建设的路障。 来源 网页链接"@term .
+<t472> rdf:type owl:Individual .
+<t472> rdfs:label "阿尔卑西亚跳台滑雪中心"@term .
+<t472> property:definition "阿尔卑西亚跳台滑雪场（韩语：알펜시아 스키점프 경기장）是一座位于韩国平昌郡阿尔卑西亚度假村的跳台滑雪场。 来源 维基百科"@term .
+<t473> rdf:type owl:Individual .
+<t473> rdfs:label "侧刃"@term .
+<t473> property:definition "—块单板有两侧不同的板刃，脚趾侧刃指脚趾停留的—侧板刃。"@term .
+<t474> rdf:type owl:Individual .
+<t474> rdfs:label "人工出发时间"@term .
+<t474> property:definition "如果只采用人工计时且是单人出发时，个人赛的参赛选手的出发时间就是公布在出发时刻表上的时间。如果参赛选手的出发信号前出发，则是提前出发。如果参赛选手在出发信号后出发，则是晚出发。 来源 网页链接"@term .
+<t475> rdf:type owl:Individual .
+<t475> rdfs:label "尾随/跟滑"@term .
+<t475> property:definition "在长距离比赛开始的集体慢滑阶段或适当时机，用变速或加速滑行摆脱滑行群体和尾随者。"@term .
+<t476> rdf:type owl:Individual .
+<t476> rdfs:label "出发区"@term .
+<t476> property:definition "除了将要出发的运动员和1名教练及起点的官员外，其他任何人均不 得进人起点区。起点区需要妥善布置以防恶劣天气。要用绳索为教练 员、领队、服务人员等圈出一专门区域，以便他们在免受观众干扰的 情况下在这一区域照顾待发运动员。须为准备出发的运动员准备一个 适合出发的出发棚。"@term .
+<t477> rdf:type owl:Individual .
+<t477> rdfs:label "豚跳"@term .
+<t477> property:definition "—种不需要起跳达到腾空目的的方法。首先抬起前脚，而后抬起 后脚，好像从雪板尾部弹起一样。"@term .
+<t478> rdf:type owl:Individual .
+<t478> rdfs:label "距离测量长"@term .
+<t478> property:definition "1.正确地在着陆坡两侧放置距离标志牌 2.根据国际竞赛规则安排距离测量员和记录员的位置"@term .
+<t479> rdf:type owl:Individual .
+<t479> rdfs:label "烧结板底"@term .
+<t479> property:definition "由P-tex小碎片加热和压缩形成的高分子质量底面。熔结的底面吸收和附蜡性能比普通挤压成型底面更好更耐久，比如更快。"@term .
+<t480> rdf:type owl:Individual .
+<t480> rdfs:label "板尾落地"@term .
+<t480> property:definition "以雪板板尾接触U型场地壁角落地"@term .
+<t481> rdf:type owl:Individual .
+<t481> rdfs:label "猫跳滑雪"@term .
+<t481> property:definition "指在有一定的坡度并且布满雪包的场地上的滑雪活动。运动员尽可能靠近滚落线绕雪包下滑，以最短的时间完成滑行。 来源 牛津辞典微信频道"@term .
+<t482> rdf:type owl:Individual .
+<t482> rdfs:label "世界杯有舵雪橇锦标赛"@term .
+<t482> property:definition "世界杯有舵雪橇锦标赛，国际有舵雪橇和俯式冰橇联合会从1930年开始举办，举办时间并不固定。 来源 网页链接"@term .
+<t483> rdf:type owl:Individual .
+<t483> rdfs:label "助滑道长"@term .
+<t483> property:definition "负责准备起跳区和助滑道"@term .
+<t484> rdf:type owl:Individual .
+<t484> rdfs:label "计分板"@term .
+<t484> property:definition "计分板将显示运动员的出发号码、跳跃距离、每位裁判员打的姿势分、总分和比赛中的目前名词"@term .
+<t485> rdf:type owl:Individual .
+<t485> rdfs:label "终点控制员"@term .
+<t485> property:definition "终点主管/终点控制有以下职责。 一监督最后一个旗门至终点的区域。 一监督运动员是否正确穿过终点线 —记录滑完全程的所有运动员到达终点的顺序。"@term .
+<t486> rdf:type owl:Individual .
+<t486> rdfs:label "抛跳"@term .
+<t486> property:definition "抛跳，即throw jump，是双人滑特有的动作。一般情况下，是女运动员借助男伴抛出的力量完成一个标准的跳跃动作 来源 网页链接"@term .
+<t487> rdf:type owl:Individual .
+<t487> rdfs:label "燕式步"@term .
+<t487> property:definition "燕式步（spirals）是指选手使用一侧刀刃在冰上滑行，浮腿抬高过髋。燕式步按照用刃和滑行足分类，既可以向前滑行，也可以向后滑行 来源 网页链接"@term .
+<t488> rdf:type owl:Individual .
+<t488> rdfs:label "稳定性"@term .
+<t488> property:definition "飞行姿势和降落时是否稳定"@term .
+<t489> rdf:type owl:Individual .
+<t489> rdfs:label "沃里跳"@term .
+<t489> property:definition "沃里跳也称不点冰内刃路兹跳 来源 网页链接"@term .
+<t490> rdf:type owl:Individual .
+<t490> rdfs:label "冰球馆"@term .
+<t490> property:definition "设有30m×61m国际标准人工制冷冰场，可进行冰球、短道速滑、冰上舞蹈等冰上体育项目的比赛和训练，并有观众座席的室内体育建筑。 来源 网页链接"@term .
+<t491> rdf:type owl:Individual .
+<t491> rdfs:label "正常选手逆时针旋转,右撇顺时针旋转"@term .
+<t491> property:definition "对正常选手来说是逆时针旋转，而对于右撇来说是项 时针旋转（如外转360度）。注意：如果以反脚滑行正好相反，左撇进行 顺时针旋转，正常选手进行逆时针旋转。"@term .
+<t492> rdf:type owl:Individual .
+<t492> rdfs:label "驾驶"@term .
+<t492> property:definition "操纵车、船等运载工具行驶 来源 网页链接"@term .
+<t493> rdf:type owl:Individual .
+<t493> rdfs:label "团体追逐比赛"@term .
+<t493> property:definition "2个团队进行比赛，每个团队由3名选手组成，双方从相反的滑道上同时出发，滑行8圈后，由第三名运动员通过终点的时间决出胜 来源 网页链接"@term .
+<t494> rdf:type owl:Individual .
+<t494> rdfs:label "板墙"@term .
+<t494> property:definition "围在赛场一周的软垫，防止运动员滑行中摔倒的时候受伤"@term .
+<t495> rdf:type owl:Individual .
+<t495> rdfs:label "自由技术"@term .
+<t495> property:definition "现代越野滑雪比赛共分两大类，一为传统技术各种距离项目的比赛，一为自由技术各种距离项目的比赛。 来源 体博网"@term .
+<t496> rdf:type owl:Individual .
+<t496> rdfs:label "金属靶"@term .
+<t496> property:definition "用于冬季两项运动训练和比赛的有两种靶子－金属靶和纸靶。金属靶用于比赛，而纸靶用来校枪。两种靶皆可用于训练。 来源 网页链接"@term .
+<t497> rdf:type owl:Individual .
+<t497> rdfs:label "前手抓雪板的前端"@term .
+<t497> property:definition "前手抓雪板的前端"@term .
+<t498> rdf:type owl:Individual .
+<t498> rdfs:label "右撇逆时针旋转，正常顺时针旋转"@term .
+<t498> property:definition "右撇进行的逆时针旋转，正常选手进行的顺时针旋转 (如360度）。注：当后脚在前滑行时，正好颠倒过来，右撇进行顺时针 旋转，正常选手进行逆时针旋转。"@term .
+<t499> rdf:type owl:Individual .
+<t499> rdfs:label "球门线"@term .
+<t499> property:definition "在距冰场两端各4米处画一条5公分宽的红线，称为球门线。"@term .
+<t500> rdf:type owl:Individual .
+<t500> rdfs:label "个人赛"@term .
+<t500> property:definition "个人赛是最早出现的冬季两项项目。早期尚未有机械化的射击目标，是以纸当作标靶，在比赛全部进行完后再依照未击中的数量来加时。比赛距离男子20公里，女子15公里。在过程中需要绕行赛道五圈，进行四次射击，射击顺序为卧射、立射、卧射、立射，每次各五个目标。每当一个目标未被击中时，选手的总时间便会被加上一固定的时间数值，通常是1分钟。个人赛是采用个别选手计时，在出发时为个别出发，间隔通常为30秒。在射击区时选手可以自由选择射击道，但一般会依照到达射击区的顺序排列，最先到达射击区的选手在第一射击道，依此类推。时间最短者获胜。 来源 网页链接"@term .
+<t501> rdf:type owl:Individual .
+<t501> rdfs:label "后腿弯曲，前腿伸直"@term .
+<t501> property:definition "后腿弯曲，前腿伸直"@term .
+<t502> rdf:type owl:Individual .
+<t502> rdfs:label "动作群"@term .
+<t502> property:definition "这些动作群是构成所有杆上不同动作的基础。包括50 -50’s、boardslides 和lipslides。在每一类动作群中都要有几种动作和组合的变化。"@term .
+<t503> rdf:type owl:Individual .
+<t503> rdfs:label "跳台长"@term .
+<t503> property:definition "负责准备跳台，协助和监督助滑道长和着陆区长的工作"@term .
+<t504> rdf:type owl:Individual .
+<t504> rdfs:label "前空翻"@term .
+<t504> property:definition "要求足超过头，完全向前空翻。"@term .
+<t505> rdf:type owl:Individual .
+<t505> rdfs:label "书面批评"@term .
+<t505> property:definition "仲裁对对故意错判或不公正判决的距离测量员采取的处罚措施之一"@term .
+<t506> rdf:type owl:Individual .
+<t506> rdfs:label "监门员"@term .
+<t506> property:definition "a)在每个球门后应有一名监门员。监门员在比赛中不交换位置。在国际冰联的比赛中，他们应不是比赛两队的国家的人。b)只要球从两门柱之间并且完全越过了球门线，监门员就要决定给出适当的信号。c)主裁判员可与监门员磋商，但对有争议的进球做最终判定。"@term .
+<t507> rdf:type owl:Individual .
+<t507> rdfs:label "拗脚"@term .
+<t507> property:definition "右脚在前"@term .
+<t508> rdf:type owl:Individual .
+<t508> rdfs:label "出发犯规"@term .
+<t508> property:definition "以下情况将取消犯规运动员比赛资格。 一运动员操纵出发门。 _运动员的雪板（如果使用西式的出发门则为身体）在出发信号（听 觉的和/或视觉的）发出以前穿过出发线（垂直面）。"@term .
+<t509> rdf:type owl:Individual .
+<t509> rdfs:label "食品供给站"@term .
+<t509> property:definition "食品供给站主要为赛后的选手提供饮料、纸巾及类似的必要的服务。 来源 网页链接"@term .
+<t510> rdf:type owl:Individual .
+<t510> rdfs:label "判给攻方得一分"@term .
+<t510> property:definition "因守方犯规"@term .
+<t511> rdf:type owl:Individual .
+<t511> rdfs:label "后空翻接外转转体180°"@term .
+<t511> property:definition "后空翻接外转转体180度"@term .
+<t512> rdf:type owl:Individual .
+<t512> rdfs:label "慢冰"@term .
+<t512> property:definition "冰面不够滑，在此冰面上需要用超出正常的力量去投掷 来源 网页链接"@term .
+<t513> rdf:type owl:Individual .
+<t513> rdfs:label "超级冲刺赛"@term .
+<t513> property:definition "超级冲刺赛的资格赛总长度在2.4至3.6公里之间（视各场地的状况）。在过程中需要绕行赛道三圈，进行两次射击，射击顺序为卧射、立射，每次各五个目标。与接力赛类似，每次射击选手有五颗子弹与三颗备用弹，备用弹也需逐一装填射击，但是若八颗子弹用完后仍有未击中的目标则选手会被判定失去资格。采用个别选手计时、个别出发，每位选手间间隔15秒。射击道选择与个人赛相同。根据场地的不同会依照速度取最快的前几名选手进入超级冲刺赛的决赛。超级冲刺赛的决赛总长度在4至6公里之间。在过程中需要绕行赛道五圈，进行四次射击，射击顺序为卧射、卧射、立射、立射，每次各五个目标。射击规则与资格赛相同，有八颗子弹与失去资格。出发方式为集体同时出发，固定有间隔3米的三条赛道，资格赛中的时间最短者为1号。由1号开始三人一横排，一横排三位选手依照名次中、左右排列，与下一横排间隔5米（即是1、2、3号在第一横排，4、5、6号在距离5米后的第二横排，依此类推）。出发后的20米之内不可变换赛道，在20米后可以使用任何的滑雪技巧。射击道选择与个人赛相同。最先到达终点者获胜。 来源 网页链接"@term .
+<t514> rdf:type owl:Individual .
+<t514> rdfs:label "瞄准射击"@term .
+<t514> property:definition "所有的射击都必须瞄准靶子(纸靶或比赛靶)方向，并向靶子射击。 来源 网页链接"@term .
+<t515> rdf:type owl:Individual .
+<t515> rdfs:label "沙霍夫跳"@term .
+<t515> property:definition "沙霍夫跳也称后内结环跳或后内一周跳 来源 网页链接"@term .
+<t516> rdf:type owl:Individual .
+<t516> rdfs:label "换足旋转"@term .
+<t516> property:definition "换足旋转是指在连续不断的旋转中，从一只脚换到另一只脚的旋转。换足可以是一次换足，也可以是多次换足。 来源 网页链接"@term .
+<t517> rdf:type owl:Individual .
+<t517> rdfs:label "面罩"@term .
+<t517> property:definition "挡在或戴在面部起遮蔽或保护作用的罩子。"@term .
+<t518> rdf:type owl:Individual .
+<t518> rdfs:label "空局"@term .
+<t518> property:definition "双方都未得分的一局 来源 网页链接"@term .
+<t519> rdf:type owl:Individual .
+<t519> rdfs:label "直体"@term .
+<t519> property:definition "身体伸直。"@term .
+<t520> rdf:type owl:Individual .
+<t520> rdfs:label "脱离跑道/缩短距离"@term .
+<t520> property:definition "以一只或两只冰刀滑跑到以跑道标志块标示的弯道左侧"@term .
+<t521> rdf:type owl:Individual .
+<t521> rdfs:label "沟槽"@term .
+<t521> property:definition "沟槽是指冰刀底部凹下去的表面，介于两个刀刃之间，它是以英寸计量的，常规的沟槽半径在1/2”到1”之间，典型的是5/8” 来源 网页链接"@term .
+<t522> rdf:type owl:Individual .
+<t522> rdfs:label "时间加罚"@term .
+<t522> property:definition "时间上的加罚将会通过男女资格赛中最好的成绩来计算，决赛中将采 用这个成绩的4%进行处罚，但最大不能超过1.5秒。"@term .
+<t523> rdf:type owl:Individual .
+<t523> rdfs:label "板墙挤贴"@term .
+<t523> property:definition "暴力地将对方球员冲撞向板墙，一般会有一个小罚"@term .
+<t524> rdf:type owl:Individual .
+<t524> rdfs:label "自由姿势"@term .
+<t524> property:definition "介于团身和直体之间的动作姿势，多见于偏转旋转。"@term .
+<t525> rdf:type owl:Individual .
+<t525> rdfs:label "未完成比赛"@term .
+<t525> property:definition "正常出发，但未到在终点线，不过也没犯规。例如被其对手干扰 来源 网页链接"@term .
+<t526> rdf:type owl:Individual .
+<t526> rdfs:label "十字交叉跳"@term .
+<t526> property:definition "它是后屈小腿挺身跳和板尖交叉的结合动作。双板交叉呈90°，并指向地面，上体正直居中直至双板伸向着陆坡上。"@term .
+<t527> rdf:type owl:Individual .
+<t527> rdfs:label "作犁式滑降"@term .
+<t527> property:definition "犁式直滑降习惯上称为犁式制动滑降，就是将两只雪板后部向外推出，呈内八字状，用两只雪板的内刃卡住雪面向下直线滑行。"@term .
+<t528> rdf:type owl:Individual .
+<t528> rdfs:label "奥斯陆滑雪节"@term .
+<t528> property:definition "挪威奥斯陆滑雪节于每年三月的第一个星期六在挪威首都奥斯陆的霍尔门考伦山上举行，是挪威全国仅次于国庆节的第二个盛大节日，始办于1892年。 来源 百度百科"@term .
+<t529> rdf:type owl:Individual .
+<t529> rdfs:label "短距离团体追逐赛"@term .
+<t529> property:definition "团体比赛可以组织为短距离团体追逐赛，滑行距离为一个特定的圈数，其与各队的参赛队员数相等。内道为比赛道。可用锥形标 志物对跑道进行额外划分。 来源 网页链接"@term .
+<t530> rdf:type owl:Individual .
+<t530> rdfs:label "可调雪杖握带"@term .
+<t530> property:definition "雪杖是由杖杆、握革、握柄、杖尖、雪轮等构成。为了使猾雪杖撑动有力和不易从手中脱离，可在杆的顶端钻一个孔或直接固定上一根长环形条带，将手从下面套在里面，把杆和环形带一起握住，这一个部位叫做握把处，环形条带叫握革。 来源 百度百科"@term .
+<t531> rdf:type owl:Individual .
+<t531> rdfs:label "持板"@term .
+<t531> property:definition "利用身体的柔韧性，一只手或双手抓住雪板的部分持续一定时间。"@term .
+<t532> rdf:type owl:Individual .
+<t532> rdfs:label "大本营后半区"@term .
+<t532> property:definition "T线和底线之间大本营的部分 来源 网页链接"@term .
+<t533> rdf:type owl:Individual .
+<t533> rdfs:label "冲撞/碰撞"@term .
+<t533> property:definition "故意用身体任何部位妨碍、推拉、撞击、阻挡其它比赛的运动员。横穿跑道干 扰其他运动员，故意引起身体接触"@term .
+<t534> rdf:type owl:Individual .
+<t534> rdfs:label "滑雪处罚圈"@term .
+<t534> property:definition "所有比赛中的射击处罚是一个 150m 的处罚圈。参赛选手在一个回合射击后，应立即为每次脱靶滑一圈。 来源 网页链接"@term .
+<t535> rdf:type owl:Individual .
+<t535> rdfs:label "联合旋转"@term .
+<t535> property:definition "联合旋转，是指将多种姿势的旋转与换足动作相结合起来的一种旋转的结合体，这种组合不仅增加了旋转的难度，而且给人以美的感受。 来源 网页链接"@term .
+<t536> rdf:type owl:Individual .
+<t536> rdfs:label "后侧壁"@term .
+<t536> property:definition "后面的璧"@term .
+<t537> rdf:type owl:Individual .
+<t537> rdfs:label "冬奥会"@term .
+<t537> property:definition "冬季奥林匹克运动会，简称冬季奥运会、冬奥，每隔4年举行一届，赛事的主要特征是在冰上和雪地举行的冬季运动，如滑冰、滑雪等适合在冬季举行的项目。 来源 网页链接"@term .
+<t538> rdf:type owl:Individual .
+<t538> rdfs:label "旋壶（进营）"@term .
+<t538> property:definition "将壶用恰到好处的力量掷出，并且停于大本营内"@term .
+<t539> rdf:type owl:Individual .
+<t539> rdfs:label "冰刀齿轮"@term .
+<t539> property:definition "（又叫趾耙）冰刀刀尖处的一排齿轮。齿轮通常用来协助滑冰运动员跳跃或转体。 来源 网页链接"@term .
+<t540> rdf:type owl:Individual .
+<t540> rdfs:label "个人投壶赛"@term .
+<t540> property:definition "两队在本队赛前训练结束后，向开赛端投出一支冰壶的比赛。第一个顺时针转，第二个逆时针转，比赛的测量结果可以决定哪支队可以选择第一局比赛的先后手。 来源 网页链接"@term .
+<t541> rdf:type owl:Individual .
+<t541> rdfs:label "螺旋"@term .
+<t541> property:definition "沿水平轴旋转前空翻接内转180度（直线跳跃中的mc twist）"@term .
+<t542> rdf:type owl:Individual .
+<t542> rdfs:label "女子身体冲撞"@term .
+<t542> property:definition "女子冰球中是指身体冲撞对方队员。女子冰球中,不允许队员对对方队员身体冲撞。"@term .
+<t543> rdf:type owl:Individual .
+<t543> rdfs:label "交接区的出发"@term .
+<t543> property:definition "在接力赛中，交接必须在交接区进行，由到达的选手用手触及待发的选手的身体(包括躯干、手臂、腿、手、脚或头部)或步枪。 来源 网页链接"@term .
+<t544> rdf:type owl:Individual .
+<t544> rdfs:label "守区"@term .
+<t544> property:definition "两条30厘米宽的蓝线横贯整个冰场并垂直延伸到边线界墙，将两条球门线之间的区域作三等分，自己球门一侧为守区，中间为中区，对方球门一侧为攻区。 来源 中国冰球网"@term .
+<t545> rdf:type owl:Individual .
+<t545> rdfs:label "翻转倒立加前空翻"@term .
+<t545> property:definition "选手通过倒滑接近槽壁时进行翻转，后手在壁角上倒立的同时做一个前空翻。以正脚向前的姿势落在过渡区上。名字源于Jeff Phillips"@term .
+<t546> rdf:type owl:Individual .
+<t546> rdfs:label "仲裁成员"@term .
+<t546> property:definition "仲裁成员包括国际雪联的技术代表、竞赛长和TD助理"@term .
+<t547> rdf:type owl:Individual .
+<t547> rdfs:label "旗门裁判长"@term .
+<t547> property:definition "旗门裁判长组织和监督旗门裁判员的工作。负责指定每一位旗门裁判员所负责的旗门位置；第一次滑行和比赛后，负责收集旗门裁判员监督卡并交裁判长；须及时发给每个裁判员所需要的用品（监督卡、铅笔、出发顺序表等），协助把观众清出线路外或帮助维修线路等；须保证在规定时间内为旗门编号并作标记。"@term .
+<t548> rdf:type owl:Individual .
+<t548> rdfs:label "滚落线"@term .
+<t548> property:definition "在一个斜坡的任何特定的部位直线向下的路线。如果滑雪运动员将滑雪板延直线向下而不是跨越斜坡滑动时，他们被称为“延滚落线滑动”。 来源 牛津辞典微信频道"@term .
+<t549> rdf:type owl:Individual .
+<t549> rdfs:label "越野板固定器"@term .
+<t549> property:definition "固定器也叫脱离器，是连接滑雪板和滑雪靴的一个重要部件，它对滑雪者的人身安全起着重要的保护作用。现代的固定器都具有当运动员摔倒时能自动使雪鞋与滑雪板脱落的功能，达到保护运动员不受伤害的目的。固定器一般分为高山板固定器、跳台板固定器、越野板固定器、单板固定器等。 来源 三夫户外"@term .
+<t550> rdf:type owl:Individual .
+<t550> rdfs:label "终点区"@term .
+<t550> property:definition "终点区位于终点线起到终点器材检查区的起点止，至少 30m、宽 9m。 来源 网页链接"@term .
+<t551> rdf:type owl:Individual .
+<t551> rdfs:label "接力没有接触"@term .
+<t551> property:definition "接力没有接触或已经接替，但裁判长或副裁判长认为没有接触或接触 不明显"@term .
+<t552> rdf:type owl:Individual .
+<t552> rdfs:label "编排记录长"@term .
+<t552> property:definition "编排记录长负责协调所有管理事务"@term .
+<t553> rdf:type owl:Individual .
+<t553> rdfs:label "反脚姿势"@term .
+<t553> property:definition "运动员以镜面反向的姿势向后滑行。正常的滑起来像拗脚，而拗脚滑起来则像正常的运动员。转弯是围绕板尖进行的（板尾在板尖之前已经抬离地面）。"@term .
+<t554> rdf:type owl:Individual .
+<t554> rdfs:label "倒滑180°接倒滑"@term .
+<t554> property:definition "倒滑180度接倒滑"@term .
+<t555> rdf:type owl:Individual .
+<t555> rdfs:label "中途成绩"@term .
+<t555> property:definition "中途成绩只用于反映比赛中的比赛状况，仅仅为提供资讯之用。中途成绩将在示分牌上展示、广播员宣告、并通过电子资讯系统提供使用。 来源 网页链接"@term .
+<t556> rdf:type owl:Individual .
+<t556> rdfs:label "场地长"@term .
+<t556> property:definition "根据仲裁委员会的指示和决定，场地长负责做好场地的准备工作。他需熟悉相关场地的雪情。"@term .
+<t557> rdf:type owl:Individual .
+<t557> rdfs:label "持枪"@term .
+<t557> property:definition "步枪应枪管朝上背在身后。如果在比赛中因步枪毁损不能背在身后，应拿在手中到射击场，立即换用本队的备用步枪。 来源 网页链接"@term .
+<t558> rdf:type owl:Individual .
+<t558> rdfs:label "电子出发时间"@term .
+<t558> property:definition "电子出发时间在单人出发时，参赛选手在预定时间前后 3 秒内出发的，电子计时器所记录时间将为出发时间。若参赛选手早于预定时间 3 秒出发，则为提前出发。若参赛选手迟后于预定时间 3秒出发，则为晚出发，并以预定时间为出发时间。 来源 网页链接"@term .
+<t559> rdf:type owl:Individual .
+<t559> rdfs:label "缝隙"@term .
+<t559> property:definition "冰壶之间的空隙。 来源 网页链接"@term .
+<t560> rdf:type owl:Individual .
+<t560> rdfs:label "站势"@term .
+<t560> property:definition "站立射击时参赛选手应符合以下规定。他们必须没有支撑地站立，只有手、肩、脸颊和肩以下的胸部可以同步枪接触。支撑枪的手臂可以顶在胸前或放在髋髂部。 来源 网页链接"@term .
+<t561> rdf:type owl:Individual .
+<t561> rdfs:label "板头平衡"@term .
+<t561> property:definition "一个技术性更强的50-50动作，滑手身体向前倾斜将压力施加于板尖之上以便抬起后脚使之与铁杆不接触。滑手在铁杆的末端做一个拍板尾的动作非常常见，而这不应该看作是一个失败的nosepress，因为这是故意做的，但滑手上杆时或者在做nosepress中板尾接触道具是一种错误。"@term .
+<t562> rdf:type owl:Individual .
+<t562> rdfs:label "一种没有抓板的动作"@term .
+<t562> property:definition "—种没有抓板的动作。下肢和躯干上部以相反的方向拧动，之后恢复原状。通常前脚伸直。"@term .
+<t563> rdf:type owl:Individual .
+<t563> rdfs:label "测量工具"@term .
+<t563> property:definition "用来测量哪支冰壶更接近大本营中心，或测量冰壶是否在大本营内的工具。 来源 网页链接"@term .
+<t564> rdf:type owl:Individual .
+<t564> rdfs:label "前掷线违例"@term .
+<t564> property:definition "该壶在抵达前掷线之前没有被松开，该壶要拿走 来源 网页链接"@term .
+<t565> rdf:type owl:Individual .
+<t565> rdfs:label "比分"@term .
+<t565> property:definition "在比赛每局结束，每队有多少位于或接触于大本营，并且比对手的冰壶更接近于T线的冰壶，该队获得相应数量分数。 来源 网页链接"@term .
+<t566> rdf:type owl:Individual .
+<t566> rdfs:label "阿克谢尔跳"@term .
+<t566> property:definition "阿克谢尔跳全称应当是阿克谢尔．包尔逊跳，也称一周半跳跃，它也可因起跳用刃和是否同足落冰分为很多种类 来源 网页链接"@term .
+<t567> rdf:type owl:Individual .
+<t567> rdfs:label "纸靶"@term .
+<t567> property:definition "用于冬季两项运动训练和比赛的有两种靶子－金属靶和纸靶。金属靶用于比赛，而纸靶用来校枪。两种靶皆可用于训练。 来源 网页链接"@term .
+<t568> rdf:type owl:Individual .
+<t568> rdfs:label "硬橡胶"@term .
+<t568> property:definition "在不太低的温度下，硫键还能增加各链之间的自由活动范围，因此橡胶不会变硬。如果加进更多的硫，比如25%- 50%，以橡胶重量计，就会使链与链之间键合得很紧密，致使橡胶变硬。这样的橡胶称为硬橡胶。 来源 网页链接"@term .
+<t569> rdf:type owl:Individual .
+<t569> rdfs:label "加时赛"@term .
+<t569> property:definition "关于守门员，在每轮射门之后，守门员可能会更换，但射门要重复进行在所有必须分出胜负的比赛中，如果在常规比赛时间内打平，要进行一个突然死亡法的加时赛。 如果双方在加时赛中仍没有进球，将采用射门比赛的方法决定胜负。"@term .
+<t570> rdf:type owl:Individual .
+<t570> rdfs:label "偏轴旋转"@term .
+<t570> property:definition "偏轴旋转动作包括所有偏轴方向的旋转。一个偏轴旋转动作可包括3个姿势变化和1个抓板动作。"@term .
+<t571> rdf:type owl:Individual .
+<t571> rdfs:label "计时主裁判"@term .
+<t571> property:definition "在没有终点摄像设备的国际比赛，计时主裁判负责记录时间"@term .
+<t572> rdf:type owl:Individual .
+<t572> rdfs:label "比赛器材和服装"@term .
+<t572> property:definition "比赛器材和服装是指参赛选手在比赛中所使用的比赛器材和服装，其中包括广告。 来源 网页链接"@term .
+<t573> rdf:type owl:Individual .
+<t573> rdfs:label "录像回放副裁判长"@term .
+<t573> property:definition "录像裁判长应观察画面并做记录，每组比赛之后立即向裁判长出示记录情况"@term .
+<t574> rdf:type owl:Individual .
+<t574> rdfs:label "平面"@term .
+<t574> property:definition "人体运动有三个平面，即水平面、垂直面、矢状面。"@term .
+<t575> rdf:type owl:Individual .
+<t575> rdfs:label "T线"@term .
+<t575> property:definition "与冰道同宽，与前掷线和后卫线平行，并穿过大本营中心 来源 网页链接"@term .
+<t576> rdf:type owl:Individual .
+<t576> rdfs:label "大跳台"@term .
+<t576> property:definition "从跳台到K点的距离必须大于100米，而大跳台的台高必须大于110米。 来源 平昌冬奥会官网"@term .
+<t577> rdf:type owl:Individual .
+<t577> rdfs:label "短杆"@term .
+<t577> property:definition "短杆是弹力杆或者铰链底部到杆的末端顶部长度不超过45厘米，顶部 用海绵垫或保持中空的弹力材料。"@term .
+<t578> rdf:type owl:Individual .
+<t578> rdfs:label "评分裁判员"@term .
+<t578> property:definition "评分裁判员是持有可在相关比赛中执法有效证件（由国际雪联单板裁 判工作组颁发）的具备资格的官员。评分裁判员必须按照当前国际雪 联规则及裁判标准来进行评分工作"@term .
+<t579> rdf:type owl:Individual .
+<t579> rdfs:label "双人滑"@term .
+<t579> property:definition "双人滑与单人滑相同，都包括了短节目和自由滑，双人滑须由一男一女所组成。 来源 网页链接"@term .
+<t580> rdf:type owl:Individual .
+<t580> rdfs:label "消极比赛"@term .
+<t580> property:definition "如果裁判长和副裁判长认为运动员没有尽力滑行，可以中止比赛，宣布“消极比赛”"@term .
+<t581> rdf:type owl:Individual .
+<t581> rdfs:label "圆心"@term .
+<t581> property:definition "在大本营中心最小的圈 来源 网页链接"@term .
+<t582> rdf:type owl:Individual .
+<t582> rdfs:label "终点摄像系统"@term .
+<t582> property:definition "一种使用摄像证据记录终点成绩的系统，以这样一种方式： 在运动员通过终点后能立刻再生成一份带有时间标度的不失真的图 像。 来源 网页链接"@term .
+<t583> rdf:type owl:Individual .
+<t583> rdfs:label "陆上训练"@term .
+<t583> property:definition "在冰面以外的地方进行的训练"@term .
+<t584> rdf:type owl:Individual .
+<t584> rdfs:label "大斜坡溜滑"@term .
+<t584> property:definition "垂直地滑过滑落线。单板滑雪运动员要在U型场地里从一侧壁滑至另一侧壁。"@term .
+<t585> rdf:type owl:Individual .
+<t585> rdfs:label "路卜跳"@term .
+<t585> property:definition "路卜跳，也称后外结环跳或后外跳 来源 网页链接"@term .
+<t586> rdf:type owl:Individual .
+<t586> rdfs:label "约束装置"@term .
+<t586> property:definition "—种用来使前脚固定在雪板上的约束装置，以使其不致脱落。"@term .
+<t587> rdf:type owl:Individual .
+<t587> rdfs:label "假动作"@term .
+<t587> property:definition "（decoy一词的简写）一种欺骗动作或佯攻动作吸引对方队员离位。"@term .
+<t588> rdf:type owl:Individual .
+<t588> rdfs:label "空中接力"@term .
+<t588> property:definition "任何U型场地中沿山上侧方向进行的180度或以上的转体动 作。也就是说在前侧壁上内转或者在后侧壁上外转"@term .
+<t589> rdf:type owl:Individual .
+<t589> rdfs:label "冰球场"@term .
+<t589> property:definition "冰球运动训练与比赛场地。近似长方形，四角为圆弧，四周有"界墙"。长56-61m，宽26-30m。在冰场中央画一条0.3m宽的红线，平行于球门线，横贯整个冰场并垂直延伸到边线界墙上，称为"中线"。在距场地两端界墙中心4m处，画一条5cm宽的红线，平行于端墙，横贯整个冰场并垂直延伸到边线界墙上，称为"球门线"。 来源 网页链接"@term .
+<t590> rdf:type owl:Individual .
+<t590> rdfs:label "雪板"@term .
+<t590> property:definition "雪板，运动器材。雪板由保护层、液体金属、扳芯、边刃、板底构成。其类型有竞赛雪板、追逐赛雪板、野雪系列、花样板、女式系列等。 来源 网页链接"@term .
+<t591> rdf:type owl:Individual .
+<t591> rdfs:label "风向袋"@term .
+<t591> property:definition "风向袋用于指示风向，提供风速参考。 来源 百度百科"@term .
+<t592> rdf:type owl:Individual .
+<t592> rdfs:label "秤巴"@term .
+<t592> property:definition "秤杆"@term .
+<t593> rdf:type owl:Individual .
+<t593> rdfs:label "电动计时长"@term .
+<t593> property:definition "每组滑跑结束后，电动计时长应检查系统中每名运动员的成绩以找出任何矛盾和故障。电动计时长有责任准备作为正式成绩基础的计时成绩册，并递交给裁判长审批 来源 网页链接"@term .
+<t594> rdf:type owl:Individual .
+<t594> rdfs:label "护目镜"@term .
+<t594> property:definition "护目镜，运动、工作时所配戴的眼镜，目的是保护眼睛。 来源 网页链接"@term .
+<t595> rdf:type owl:Individual .
+<t595> rdfs:label "计时长"@term .
+<t595> property:definition "计时长负责计时的准确性，在比赛前后，要与发令员在尽可能短的时间内核对时间表，尽快公布非正式成绩，"@term .
+<t596> rdf:type owl:Individual .
+<t596> rdfs:label "检录区"@term .
+<t596> property:definition "一个隔开的区域，在排位赛和正式比赛之后，车辆都会被开到这里。车队的人员不允许接触赛车，除非在比赛官员的严格监督下 来源 网页链接"@term .
+<t597> rdf:type owl:Individual .
+<t597> rdfs:label "解决平局的方法"@term .
+<t597> property:definition "（比赛中）打成平局，不分胜负"@term .
+<t598> rdf:type owl:Individual .
+<t598> rdfs:label "小决赛"@term .
+<t598> property:definition "三人回转的决赛 一第1轮，27名运动员。 一第2轮，18名运动员。 —第3轮，6名运动员。 —第4轮，9名运动员。 一第5轮，9名运动员。 第 1 轮 第1名和第2名运动员进人第2轮。 第2 轮 第2轮的获胜者进人第4轮，第2名进人第3轮。 第 3 轮 第4 轮 获胜者迸入大决赛（1 ~3名），第2名进入小决赛（4~6名），第3 名进人排位赛"@term .
+<t599> rdf:type owl:Individual .
+<t599> rdfs:label "暂时收回证书"@term .
+<t599> property:definition "跳台滑雪委员会对某TD或跳跃裁判员违反规则或做出不公正裁决等行为采取的处罚措施之一"@term .
+<t600> rdf:type owl:Individual .
+<t600> rdfs:label "钢筋混凝土"@term .
+<t600> property:definition "钢筋混凝土，工程上常简称为钢筋砼或钢混，是指通过在混凝土中加入钢筋、钢筋网、钢板或纤维而构成的一种组合材料，两者共同工作从而改善混凝土抗拉强度不足的力学性质，为混凝土加固的一种最常见形式。 来源 网页链接"@term .
+<t601> rdf:type owl:Individual .
+<t601> rdfs:label "直体后空翻360°"@term .
+<t601> property:definition "运动员开始起跳时所进行的主旋 转是沿横轴向上、向后的翻转动作，另外的附加旋转是起始于上体沿纵轴的转体动作，上体和下肢呈直体状态，上下肢在沿各自旋转轴翻转的过程中保持完全伸直，整个身体向后分别在主旋转轴和附旋转轴上同时翻转360°，最后运动员要伸展身体准备着陆。"@term .
+<t602> rdf:type owl:Individual .
+<t602> rdfs:label "移动中的冰壶"@term .
+<t602> property:definition "投掷后运动中的冰壶或者受到撞击运动中的冰壶 来源 网页链接"@term .
+<t603> rdf:type owl:Individual .
+<t603> rdfs:label "滑蜡"@term .
+<t603> property:definition "滑雪蜡主要分成两种，一种是滑蜡主要用于竞技滑雪，提高滑雪速度和防止高温气候下雪板粘雪。另一种是防滑蜡， 主要用于越野滑雪的传统技术、防止雪板脱滑提高运动成绩。"@term .
+<t604> rdf:type owl:Individual .
+<t604> rdfs:label "最后成绩"@term .
+<t604> property:definition "最后成绩是比赛的最后记录。它应在抗议的截止时间结束后或竞赛仲裁委员会对所提交的抗议做出决定后，立即公布。 来源 网页链接"@term .
+<t605> rdf:type owl:Individual .
+<t605> rdfs:label "裁判员/主裁判员"@term .
+<t605> property:definition "主裁判员要全面地管理全部比赛，完全控制住场内裁判员和运动员，对有争议的问题主裁判员的决定是最终决定。"@term .
+<t606> rdf:type owl:Individual .
+<t606> rdfs:label "距离记录员"@term .
+<t606> property:definition "距离记录员在着陆坡上距离裁判员的对面选定合适位置，既不影响距离测量员的工作又能收到距离报告。距离记录员有责任准确重新记录和重新报告有距离测量员提供的跳跃距离"@term .
+<t607> rdf:type owl:Individual .
+<t607> rdfs:label "后手"@term .
+<t607> property:definition "一个队伍经常想得到的冰壶，将是每局比赛的最后一个冰壶 来源 网页链接"@term .
+<t608> rdf:type owl:Individual .
+<t608> rdfs:label "团身"@term .
+<t608> property:definition "上肢和下肢包括膝向胸部屈曲至90°"@term .
+<t609> rdf:type owl:Individual .
+<t609> rdfs:label "挡球手套"@term .
+<t609> property:definition "挡球手套背部附着的保护垫的外形的最大外部尺寸应当是：长38.1公分，宽20.32公分"@term .
+<t610> rdf:type owl:Individual .
+<t610> rdfs:label "单人滑"@term .
+<t610> property:definition "单人滑于奥运上分为男子项目以及女子项目，评分上没有重大分别，都是以运动员的动作难度、种类、干净利落程度、优美度以及速度方面评分。而比赛分为短节目和自由滑，与双人滑一样，都是按于首天短节目，次天为自由滑 来源 网页链接"@term .
+<t611> rdf:type owl:Individual .
+<t611> rdfs:label "男子个人大跳台"@term .
+<t611> property:definition "冬季奥林匹克运动会比赛项目之一 来源 网页链接"@term .
+<t612> rdf:type owl:Individual .
+<t612> rdfs:label "标准台"@term .
+<t612> property:definition "从跳台到K点的距离在75-99米之间，台高在85-109米之间。"@term .
+<t613> rdf:type owl:Individual .
+<t613> rdfs:label "身体冲撞（女子）"@term .
+<t613> property:definition "女子冰球中是指身体冲撞对方队员。女子冰球中,不允许队员对对方队员身体冲撞。"@term .
+<t614> rdf:type owl:Individual .
+<t614> rdfs:label "助滑道"@term .
+<t614> property:definition "跳台滑雪助滑道的设计应该为该跳台可能达到的最大跳跃距离提供必要的速度V0.助滑道的既定条件决定了可提供使用的出发区的选择。 来源 国家体育总局冬季运动管理中心"@term .
+<t615> rdf:type owl:Individual .
+<t615> rdfs:label "冰壶（比赛用具）"@term .
+<t615> property:definition "冰壶为圆形，周长不超过91.44厘米（36英寸），高度不低于11.43厘米（4.5英寸），包括手柄和螺钉的重量不超过19.96千克（44磅），不低于17.24千克（38磅） 来源 网页链接"@term .
+<t616> rdf:type owl:Individual .
+<t616> rdfs:label "左后卫"@term .
+<t616> property:definition "后卫分为右后卫（RD）和左后卫（LD）；后卫不仅是需要进行防守的位置，同时也是发动进攻的位置；后卫须具备身体阻截能力、与前锋的配合能力以及正确地判断能力。 来源 网页链接"@term .
+<t617> rdf:type owl:Individual .
+<t617> rdfs:label "高度差"@term .
+<t617> property:definition "指比赛线路最高与最低路段之间所允许的最大高度差。 来源 网页链接"@term .
+<t618> rdf:type owl:Individual .
+<t618> rdfs:label "国际有舵雪橇和俯式冰橇联合会"@term .
+<t618> property:definition "国际有舵雪橇和俯式冰橇联合会为国际间的有舵雪橇和俯式冰橇运动管理组织，于1923年在法国巴黎成立，总部位于意大利米兰。目前有14个会员协会。 来源 网页链接"@term .
+<t619> rdf:type owl:Individual .
+<t619> rdfs:label "着陆坡"@term .
+<t619> property:definition "跳台主要靠着陆坡来缓冲，落地的时候，着陆坡能能分解水平方向的力，让滑手安全着陆。 来源 知乎"@term .
+<t620> rdf:type owl:Individual .
+<t620> rdfs:label "点冰路卜跳"@term .
+<t620> property:definition "点冰路卜跳也称后外点冰跳。它与路卜跳不同在于起跳时有点冰动作 来源 网页链接"@term .
+<t621> rdf:type owl:Individual .
+<t621> rdfs:label "光学系统"@term .
+<t621> property:definition "一种基于光电感应器或激光光学探测器的电子系统用于记录终点成绩 来源 网页链接"@term .
+<t622> rdf:type owl:Individual .
+<t622> rdfs:label "中区"@term .
+<t622> property:definition "两条30厘米宽的蓝线横贯整个冰场并垂直延伸到边线界墙，将两条球门线之间的区域作三等分，自己球门一侧为守区，中间为中区，对方球门一侧为攻区。 来源 中国冰球网"@term .
+<t623> rdf:type owl:Individual .
+<t623> rdfs:label "雪橇"@term .
+<t623> property:definition "1.一种装在一对滑行装置上的交通工具，常用于雪地或冰上滑行 2.一种儿童雪橇 3.短雪橇，通常用为由联接器连接起来的一对雪橇中的一个 来源 网页链接"@term .
+<t624> rdf:type owl:Individual .
+<t624> rdfs:label "国际雪联的技术代表"@term .
+<t624> property:definition "TD负责保证比赛执行国际比赛规则和规定"@term .
+<t625> rdf:type owl:Individual .
+<t625> rdfs:label "压实后的雪道"@term .
+<t625> property:definition "雪道经常使用雪地履带车（snowcat）来维护。它可以压实并平整雪道，削除上面的雪包（moguls），让积雪分布更加均匀，以延长滑雪季节长度。在雪季初期自然积雪较少的时候，人们使用造雪机来增加积雪。 来源 维基百科"@term .
+<t626> rdf:type owl:Individual .
+<t626> rdfs:label "滑雪杖碗/雪轮/拦雪轮"@term .
+<t626> property:definition "滑雪杖是我们滑雪时用来支撑前进、控制平衡、引导变向、支撑身体的。雪轮可防止滑雪杖在雪里插得过深，在高速滑行的瞬间给滑雪者一个稳定的支点。 来源 百度百科"@term .
+<t627> rdf:type owl:Individual .
+<t627> rdfs:label "左转弯接右转弯"@term .
+<t627> property:definition "转弯时脚跟侧刃冲着转弯外侧，而雪板以脚尖侧刃触及 雪面滑行。简言之，右撇进行的左转弯，正常选手进行的右转弯。"@term .
+<t628> rdf:type owl:Individual .
+<t628> rdfs:label "接力赛"@term .
+<t628> property:definition "以接力方式进行，男子每人需滑行7.5公里，女子6公里，每队共四位选手。每人在过程中需要绕行赛道三圈，进行两次射击，射击顺序为卧射、立射，每次各五个目标。在接力赛中每次射击选手有五颗子弹与三颗备用弹，在五颗子弹使用完后若有目标未命中可以使用备用弹射击，但备用弹需要逐一手动装填，每装填一颗后就需射击一次。若在八颗内五个目标全部命中则不用绕行惩罚赛道。若八颗子弹用完后尚有目标未命中，选手需在150米长的惩罚赛道滑行剩下未击中目标的圈数才能继续进行。接力赛是各队同时出发，背号是由世界杯的接力赛积分排名或是抽签决定，背号右方会有一较小的数字表示为该队的第几人，由第一至第四位的选手背号背心颜色为红色、绿色、黄色、蓝色。交换选手时以触摸下一位选手方式进行，需要在限定的范围内完成（通常为25米）。与集体出发赛相同，每队第一位选手进行第一次射击时，选手需要在与自己背号相同的射击道。之后的射击依照到达射击区的顺序排列。最先到达终点者获胜。 来源 网页链接"@term .
+<t629> rdf:type owl:Individual .
+<t629> rdfs:label "跳跃"@term .
+<t629> property:definition "跳跃动作是花样滑冰中很重要的一个组成部分。跳跃动作的种类很多，一般都以其起跳的用刃、滑行方向、空中转体方式、点冰与否及转体周数等因素来命名和分类 来源 网页链接"@term .
+<t630> rdf:type owl:Individual .
+<t630> rdfs:label "“递减”赛制"@term .
+<t630> property:definition "在第1轮中，决赛名额的50%依据此轮成绩决出（例如男子48 人，第1轮过后24人获取资格；女子24人，第1轮过后12人获 取资格）。 只有在第1轮中没有获取资格的运动员才进行第2轮滑行。 第2轮的出发顺序与第1轮相同，要去掉已经获取资格的运动员。 一两轮中的最好成绩计算余下运动员的成绩。"@term .
+<t631> rdf:type owl:Individual .
+<t631> rdfs:label "全能比赛"@term .
+<t631> property:definition "速滑比赛分为全能比赛和短距离全能比赛，全能比赛项目是：成年男子第1天500米、5000米，第2天1500米、10000米；成年女子第1天500米、3000米，第2天1500米、5000米。短距离全能比赛男女均为；第1天500米、1000米、第2天500米、1000米。 来源 网页链接"@term .
+<t632> rdf:type owl:Individual .
+<t632> rdfs:label "理论上无获胜可能"@term .
+<t632> property:definition "队剩余的所有未投的壶和（或者）剩余的有效壶以及之前比分之和不能与对方打成平局或者获胜。 来源 网页链接"@term .
+<t633> rdf:type owl:Individual .
+<t633> rdfs:label "仲裁委员会"@term .
+<t633> property:definition "比赛时，仲裁委员会有权根据上述规则通过投票的形式进行制裁。在票数相同的情况下，仲裁委员会主席有最终决定权。"@term .
+<t634> rdf:type owl:Individual .
+<t634> rdfs:label "判给非犯规队一分"@term .
+<t634> property:definition "因对方投扔球杆"@term .
+<t635> rdf:type owl:Individual .
+<t635> rdfs:label "双飞"@term .
+<t635> property:definition "一记投壶将对方的两支冰壶同时打走 来源 网页链接"@term .
+<t636> rdf:type owl:Individual .
+<t636> rdfs:label "排位赛"@term .
+<t636> property:definition "三人回转的决赛 一第1轮，27名运动员。 一第2轮，18名运动员。 —第3轮，6名运动员。 —第4轮，9名运动员。 一第5轮，9名运动员。 第 1 轮 第1名和第2名运动员进人第2轮。 第2 轮 第2轮的获胜者进人第4轮，第2名进人第3轮。 第 3 轮 第4 轮 获胜者迸入大决赛（1 ~3名），第2名进入小决赛（4~6名），第3 名进人排位赛"@term .
+<t637> rdf:type owl:Individual .
+<t637> rdfs:label "完美性"@term .
+<t637> property:definition "动作完成情况"@term .
+<t638> rdf:type owl:Individual .
+<t638> rdfs:label "板尖接触壁角"@term .
+<t638> property:definition "雪板在垂直位置，比板尖接触壁角"@term .
+<t639> rdf:type owl:Individual .
+<t639> rdfs:label "前腿弯曲，后腿伸直"@term .
+<t639> property:definition "前腿弯曲，后腿伸直"@term .
+<t640> rdf:type owl:Individual .
+<t640> rdfs:label "双发形式"@term .
+<t640> property:definition "双发比赛是指由 4 名运动员分两组组成的比赛，两组出发的时间间隔约半圈 来源 网页链接"@term .
+<t641> rdf:type owl:Individual .
+<t641> rdfs:label "打定"@term .
+<t641> property:definition "将对手的壶打离原位，同时将所用投掷壶停留在击打点 来源 网页链接"@term .
+<t642> rdf:type owl:Individual .
+<t642> rdfs:label "种子选手"@term .
+<t642> property:definition "种子选手(seed) 在体育比赛采用分组淘汰赛的时候,为了避免水平较高的选手在比赛初期相遇而被淘汰,就在分组时把他们分在不同的组里 来源 百度百科"@term .
+<t643> rdf:type owl:Individual .
+<t643> rdfs:label "国际冬季两项联盟"@term .
+<t643> property:definition "国际冬季两项运动联盟(国际冬季两项联盟) 是世界上所有国家协会和与两项运动有关组织的联盟。相关两项运动、越野跑两项运动、登山车两项运动和射箭两项运动等。 来源 网页链接"@term .
+<t644> rdf:type owl:Individual .
+<t644> rdfs:label "装备"@term .
+<t644> property:definition "所有运动员携带或穿戴的用具 来源 网页链接"@term .
+<t645> rdf:type owl:Individual .
+<t645> rdfs:label "以倒滑形式落地"@term .
+<t645> property:definition "在动作完成及落地之前将某些东西融人动作之中（如a method to late指的是做一个method腾空并且在最后可能的一瞬间做一个180度的 旋转，然后以倒滑形式落地"@term .
+<t646> rdf:type owl:Individual .
+<t646> rdfs:label "后空翻接内转转体180°"@term .
+<t646> property:definition "后空翻接内转转体180°"@term .
+<t647> rdf:type owl:Individual .
+<t647> rdfs:label "扫雪机式转弯"@term .
+<t647> property:definition "扫雪机式转弯是一种停止和转弯的滑雪技术，通常向初学者传授。滑雪板的前端靠拢而后端张开，双膝轻微向内屈，通过滑雪板的侧边向雪面施压来实现减速，使滑雪者完全停住。 来源 网页链接"@term .
+<t648> rdf:type owl:Individual .
+<t648> rdfs:label "板头滑行"@term .
+<t648> property:definition "一种boardslide动作，但并不是以雪板两固定器中间部位在铁杆上滑行，二十一雪板板尖部分哎铁杆上滑行。"@term .
+<t649> rdf:type owl:Individual .
+<t649> rdfs:label "标杆"@term .
+<t649> property:definition "终点线应由2个标杆（平行赛事3个、4个）或竖起的旗杆，中间由1 条横幅连接。"@term .
+<t650> rdf:type owl:Individual .
+<t650> rdfs:label "平地滑行技巧"@term .
+<t650> property:definition "平地滑行技巧：两脚平行站立，利用手腕力量将两雪杖向后推动，使身体和两滑雪器同时向前滑行前进。身体重心不可置于后，否则会有身体后倾的情况发生，那可是会导致后坐跌倒的。 来源 精品学习网"@term .
+<t651> rdf:type owl:Individual .
+<t651> rdfs:label "静止冰壶"@term .
+<t651> property:definition "不运动的有效冰壶 来源 网页链接"@term .
+<t652> rdf:type owl:Individual .
+<t652> rdfs:label "重滑"@term .
+<t652> property:definition "比赛过程中，若运动员不是因为自己的过失而受到干扰，则经裁判长同意后，可重新滑跑 来源 网页链接"@term .
+<t653> rdf:type owl:Individual .
+<t653> rdfs:label "涂蜡"@term .
+<t653> property:definition "涂蜡，根据所选蜡的不同，可以用海绵将液态或膏状的蜡直接涂到雪板上，或将块状蜡直接蹭在板面上。 来源 滑雪百科"@term .
+<t654> rdf:type owl:Individual .
+<t654> rdfs:label "出发程序"@term .
+<t654> property:definition "即将出发的运动员身后不允许站有对他可能有所帮助的或妨碍的任何官员或陪同人员。禁止运动员受任何外界帮助。按发令员的命令，运动员要把雪杖放在起点线前或指定位置。在出发时，发令员不能触碰运动员，运动员不能蹬起点杆或得到其他帮助，仅能凭借自己的雪杖出发。"@term .
+<t655> rdf:type owl:Individual .
+<t655> rdfs:label "起点裁判员"@term .
+<t655> property:definition "在整个训练和比赛期间，起点裁判员须始终留在起点；须确保正确执行出发和出发组织方面的规则。"@term .
+<t656> rdf:type owl:Individual .
+<t656> rdfs:label "冰上杂技"@term .
+<t656> property:definition "冰上杂技，并非穿着冰刀演杂技，也非花样滑冰，而是借着两者元素的基础上，通过对美学、力学、运动学的实际运用，自然形成的。以唯美主义艺术为核心，新的表演艺术形式。也就是以花样滑冰为载体融合冰上运动，杂技和舞蹈等技术技巧，通过在冰上的快速运动中而产生的独特艺术表演 来源 网页链接"@term .
+<t657> rdf:type owl:Individual .
+<t657> rdfs:label "脚在雪板上的位置"@term .
+<t657> property:definition "脚在雪板上的位置，包括姿态的类型，如正常人或右撇，同时 也包括姿态的具体情况，如宽度、角度。"@term .
+<t658> rdf:type owl:Individual .
+<t658> rdfs:label "正常"@term .
+<t658> property:definition "左脚在前"@term .
+<t659> rdf:type owl:Individual .
+<t659> rdfs:label "手套"@term .
+<t659> property:definition "队员的手套必须能全部护住手和手腕。手套的背部必须是柔软的材料,除了护垫,不能缝有其他材料或突起物。"@term .
+<t660> rdf:type owl:Individual .
+<t660> rdfs:label "累积单圈成绩"@term .
+<t660> property:definition "多圈的比赛，必须记录每圈成绩。当使用电动计时系统时，还应记录累积单圈成绩（分段成绩），精确到百分之一秒，并且单圈 成绩应该在成绩册中以同样的精确程度计算并记录 来源 网页链接"@term .
+<t661> rdf:type owl:Individual .
+<t661> rdfs:label "替补选手"@term .
+<t661> property:definition "一队的已注册的、可以在比赛中代替参赛队员参加比赛的非比赛队员 来源 网页链接"@term .
+<t662> rdf:type owl:Individual .
+<t662> rdfs:label "国际滑雪联盟/国际滑雪联合会"@term .
+<t662> property:definition "国际滑雪联合会（法语：Fédération Internationale de Ski，FIS）由14个国家协会在1924年于法国霞慕尼成立，到目前已有112个成员国。而由于滑雪是冬季奥运会中主要的项目之一，因此国际滑雪联合会是国际单项运动总会联合会的成员之一。 来源 维基百科"@term .
+<t663> rdf:type owl:Individual .
+<t663> rdfs:label "内转背向横板滑行"@term .
+<t663> property:definition "外转boardslide是以外转滑行的方式接近铁杆，在跃上铁杆之外 转动雪板内转90度。"@term .
+<t664> rdf:type owl:Individual .
+<t664> rdfs:label "热身场地"@term .
+<t664> property:definition "提供尽可能与比赛场地相似的、不对公众开放的、合适的热身用场地。"@term .
+<t665> rdf:type owl:Individual .
+<t665> rdfs:label "“方法”"@term .
+<t665> property:definition "前脚抓脚跟侧刃，两膝屈，雪板拉至头顶水平位置。"@term .
+<t666> rdf:type owl:Individual .
+<t666> rdfs:label "年龄组别"@term .
+<t666> property:definition "指队员在整个赛季的年龄状况(例如:无论参加哪个赛事,参加特定赛季 U18 的队员年龄必须整年都 符合 18 岁以下的规则)"@term .
+<t667> rdf:type owl:Individual .
+<t667> rdfs:label "后空翻加内转180°"@term .
+<t667> property:definition "在后侧壁上做的翻转动作。后空翻加内转180度。"@term .
+<t668> rdf:type owl:Individual .
+<t668> rdfs:label "滑雪板板尖"@term .
+<t668> property:definition "滑雪板的尺寸通过在3个位置测量其宽度（以毫米为单位）来确定：在其2个最宽点处，尖端和尾部，以及在其最窄的腰部。板尖/板腰/板尾，通常由斜线分隔并显示为131/98/119。 来源 蒙特利尔Wait4U华人交友平台"@term .
+<t669> rdf:type owl:Individual .
+<t669> rdfs:label "终点摄像裁判员"@term .
+<t669> property:definition "终点摄像裁判员读取终点摄像图片，向编排记录长报告每一名运动员到达终点的名次和成绩，或每组比赛电动计时的成绩"@term .
+<t670> rdf:type owl:Individual .
+<t670> rdfs:label "点冰沃里跳"@term .
+<t670> property:definition "点冰沃里跳也称内勾手跳，其动作与沃里跳完全相同，只是在起跳时辅以点冰动作 来源 网页链接"@term .
+<t671> rdf:type owl:Individual .
+<t671> rdfs:label "720°旋转空翻"@term .
+<t671> property:definition "—种空翻类空中动作，选手做一个720度的 旋转空翻。换而言之，选手以向前的姿势滑行至槽壁，腾空以后在内转 方向上旋转720度，同时做一个前空翻，以倒滑的形式落地。"@term .
+<t672> rdf:type owl:Individual .
+<t672> rdfs:label "头盔"@term .
+<t672> property:definition "所有自由类单板项目比赛都必须要佩戴头盔，包括检查场地、训练和 比赛期间。所有的运动员和试滑员都必须戴专门为单板滑雪或者竞速 类滑雪项目制作的具有良好视线的头盔"@term .
+<t673> rdf:type owl:Individual .
+<t673> rdfs:label "单板追逐赛"@term .
+<t673> property:definition "理想的单板追逐赛赛道应该能适合建造下列所有或者部分的障碍：雪 坝（新月形的）、双雪坝、波浪形地形障碍（单个、两个或者三个）、 偏置波浪形障碍（单个、两个或者三个）、跃升形障碍跳、山脊形障碍和双山脊形障碍、专业跳、扭转跳（着陆区向左或右侧倾斜）、平 顶形障碍、下降跳。"@term .
+<t674> rdf:type owl:Individual .
+<t674> rdfs:label "跳接蹲踞旋转"@term .
+<t674> property:definition "准备动作：右后内刃滑行或右后外刃滑行 起跳用刃：左前外刃 　　空中姿势：蹲踞式 旋转用刀：左后内刃 　　结束动作：右后外刃或左前外刃滑出 来源 网页链接"@term .
+<t675> rdf:type owl:Individual .
+<t675> rdfs:label "甩"@term .
+<t675> property:definition "冰壶击打到另外一个固定冰壶后向另一个方向滑行。 来源 网页链接"@term .
+<t676> rdf:type owl:Individual .
+<t676> rdfs:label "线路长"@term .
+<t676> property:definition "根据仲裁委员会的指示和决定，线路长负责做好线路的准备工作。他须熟悉有关地区的雪情。"@term .
+<t677> rdf:type owl:Individual .
+<t677> rdfs:label "弯道管理员"@term .
+<t677> property:definition "弯道管理员应固定位置以保证不妨碍运动员和裁判员，并能随时重新摆放移动的标志块，必须是有经验的滑冰者，并必须具备英语能力和了解短道速滑规则"@term .
+<t678> rdf:type owl:Individual .
+<t678> rdfs:label "三垒"@term .
+<t678> property:definition "每局比赛中投出该队两个壶的第三个队员 来源 网页链接"@term .
+<t679> rdf:type owl:Individual .
+<t679> rdfs:label "雪上技巧"@term .
+<t679> property:definition "雪上技巧指在，斜坡陡峭且多雪包的线路上进行的一次自由滑雪，强调技术性转弯、速度和空中动作。"@term .
+<t680> rdf:type owl:Individual .
+<t680> rdfs:label "技术设备主管"@term .
+<t680> property:definition "负责确保在比赛中使用的技术系统和装置处于可控状态和保持有序的功能"@term .
+<t681> rdf:type owl:Individual .
+<t681> rdfs:label "并立背后握手姿势"@term .
+<t681> property:definition "由一对并排站立的滑冰运动员表演的一种快速的冰上舞蹈。1909年第一次表演，并立背后握手姿势是一种非常难的舞蹈形式。 来源 网页链接"@term .
+<t682> rdf:type owl:Individual .
+<t682> rdfs:label "前脚"@term .
+<t682> property:definition "即前脚，也就是离雪板尖最近的脚，对于正常选手来说是左脚，对于右撤来说是右脚"@term .
+<t683> rdf:type owl:Individual .
+<t683> rdfs:label "捻转步"@term .
+<t683> property:definition "单足在滑行中完成扭转或旋转动作。这种动作在冰上舞蹈中必须完成的一个动作。 来源 网页链接"@term .
+<t684> rdf:type owl:Individual .
+<t684> rdfs:label "记者台"@term .
+<t684> property:definition "应该为电视记者、广播记者、报纸记者、杂志记者、摄影记者提供合适的工作条件和工作地点，提供的信息包括连续性信息（出发顺序、赛季排名、目前名次）"@term .
+<t685> rdf:type owl:Individual .
+<t685> rdfs:label "空中飞行转体"@term .
+<t685> property:definition "任何在U型场地当中进行的以向前滑行的姿势触及壁角后腾 空，没有转体，落地后向后滑行的动作"@term .
+<t686> rdf:type owl:Individual .
+<t686> rdfs:label "弧线"@term .
+<t686> property:definition "冰壶在冰面滑行时，走的弧形线路 来源 网页链接"@term .
+<t687> rdf:type owl:Individual .
+<t687> rdfs:label "比赛阶段总分"@term .
+<t687> property:definition "TES和PCS之和称为比赛阶段总分（total score for a competition segment，缩写TSS） 来源 网页链接"@term .
+<t688> rdf:type owl:Individual .
+<t688> rdfs:label "弧线冰壶"@term .
+<t688> property:definition "由于冰面或冰壶导致冰壶旋转 来源 网页链接"@term .
+<t689> rdf:type owl:Individual .
+<t689> rdfs:label "队员席"@term .
+<t689> property:definition "虽然队员席不属于冰面的一部分,但属于冰场的一部分,适用冰上的所有规则。只允许着装的队员和不超过八个官员进入队员席。队员席距离中区红线 2.0 米（6' 6 ¾"）开始，队员席长 10 米（32' 9 ¾"）宽 1.5 米（5'）。每个队员席必须有两个门，两端各一个。队员席必须位于冰场的同侧，与记录台和各自的受罚席相对。"@term .
+<t690> rdf:type owl:Individual .
+<t690> rdfs:label "开槽机"@term .
+<t690> property:definition "冬奥会、世界锦标赛和世界青年单板滑雪锦标赛及国际雪联世界杯赛 的U型场地必须符合推荐和批准的规格，并且要有一个专门为U型场 地设计的开槽机,比赛之前要提供两天的训练时间，特定的条件下仲 裁委员会可以决定缩短训练时间。"@term .
+<t691> rdf:type owl:Individual .
+<t691> rdfs:label "外转翻转"@term .
+<t691> property:definition "180度的内转_翻，前手触壁角，后手抓脚趾侧刃。"@term .
+<t692> rdf:type owl:Individual .
+<t692> rdfs:label "入弯道超越"@term .
+<t692> property:definition "尾随运动员在比赛中，利用前面对手入弯道时，位置选择不当而出现的空隙或技术弱点，通过加刀、提高频率迅速抢占有利位置的超越方法"@term .
+<t693> rdf:type owl:Individual .
+<t693> rdfs:label "修整过的赛道"@term .
+<t693> property:definition "一条完美的越野雪道对于越野滑雪项目来说是必不可少的基础设施。装配上特殊的附属设备，如NORDIC LINER越野道开槽器，压雪机就可以自主地修整越野雪道。NORDIC LINER包括两条越野雪道开槽器，每条都有自己的雪犁，都可以选择性的安装在主雪犁后面。为了适应各种地形环境，右侧的开槽器是可以水平调节的，因此可以随意调节两个开槽器之间的间距。 来源 Prinoth"@term .
+<t694> rdf:type owl:Individual .
+<t694> rdfs:label "侧切半径"@term .
+<t694> property:definition "圆半径的尺寸（通常以厘米为单位），指雪板侧刃的圆周。小圆或小的侧刃（小于900厘米）相对大的侧刃（大于900厘米）可以做出更连贯的转弯动作。"@term .
+<t695> rdf:type owl:Individual .
+<t695> rdfs:label "重大失误"@term .
+<t695> property:definition "重大失误包括臀部明显地触雪，身体触雪，以及完全摔倒。"@term .
+<t696> rdf:type owl:Individual .
+<t696> rdfs:label "前掷线壶"@term .
+<t696> property:definition "该壶在投掷出去后未能完全越过比赛端前掷线，该壶要被拿走 来源 网页链接"@term .
+<t697> rdf:type owl:Individual .
+<t697> rdfs:label "书面警告书"@term .
+<t697> property:definition "跳台滑雪委员会对某TD或跳跃裁判员违反规则或做出不公正裁决等行为采取的处罚措施之一"@term .
+<t698> rdf:type owl:Individual .
+<t698> rdfs:label "圆丘区"@term .
+<t698> property:definition "位于着陆区"@term .
+<t699> rdf:type owl:Individual .
+<t699> rdfs:label "临时重滑"@term .
+<t699> property:definition "运动员在比赛时因工作人员错误、观众、动物或者任何其控制能力范围以外原因而受到阻碍，事件发生后须立即停下来并向仲裁委员会的任何成员提出重滑要求。"@term .
+<t700> rdf:type owl:Individual .
+<t700> rdfs:label "着陆"@term .
+<t700> property:definition "经过助滑、起跳和空中飞行，最后再完成正确成功的着陆动作，就使整套动作连贯一致，一气呵成，运动员由此便可获得高分。着陆时，应具有弹性和稳定性，两脚成弓箭步前后分开，身体重量分别落于两脚，雪板后跟略领先于板尖着陆，两腿屈膝做缓冲，两臂左右平伸，以维持身体平衡。落地后，保持平衡姿势顺利滑到终止区，全部动作即算完成。 来源 网页链接"@term .
+<t701> rdf:type owl:Individual .
+<t701> rdfs:label "短距离赛"@term .
+<t701> property:definition "男子10公里，女子7.5公里。在过程中需要绕行赛道三圈，进行两次射击，射击顺序为卧射、立射，每次各五个目标。每当一个目标未被击中时，选手在射击结束后需在150米长的惩罚赛道滑行一圈才能继续进行。冲刺赛与个人赛相同，也是采用个别选手计时、个别出发。射击道选择与个人赛相同。时间最短者获胜。 来源 网页链接"@term .
+<t702> rdf:type owl:Individual .
+<t702> rdfs:label "团身后空翻"@term .
+<t702> property:definition "运动员开始起跳时沿横轴向上、向后翻转，上体和下肢伸展，随后上体和下肢在腰部屈成团身姿势，整个身体向后翻转360°，最后运动员要伸展身体准备着陆。"@term .
+<t703> rdf:type owl:Individual .
+<t703> rdfs:label "环状旋转/侧空翻"@term .
+<t703> property:definition "包括所有环状旋转动作，但仅单个环状旋转动作适用。 环状旋转动作包括各种姿势（直体、团身、屈体和半团身姿势等），以及姿势变化所增加的抓板动 作及转换姿势起跳和着陆。"@term .
+<t704> rdf:type owl:Individual .
+<t704> rdfs:label "斜滑"@term .
+<t704> property:definition "除了横滑外，加入了前倾和后压形成斜滑，从而可以让你在一个较窄且陡的雪道上可以左右切着下。技术要点是在横滑的基础上向板头施压形成正向斜滑降，再把重心压到后板形成倒滑的斜滑降这样板子象一个叶子那样从雪道上飘下来。 来源 蚂蜂窝自由行"@term .
+<t705> rdf:type owl:Individual .
+<t705> rdfs:label "以板身接触场地壁角落地（板尾指向场地外）"@term .
+<t705> property:definition "以板身接触场地壁角落地（板尾指向场地外）"@term .
+<t706> rdf:type owl:Individual .
+<t706> rdfs:label "起点区"@term .
+<t706> property:definition "参赛选手的起点区须与碾压良好、修整平坦的雪地在同一平面上，并在观众的视线内。起滑线应放置在与滑雪方向成直角的地方，用红色的线在雪地中做出标志。该区域须设置围栏，并适合参赛选手、供给人员、官员的来往通行。 来源 网页链接"@term .
+<t707> rdf:type owl:Individual .
+<t707> rdfs:label "射巷"@term .
+<t707> property:definition "射击场被分成一个个射巷，射巷是每次参赛选手射击的地方。 来源 网页链接"@term .
+<t708> rdf:type owl:Individual .
+<t708> rdfs:label "国际裁判"@term .
+<t708> property:definition "国际裁判是国际冬季两项联盟技术委员会任命、并在 国际冬季两项联盟 赛事中作裁判的人员。他们须正确履行属于他们职责范围内的职责和任务，同竞赛委员会进行合作。国际裁判指导、建议和帮助竞赛官员们履行职责，防止错误的出现。在一项赛事中，国际裁判的地位次于技术代表，向技术代表汇报自己职责履行情况，并接受技术代表的指导。 来源 网页链接"@term .
+<t709> rdf:type owl:Individual .
+<t709> rdfs:label "风镜"@term .
+<t709> property:definition "一种保护配戴者眼睛的眼睛：他将眼睛与外界隔绝（有空气滤孔），防止灰尘进入人眼，也防止风（气流）吹眼部。 来源 百度百科"@term .
+<t710> rdf:type owl:Individual .
+<t710> rdfs:label "主将"@term .
+<t710> property:definition "主将应领导球赛。当队员掷球时，主将应持冰刷（broom），作为掷球之目标物 来源 网页链接"@term .
+<t711> rdf:type owl:Individual .
+<t711> rdfs:label "助滑"@term .
+<t711> property:definition "跳台滑雪的技术动作包括四部分分别是助滑、起跳、空中飞行和着陆。助滑是为了在起跳端造成更快的初速度，以延长空中飞行距离的一种技术。 来源 人民网"@term .
+<t712> rdf:type owl:Individual .
+<t712> rdfs:label "光电测速仪"@term .
+<t712> property:definition "光电式测速传感器一般的是基于光电变换原理。 来源 百度百科"@term .
+<t713> rdf:type owl:Individual .
+<t713> rdfs:label "障碍滑雪"@term .
+<t713> property:definition "延着布满杆子的弯曲滑道滑行的滑雪比赛。 来源 牛津辞典微信频道"@term .
+<t714> rdf:type owl:Individual .
+<t714> rdfs:label "热身赛道"@term .
+<t714> property:definition "用于运动员做热身运动的赛道"@term .
+<t715> rdf:type owl:Individual .
+<t715> rdfs:label "简单多数原则/简单多数决"@term .
+<t715> property:definition "简单多数是指过半数， 绝对多数是指2/3以上多数选择性投票 来源 百度知道"@term .
+<t716> rdf:type owl:Individual .
+<t716> rdfs:label "扫冰"@term .
+<t716> property:definition "使用冰刷或者扫帚清理、摩擦冰面 来源 网页链接"@term .
+<t717> rdf:type owl:Individual .
+<t717> rdfs:label "因斯布鲁克"@term .
+<t717> property:definition "因斯布鲁克位于奥地利西部群山之间的因河畔，是蒂罗尔州的首府。穿越阿尔卑斯山通往意大利南蒂罗尔地区的布仑纳隘道从这里开始。 来源 网页链接"@term .
+<t718> rdf:type owl:Individual .
+<t718> rdfs:label "塞默灵山道"@term .
+<t718> property:definition "塞默灵是奥地利下奥地利州诺因基兴县的一个市镇。 来源 网页链接"@term .
+<t719> rdf:type owl:Individual .
+<t719> rdfs:label "场地/赛道"@term .
+<t719> property:definition "比赛场地的技术部分 起点和终点的设备、电视塔、测量器材、赞助者广告器材等，均为比赛必需的物品。"@term .
+<t720> rdf:type owl:Individual .
+<t720> rdfs:label "分隔板"@term .
+<t720> property:definition "用来隔开相邻赛道的（泡沫或木质）材料 来源 网页链接"@term .
+<t721> rdf:type owl:Individual .
+<t721> rdfs:label "电子计时个人出发"@term .
+<t721> property:definition "出发选手将尽可能靠近电子门站立，在起滑时间穿过电子门。 来源 网页链接"@term .
+<t722> rdf:type owl:Individual .
+<t722> rdfs:label "移动实验室"@term .
+<t722> property:definition "移动实验室定义为“满足特定目的和需求，由成套装置组成的，在可移动的设施和环境中进行检测，校准或科学实验等活动的实验室”。 来源 网页链接"@term .
+<t723> rdf:type owl:Individual .
+<t723> rdfs:label "线路"@term .
+<t723> property:definition "线路即是用于比赛的滑雪线路网。它包括连续不断变化平地、上坡和下坡路段。不允许有特别长而艰难的上坡、危险下坡、单调的平缓地带和必须闪避的小山。不能频繁地改变雪道路线的方向，以免影响参赛选手的滑雪节奏。 来源 网页链接"@term .
+<t724> rdf:type owl:Individual .
+<t724> rdfs:label "女子个人标准台"@term .
+<t724> property:definition "冬季奥林匹克运动会比赛项目之一 来源 2014年索契冬奥会-中国奥委会官方网站"@term .
+<t725> rdf:type owl:Individual .
+<t725> rdfs:label "击打"@term .
+<t725> property:definition "用另外一支冰壶把比赛端冰壶击打出 来源 网页链接"@term .
+<t726> rdf:type owl:Individual .
+<t726> rdfs:label "交叉蹬冰"@term .
+<t726> property:definition "运动员在通过弯道时采用左右腿交叉、双腿都向右侧蹬冰的前进方式 来源 网页链接"@term .
+<t727> rdf:type owl:Individual .
+<t727> rdfs:label "竞赛长"@term .
+<t727> property:definition "技术代表的主要职责 一保证国际雪联的规则和指示得到贯彻和执行。 一保证比赛公正进行。 一在其职权范围内对组织者提出建议。 一是国际雪联的正式代表。"@term .
+<t728> rdf:type owl:Individual .
+<t728> rdfs:label "录相监门系统"@term .
+<t728> property:definition "a)录象监门系统（VGJ）只有在主裁判员或录像监门裁判提出要求时才能使用。b)只有在出现下列情况时，才能通过录像监门系统进行回放：l.球越过球门线。2.在球门移动前，球进入球门。3.在一局结束之前或之后，球进入球门。4.球直接被手导入或踢入球门。5.球碰到裁判员或边线裁判员后转向进球门。6.在球进入球门前，进攻队员在高于球门横梁的地方用高杆击球。7.如果录相监门系统屏幕上有比赛时间，可用它确定比赛记时钟的时间。"@term .
+<t729> rdf:type owl:Individual .
+<t729> rdfs:label "传击打球"@term .
+<t729> property:definition "一种投壶力量，把另外一个球击打前一些，并在移动过程中把第三个球击打出去。 来源 网页链接"@term .
+<t730> rdf:type owl:Individual .
+<t730> rdfs:label "唇滑"@term .
+<t730> property:definition "一种lipslide动作，但并不是以雪板两固定器中间部位在铁杆上滑行，而是以雪板板尾部分在铁杆上滑行（尽量用后固定器以外的部位）。"@term .
+<t731> rdf:type owl:Individual .
+<t731> rdfs:label "出弯"@term .
+<t731> property:definition "在比赛中为避免犯规同时提高比赛名次，入弯道时冰刀要压住对手的冰刀使对手不能用力蹬冰，跟滑方式在出弯道时内道超越。 来源 网页链接"@term .
+<t732> rdf:type owl:Individual .
+<t732> rdfs:label "勒克斯"@term .
+<t732> property:definition "勒克斯是一个标识照度的国际单位制单位，1流明每平方米面积，就是1勒克斯。 来源 网页链接"@term .
+<t733> rdf:type owl:Individual .
+<t733> rdfs:label "分组出发"@term .
+<t733> property:definition "分组出发的参赛选手，出发号码最小的站在第一道，第二小的站第二道，以此类推。他们将按接力赛集体出发的形式站好，一旦发出预定信号就起滑。 来源 网页链接"@term .
+<t734> rdf:type owl:Individual .
+<t734> rdfs:label "板尾滑行"@term .
+<t734> property:definition "与boardslide相似的一个动作，但并不是以雪板两固定器中间部位在铁杆上滑行，而是将雪板在铁杆上方进行扭转进而使板尾在铁杆上滑行（尽量以后固定器以外的部位）"@term .
+<t735> rdf:type owl:Individual .
+<t735> rdfs:label "触动壶"@term .
+<t735> property:definition "运动中的冰壶被运动员的器材的任何部分或运动员触动 来源 网页链接"@term .
+<t736> rdf:type owl:Individual .
+<t736> rdfs:label "绕过"@term .
+<t736> property:definition "一记投壶，使得该壶弧线滑行并绕到另一壶后面 来源 网页链接"@term .
+<t737> rdf:type owl:Individual .
+<t737> rdfs:label "纵轴"@term .
+<t737> property:definition "纵轴 人体基本的运动轴之一。指通过身体重心上下的连线。人体围绕纵轴可进行各种转体运动。如：转体90°、180°、360°等等。由于体操技术飞速发展，已有不少运动员完成直体后空翻转体1080°、空翻 来源 网页链接"@term .
+<t738> rdf:type owl:Individual .
+<t738> rdfs:label "已做标记的赛道"@term .
+<t738> property:definition "滑雪场雪道级别分类与国别有很大关系，在滑雪运动最早兴起的欧洲分类较细，体系较为完整，用不同颜色区分不同级别的雪道，并使用三原色（绿、蓝、红）代表最常见的三种级别雪道，使用黑色、橘黄色、黄色代表较高难度等级的三种雪道，另外还有专门标有Park的公园，以及没有标记的野雪 来源 知乎"@term .
+<t739> rdf:type owl:Individual .
+<t739> rdfs:label "接力赛的出发"@term .
+<t739> property:definition "在接力赛中，每队第一个参赛选手应站在指定的道次上，双脚保持在出发排的标记线后，如果没有这条标记线，则在道次的号码后。当预定信号发出后方可跨过起滑线。接下来的接力赛队员应站在交接区，按接力顺序排好，接棒后出发。 来源 网页链接"@term .
+<t740> rdf:type owl:Individual .
+<t740> rdfs:label "扭曲抓板"@term .
+<t740> property:definition "这种抓板形式伴随着推或拉雪板的动作，这种动作相对于持续抓板有一定难度，因为运动员会在扭曲过程中丧失时间。"@term .
+<t741> rdf:type owl:Individual .
+<t741> rdfs:label "护墙"@term .
+<t741> property:definition "护墙【guard wall】指的是在道路的急弯、陡坡等危险路段，沿路肩修筑的矮墙。（不准确） 来源 百度百科"@term .
+<t742> rdf:type owl:Individual .
+<t742> rdfs:label "跳台"@term .
+<t742> property:definition "跳台滑雪跳台"@term .
+<t743> rdf:type owl:Individual .
+<t743> rdfs:label "世界跳台滑雪锦标赛"@term .
+<t743> property:definition "1971年国际滑雪联合会决定每两年举行一次世界跳台滑雪锦标赛。1972年首届世界跳台滑雪锦标赛在南斯拉夫举行。 来源 搜狐网"@term .
+<t744> rdf:type owl:Individual .
+<t744> rdfs:label "已做标记的滑雪板"@term .
+<t744> property:definition "运动员按赛前抽签决定的顺序佩带号码布，着经裁判检查认可并打有标记的滑雪板 。 由于在不同温度下滑雪板打的蜡也不同,所以为了避免选手在比赛中临时更换新打蜡的滑雪板以提高成绩,竞委会除了在起点检录处做标记之外, … 来源 百度百科"@term .
+<t745> rdf:type owl:Individual .
+<t745> rdfs:label "投壶队"@term .
+<t745> property:definition "目前控制着比赛区域，并且要投出下支壶的队伍 来源 网页链接"@term .
+<t746> rdf:type owl:Individual .
+<t746> rdfs:label "组合跳跃"@term .
+<t746> property:definition "指上述技术动作的任何组合方式，必须圆满完成组合跳跃中的各种动作，在组合非空翻动作中，运动员在完成下一个动作之前，身体必须呈现标准的非空翻姿势（腿伸直并拢，双板平行)。"@term .
+<t747> rdf:type owl:Individual .
+<t747> rdfs:label "越野滑雪包"@term .
+<t747> property:definition "越野滑雪时背的背包"@term .
+<t748> rdf:type owl:Individual .
+<t748> rdfs:label "正常选手左转弯,左撇右转弯"@term .
+<t748> property:definition "转弯时脚尖侧刃冲着转弯外侧，而雪板以脚跟侧刃触及雪面滑行。简言之，对正常选手来说是左转弯，而对于右撇来说是右 转弯。"@term .
+<t749> rdf:type owl:Individual .
+<t749> rdfs:label "板边"@term .
+<t749> property:definition "板边，在一块雪板上有两个板边，每个板边由一个刃和一个侧壁构成。"@term .
+<t750> rdf:type owl:Individual .
+<t750> rdfs:label "抓板"@term .
+<t750> property:definition "用一只手或两只手抓雪板的任一侧刃"@term .
+<t751> rdf:type owl:Individual .
+<t751> rdfs:label "外转540度翻转，后手触壁"@term .
+<t751> property:definition "外转起跳旋转大致540度，同时一只或两只手支撑于壁角之上， 这个动作由Mike Jacoby创造。"@term .
+<t752> rdf:type owl:Individual .
+<t752> rdfs:label "逆时针滑跑"@term .
+<t752> property:definition "比赛均为逆时针方向滑跑，即跑道内沿在运动员左侧 来源 网页链接"@term .
+<t753> rdf:type owl:Individual .
+<t753> rdfs:label "副指挥"@term .
+<t753> property:definition "当指挥投壶，或者指挥不在比赛区域时，负责指导比赛的队员 来源 网页链接"@term .
+<t754> rdf:type owl:Individual .
+<t754> rdfs:label "长度/坡度"@term .
+<t754> property:definition "赛道的长度必须用卷尺或者GPS进行测量，测量数据必须呈现在出发 顺序单和成绩单上。"@term .
+<t755> rdf:type owl:Individual .
+<t755> rdfs:label "赛道"@term .
+<t755> property:definition "赛道也叫赛车场，是专门为赛车比赛设计的跑道。整个赛道是由弯道、直道和一些上下坡道组成，赛道上设有维修区，而且一般还设有观众席，以便观众观看比赛。 来源 网页链接"@term .
+<t756> rdf:type owl:Individual .
+<t756> rdfs:label "滑行时左脚在雪板前"@term .
+<t756> property:definition "滑行时左脚在雪板的前面。左脚离板尖近、离板尾远， 在右脚和板尖之间。"@term .
+<t757> rdf:type owl:Individual .
+<t757> rdfs:label "跳接旋转"@term .
+<t757> property:definition "跳接旋转是将跳跃动作与旋转动作相联合为一体的旋转动作，它与相应的旋转动作相比，难度要高一些 来源 网页链接"@term .
+<t758> rdf:type owl:Individual .
+<t758> rdfs:label "平底雪橇"@term .
+<t758> property:definition "目前冬奥会比赛项目雪车，即指原来的有舵雪橇与平底雪橇项目。原来的国际有舵雪橇与平底雪橇联合会，现称为国际雪车联合会。 来源 网页链接"@term .
+<t759> rdf:type owl:Individual .
+<t759> rdfs:label "裁判区"@term .
+<t759> property:definition "记录席前面的冰面上，以3米为半径，用5公分宽的红线画一个半圆，称之为“裁判区”。"@term .
+<t760> rdf:type owl:Individual .
+<t760> rdfs:label "板尖滑行"@term .
+<t760> property:definition "滑手在铁杆上方转动板尾，以一个与铁杆呈90度的角度用雪板两固定器中间部分落于铁杆上滑行，内转noseslide做起来像一个内转boardslide，但是以雪板板尖部分而非雪板两固定器中间部位在铁杆上滑行。"@term .
+<t761> rdf:type owl:Individual .
+<t761> rdfs:label "射击垫"@term .
+<t761> property:definition "卧射和立射击时，都须在每个射巷上前部分靠近靶位处放置一个垫子。 来源 网页链接"@term .
+<t762> rdf:type owl:Individual .
+<t762> rdfs:label "前手抓前脚脚尖的前刃"@term .
+<t762> property:definition "前手mute抓板，后腿伸直，雪板与地面平行。"@term .
+<t763> rdf:type owl:Individual .
+<t763> rdfs:label "前掷线电子装置（P826）"@term .
+<t763> property:definition "用以判断队员是否存在前掷线违例，而不需要裁判观察的有电子感应作用的前掷线 来源 网页链接"@term .
+<t764> rdf:type owl:Individual .
+<t764> rdfs:label "场地主管"@term .
+<t764> property:definition "场地主管采取必要的安全措施，保证观众不进入场地。根据精细的计划，安排足够的人员，须注意围栏外有足够的空间好使观众流动。"@term .
+<t765> rdf:type owl:Individual .
+<t765> rdfs:label "规定舞"@term .
+<t765> property:definition "花样滑冰比赛中的一场比赛，由一组必须完成的动作或元素组成。也被称为短节目（或冰上舞蹈中的图形舞），在单人滑和双人滑中这组动作持续2分50秒，并且它的要求跟着音乐表演一系列的跳跃、旋转，以及脚步动作。 来源 网页链接"@term .
+<t766> rdf:type owl:Individual .
+<t766> rdfs:label "终点监督员"@term .
+<t766> property:definition "终点监督员须监督最后一个旗门至终点的区域；检查运动员是否正确越过终点线；记录滑完全线路的所有运动员到达终点的顺序。"@term .
+<t767> rdf:type owl:Individual .
+<t767> rdfs:label "多个距离赛事"@term .
+<t767> property:definition "比赛由两个或两个以上距离组成，但合授一奖时，获胜者应是完成全部比赛距离并总积分最低的运动员，见下面第 3、4 节 来源 网页链接"@term .
+<t768> rdf:type owl:Individual .
+<t768> rdfs:label "越位缓吹"@term .
+<t768> property:definition "如果攻队队员先于球进入攻区，但守队队员能打到这个球，边线裁判员将举起手臂示意“越位缓吹”，除非球被射向球门而迫使守门员接触球。如果出现下列情况，边线裁判员将放下手臂，解除越位，允许比赛继续进行：l.守队队员传或运球进入中区，或2.所有攻队队员立即用冰刀接触到蓝线的方式清空攻区。"@term .
+<t769> rdf:type owl:Individual .
+<t769> rdfs:label "起点器材检查"@term .
+<t769> property:definition "参赛选手在比赛开始前 15 分钟到起点器材检查处报到，对他们的滑雪板、步枪和服装进行检查，并打上标记。 来源 网页链接"@term .
+<t770> rdf:type owl:Individual .
+<t770> rdfs:label "特氟龙"@term .
+<t770> property:definition "特氟隆（一种不易粘的涂料，常涂于炒锅的内层） 来源 剑桥词典"@term .
+<t771> rdf:type owl:Individual .
+<t771> rdfs:label "局"@term .
+<t771> property:definition "冰壶比赛的基本单位，每局中两队交替投出八支冰壶，决出分数 来源 网页链接"@term .
+<t772> rdf:type owl:Individual .
+<t772> rdfs:label "边区占位壶"@term .
+<t772> property:definition "旋壶并停在保护区内，且离中心线距离4英尺以上（0.61米"@term .
+<t773> rdf:type owl:Individual .
+<t773> rdfs:label "起跳屈膝单手抓板"@term .
+<t773> property:definition "—个膝关节弯曲，踝关节向侧屈，使膝盖触及两固定器之间雪板部位（如 Tuck knee indyair)。"@term .
+<t774> rdf:type owl:Individual .
+<t774> rdfs:label "编排接续步"@term .
+<t774> property:definition "编排接续步是由多种动作组成，例如：步法，转体，燕式，阿拉贝斯，大一字步，艾娜波尔，后仰姿势一字步（轮滑动作），转移性条（非列入表中跳）旋转动作等 来源 网页链接"@term .
+<t775> rdf:type owl:Individual .
+<t775> rdfs:label "国际奥林匹克委员会"@term .
+<t775> property:definition "国际奥林匹克委员会是一个非政府、非营利的国际体育组织，总部位于瑞士洛桑。 来源 网页链接"@term .
+<t776> rdf:type owl:Individual .
+<t776> rdfs:label "垂直旋转（直升机/ 360°、720°)"@term .
+<t776> property:definition "垂直旋转包括所有传统单个和多个转体（360°、 540。、720°等)。"@term .
+<t777> rdf:type owl:Individual .
+<t777> rdfs:label "平行赛项目"@term .
+<t777> property:definition "平行赛是两名或更多运动员同时沿着两条或更多线路上进行比赛"@term .
+<t778> rdf:type owl:Individual .
+<t778> rdfs:label "出弯道超越"@term .
+<t778> property:definition "尾随运动员在比赛中，在前面对手出弯道时，身体滑离跑道内侧造成的空隙或为维持平衡而造成的降速之机，超越对手的方法"@term .
+<t779> rdf:type owl:Individual .
+<t779> rdfs:label "TD助理"@term .
+<t779> property:definition "TD助理必须具有跳台滑雪TD证书，他是仲裁成员，由TD指派做特定的工作"@term .
+<t780> rdf:type owl:Individual .
+<t780> rdfs:label "外转360°翻转"@term .
+<t780> property:definition "外转360度翻转"@term .
+<t781> rdf:type owl:Individual .
+<t781> rdfs:label "非主动性超越"@term .
+<t781> property:definition "尾随运动员在比赛中，利用前面对手在滑行过程中出现的技术失误或配合失误、互相干扰而造成的降速、线路上的空隙及摔倒等现象，未改变自己滑行速度的情况下进行超越的方法"@term .
+<t782> rdf:type owl:Individual .
+<t782> rdfs:label "双飞(进营)"@term .
+<t782> property:definition "将两个占位壶双飞，并且投掷壶进入大本营"@term .
+<t783> rdf:type owl:Individual .
+<t783> rdfs:label "大本营前半区"@term .
+<t783> property:definition "前掷线和T线间大本营的部分 来源 网页链接"@term .
+<t784> rdf:type owl:Individual .
+<t784> rdfs:label "投壶杆"@term .
+<t784> property:definition "连接在冰壶手柄上的装置，在投壶过程中用作手或手臂的延伸 来源 网页链接"@term .
+<t785> rdf:type owl:Individual .
+<t785> rdfs:label "竞赛秘书"@term .
+<t785> property:definition "负责与竞赛有关的一切行政方面和文秘方面的工作"@term .
+<t786> rdf:type owl:Individual .
+<t786> rdfs:label "击打掉"@term .
+<t786> property:definition "用一个冰壶把比赛端的冰壶击打出去 来源 网页链接"@term .
+<t787> rdf:type owl:Individual .
+<t787> rdfs:label "男女混合接力赛"@term .
+<t787> property:definition "较新出现的项目，同样以接力方式进行，第一、二位选手为女性，每人需滑行6公里，第三、四位选手为男性，需滑行7.5公里。其余的规则与接力赛相同。已在2014年冬季奥林匹克运动会正式列为奥运中冬季两项的比赛项目之一。 来源 网页链接"@term .
+<t788> rdf:type owl:Individual .
+<t788> rdfs:label "男子个人标准台"@term .
+<t788> property:definition "冬季奥林匹克运动会比赛项目之一 来源 网页链接"@term .
+<t789> rdf:type owl:Individual .
+<t789> rdfs:label "起踏线"@term .
+<t789> property:definition "与T线平行，在中线终点，0.457米长 来源 网页链接"@term .
+<t790> rdf:type owl:Individual .
+<t790> rdfs:label "坡面障碍技巧裁判"@term .
+<t790> property:definition "共有3 ~6位裁判，应该依据裁判标准独立地对运动员的滑行表演进行评判。所有裁判都要依据整体印象评判标准来对运动员从出发至终点区的整 个滑行表现进行评价。"@term .
+<t791> rdf:type owl:Individual .
+<t791> rdfs:label "不可抗力"@term .
+<t791> property:definition "不可抗力（英语：Force majeure）是法律术语，一项免责条款，解作一种人们不能预见、不可避免、不能克服的自然、社会现象客观情况。自然现象包括但不限于天灾人祸如地震、台风、洪水和海啸；社会现象则包括但不限于战争、市政工程建设和其它政府政策。 来源 网页链接"@term .
+<t792> rdf:type owl:Individual .
+<t792> rdfs:label "踩进式鞋套"@term .
+<t792> property:definition "不需要任何手工操作就能使雪靴附着于或脱离于固定 装置的固定器系统，穿的时候只需要把脚放进去，脱的时候拉一下杆或 栓就可以，这一设施与软鞋固定结构一样结实。"@term .
+<t793> rdf:type owl:Individual .
+<t793> rdfs:label "中线"@term .
+<t793> property:definition "该线从中间把比赛冰面分成两半，从T线中点穿过，并向外延伸3.658米 来源 网页链接"@term .
+<t794> rdf:type owl:Individual .
+<t794> rdfs:label "回守区阻截"@term .
+<t794> property:definition "应对对手的进攻快速回到本方的守区"@term .
+<t795> rdf:type owl:Individual .
+<t795> rdfs:label "终点摄影机"@term .
+<t795> property:definition "在所有 国际冬季两项联盟 比赛中须在终点安装摄影机。当参赛选手穿过终点线时，摄影机摄下他们的出发号码。 来源 网页链接"@term .
+<t796> rdf:type owl:Individual .
+<t796> rdfs:label "滑雪服"@term .
+<t796> property:definition "滑雪服一般分为竞技服和旅游服。竞技服是根据比赛项目的特点而设计的，注重于运动成绩的提高。旅游服主要是保暖、美观、舒适、实用。滑雪服的颜色一般十分鲜艳，这不仅是从美观上考虑，更主要的是从安全方面着想。如果在高山上滑雪特别是在陡峭的山坡上，远离修建的滑雪场地易发生崩或迷失方向，在这种情况下鲜艳的服装就为寻找提供了良好的视觉。 来源 百度百科"@term .
+<t797> rdf:type owl:Individual .
+<t797> rdfs:label "专门纪律权力机构"@term .
+<t797> property:definition "“专门权力机构”或“专门纪律权力机构”是指比赛事务的直接管理机构。"@term .
